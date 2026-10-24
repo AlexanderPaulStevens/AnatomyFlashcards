@@ -1,12 +1,15 @@
 (() => {
-  /** Empty set = alle regio's */
+  /** Empty set = alle regio's / alle aspecten */
   let selected = new Set();
+  let selectedKinds = new Set();
   let cards = window.getDeck("all");
   let i = 0;
   let flipped = false;
 
   const regionTopics = () =>
     (window.TOPICS || []).filter((t) => t.id !== "all");
+
+  const kindOptions = () => window.KINDS || [];
 
   const el = {
     card: document.getElementById("card"),
@@ -20,17 +23,22 @@
     next: document.getElementById("next"),
     shuffle: document.getElementById("shuffle"),
     topics: document.getElementById("topics"),
+    kinds: document.getElementById("kinds"),
     subtitle: document.getElementById("subtitle"),
   };
 
   const accentKinds = new Set(["diep", "zenuw→spier", "O→spier", "I→spier"]);
 
-  function isAll() {
+  function isAllRegions() {
     return selected.size === 0;
   }
 
-  function subtitleText() {
-    if (isAll()) return "Alle regio's";
+  function isAllKinds() {
+    return selectedKinds.size === 0;
+  }
+
+  function regionSubtitle() {
+    if (isAllRegions()) return "Alle regio's";
     const labels = regionTopics()
       .filter((t) => selected.has(t.id))
       .map((t) => t.short);
@@ -38,54 +46,123 @@
     return `${labels.length} regio's`;
   }
 
-  function deckArg() {
-    return isAll() ? "all" : [...selected];
+  function kindSubtitle() {
+    if (isAllKinds()) return null;
+    const labels = kindOptions()
+      .filter((k) => selectedKinds.has(k.id))
+      .map((k) => k.short);
+    if (labels.length <= 2) return labels.join(" + ");
+    return `${labels.length} aspecten`;
+  }
+
+  function subtitleText() {
+    const kindPart = kindSubtitle();
+    return kindPart ? `${regionSubtitle()} · ${kindPart}` : regionSubtitle();
+  }
+
+  function deckTopicsArg() {
+    return isAllRegions() ? "all" : [...selected];
+  }
+
+  function deckKindsArg() {
+    return isAllKinds() ? "all" : [...selectedKinds];
   }
 
   function rebuildDeck() {
-    cards = window.getDeck(deckArg());
+    cards = window.getDeck(deckTopicsArg(), deckKindsArg());
     i = 0;
     el.subtitle.textContent = subtitleText();
     buildTopicBar();
+    buildKindBar();
     render(true);
+  }
+
+  function makeChip(opts) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "topic" + (opts.active ? " active" : "");
+    btn.textContent = opts.label;
+    btn.title = opts.title;
+    btn.setAttribute("aria-pressed", opts.active ? "true" : "false");
+    btn.addEventListener("click", opts.onClick);
+    return btn;
   }
 
   function buildTopicBar() {
     el.topics.innerHTML = "";
 
-    const allBtn = document.createElement("button");
-    allBtn.type = "button";
-    allBtn.className = "topic" + (isAll() ? " active" : "");
-    allBtn.textContent = "Alles";
-    allBtn.title = "Alle regio's";
-    allBtn.setAttribute("aria-pressed", isAll() ? "true" : "false");
-    allBtn.addEventListener("click", () => {
-      selected = new Set();
-      rebuildDeck();
-    });
-    el.topics.appendChild(allBtn);
+    el.topics.appendChild(
+      makeChip({
+        label: "Alles",
+        title: "Alle regio's",
+        active: isAllRegions(),
+        onClick: () => {
+          selected = new Set();
+          rebuildDeck();
+        },
+      })
+    );
 
     for (const t of regionTopics()) {
       const on = selected.has(t.id);
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "topic" + (on ? " active" : "");
-      btn.textContent = t.short;
-      btn.title = `${t.label} (meerdere selecteerbaar)`;
-      btn.setAttribute("aria-pressed", on ? "true" : "false");
-      btn.addEventListener("click", () => toggleTopic(t.id));
-      el.topics.appendChild(btn);
+      el.topics.appendChild(
+        makeChip({
+          label: t.short,
+          title: `${t.label} (meerdere selecteerbaar)`,
+          active: on,
+          onClick: () => toggleTopic(t.id),
+        })
+      );
+    }
+  }
+
+  function buildKindBar() {
+    if (!el.kinds) return;
+    el.kinds.innerHTML = "";
+
+    el.kinds.appendChild(
+      makeChip({
+        label: "Alles",
+        title: "Alle aspecten (origo, insertie, functie, bezenuwing)",
+        active: isAllKinds(),
+        onClick: () => {
+          selectedKinds = new Set();
+          rebuildDeck();
+        },
+      })
+    );
+
+    for (const k of kindOptions()) {
+      const on = selectedKinds.has(k.id);
+      el.kinds.appendChild(
+        makeChip({
+          label: k.short,
+          title: `${k.label} (meerdere selecteerbaar)`,
+          active: on,
+          onClick: () => toggleKind(k.id),
+        })
+      );
     }
   }
 
   function toggleTopic(id) {
-    if (isAll()) {
+    if (isAllRegions()) {
       selected = new Set([id]);
     } else if (selected.has(id)) {
       selected.delete(id);
-      // geen selectie → terug naar alles
     } else {
       selected.add(id);
+    }
+    rebuildDeck();
+  }
+
+  function toggleKind(id) {
+    if (isAllKinds()) {
+      selectedKinds = new Set([id]);
+    } else if (selectedKinds.has(id)) {
+      selectedKinds.delete(id);
+    } else {
+      selectedKinds.add(id);
     }
     rebuildDeck();
   }
@@ -173,7 +250,11 @@
   });
 
   el.topics.setAttribute("aria-label", "Regio's (meerdere selecteerbaar)");
+  if (el.kinds) {
+    el.kinds.setAttribute("aria-label", "Leeraspecten (meerdere selecteerbaar)");
+  }
   buildTopicBar();
+  buildKindBar();
   el.subtitle.textContent = subtitleText();
   render();
 })();

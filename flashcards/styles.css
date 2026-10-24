@@ -132,6 +132,18 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.topics.kinds {
+  margin-top: -0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(232, 244, 241, 0.1);
+}
+
+.topics.kinds .topic.active {
+  background: var(--ember);
+  border-color: var(--ember);
+  color: #1a0a04;
+}
+
 .topic {
   flex: 0 0 auto;
   font-family: "IBM Plex Mono", monospace;

@@ -85,14 +85,44 @@
     return cards;
   }
 
-  window.getDeck = function getDeck(topics) {
+  /** Card-kind filters: empty / "all" → alle aspecten. */
+  const KIND_GROUPS = {
+    O: new Set(["O", "Orev"]),
+    I: new Set(["I", "Irev"]),
+    F: new Set(["F"]),
+    N: new Set(["N", "Nrev"]),
+  };
+
+  window.KINDS = [
+    { id: "O", label: "Origo", short: "Origo" },
+    { id: "I", label: "Insertie", short: "Insertie" },
+    { id: "F", label: "Functie", short: "Functie" },
+    { id: "N", label: "Bezenuwing", short: "Bezenuw." },
+  ];
+
+  function resolveKinds(kinds) {
+    if (!kinds || kinds === "all") return null;
+    const list = Array.isArray(kinds) ? kinds : [kinds];
+    const ids = list.filter((id) => KIND_GROUPS[id]);
+    return ids.length ? ids : null;
+  }
+
+  function cardMatchesKinds(card, kindIds) {
+    if (!kindIds) return true;
+    if (card.kind === "extra") return false;
+    return kindIds.some((id) => KIND_GROUPS[id].has(card.kind));
+  }
+
+  window.getDeck = function getDeck(topics, kinds) {
     const all = window.MUSCLES || [];
     const selected = resolveTopics(topics);
     const muscles = selected
       ? all.filter((m) => selected.includes(m.topic))
       : all;
     const key = selected ? selected.slice().sort().join("+") : "all";
-    return buildCards(muscles, key);
+    const cards = buildCards(muscles, key);
+    const kindIds = resolveKinds(kinds);
+    return kindIds ? cards.filter((c) => cardMatchesKinds(c, kindIds)) : cards;
   };
 
   window.DECK = window.getDeck("all");
