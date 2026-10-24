@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anato Flash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+
+  <main class="app">
+    <header class="brand">
+      <p class="brand-mark">Anato Flash</p>
+      <h1 class="brand-sub" id="subtitle">Alle regio's</h1>
+    </header>
+
+    <div class="topics" id="topics" aria-label="Regio's (tik om te combineren)"></div>
+
+    <div class="meta">
+      <span class="pill" id="tag">O</span>
+      <span class="count" id="count">1 / 1</span>
+    </div>
+
+    <div class="progress" aria-hidden="true">
+      <div class="progress-fill" id="progress"></div>
+    </div>
+
+    <button type="button" class="deck" id="deck" aria-label="Flip kaart">
+      <div class="card" id="card">
+        <div class="face front">
+          <span class="face-label">vraag</span>
+          <p class="face-text" id="front"></p>
+          <span class="hint">tik of spatie om te flippen</span>
+        </div>
+        <div class="face back">
+          <span class="face-label">antwoord</span>
+          <p class="face-text" id="back"></p>
+        </div>
+      </div>
+    </button>
+
+    <div class="controls">
+      <button type="button" class="btn" id="prev" aria-label="Vorige">←</button>
+      <button type="button" class="btn btn-ghost" id="shuffle">shuffle</button>
+      <button type="button" class="btn" id="next" aria-label="Volgende">→</button>
+    </div>
+
+    <p class="keys">
+      <kbd>←</kbd><kbd>→</kbd> nav · <kbd>spatie</kbd> flip · <kbd>S</kbd> shuffle · regio's: tik om te combineren
+    </p>
+  </main>
+
+  <script src="muscles.js"></script>
+  <script src="deck.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
