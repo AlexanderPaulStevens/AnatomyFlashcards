@@ -21,5 +21,11 @@ Vier richtingen (per regio of alles samen):
 | Diepe rug schuin | Spinocostal / spinotransversaal / transversospinaal |
 | Diepe rug recht | Erector spinae + korte diepe |
 | Posterieur capitis | Suboccipitale spieren |
+| Heup ventraal | Iliacus / psoas |
+| Heup dorsaal | Gluteï + diepe exorotatoren |
+| BB ventraal | Adductoren + quadriceps / sartorius |
+| BB dorsaal | Hamstrings |
+| OB ventraal | Extensoren + peronei |
+| OB dorsaal | Kuit (oppervlakkig + diep) |
 
 App: `flashcards/` — regiofilter bovenaan.
