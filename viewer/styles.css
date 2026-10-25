@@ -229,21 +229,41 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
-  gap: 0.65rem;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 0.4rem;
   background: transparent;
   border: none;
   color: inherit;
   text-align: left;
-  cursor: pointer;
   padding: 0;
   animation: card-in 0.45s var(--ease) both;
+}
+
+.card-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.pair .thumb {
+  cursor: pointer;
+}
+
+.pair .thumb:focus-visible {
+  outline: 2px solid var(--acid);
+  outline-offset: 2px;
 }
 
 @keyframes card-in {
@@ -275,8 +295,15 @@ body {
   transform: scale(1.04);
 }
 
-.pin {
+.pin,
+.pin-arrow {
   position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.pin {
   width: 0.95rem;
   height: 0.95rem;
   border-radius: 50%;
@@ -285,12 +312,44 @@ body {
   box-shadow:
     0 0 0 2px rgba(255, 107, 61, 0.35),
     0 3px 10px rgba(0, 0, 0, 0.4);
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  pointer-events: none;
 }
 
-.pin.hidden { display: none; }
+/* Arrow marker for Spot plates that have no drawn arrow on the photo */
+.pin-arrow {
+  width: 0;
+  height: 0;
+  border-left: 0.55rem solid transparent;
+  border-right: 0.55rem solid transparent;
+  border-top: 1.05rem solid var(--ember);
+  filter: drop-shadow(0 0 0 2px #1a0a04) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.55));
+  animation: pulse-pin 1.6s var(--ease) infinite;
+}
+
+.pin-arrow::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -1.35rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--ember);
+  border: 2px solid #1a0a04;
+  transform: translateX(-50%);
+}
+
+@keyframes pulse-pin {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -42%) scale(1.08); }
+}
+
+.pin.hidden,
+.pin-arrow.hidden { display: none; }
+
+.badge.inline {
+  position: static;
+  flex: 0 0 auto;
+}
 
 .badge {
   position: absolute;
@@ -327,6 +386,37 @@ body {
   font-size: 0.58rem;
   color: var(--mist);
   margin-top: -0.25rem;
+}
+
+.card-credit {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.52rem;
+  line-height: 1.3;
+  color: rgba(168, 201, 194, 0.75);
+  margin-top: -0.15rem;
+}
+
+.card.no-img {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.thumb.broken,
+.thumb:has(.missing) {
+  background: #1a3339;
+}
+
+.missing {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.58rem;
+  color: var(--mist);
+  text-align: center;
+  padding: 0.6rem;
+  line-height: 1.35;
+}
+
+.lb-caption {
+  white-space: pre-line;
 }
 
 .lightbox {
@@ -382,9 +472,16 @@ body {
   height: auto;
 }
 
-.lb-pin {
-  width: 1.35rem;
-  height: 1.35rem;
+.lb-pin.pin-arrow {
+  border-left-width: 0.7rem;
+  border-right-width: 0.7rem;
+  border-top-width: 1.35rem;
+}
+
+.lb-pin.pin-arrow::after {
+  top: -1.7rem;
+  width: 0.7rem;
+  height: 0.7rem;
 }
 
 .lb-caption {
@@ -395,9 +492,6 @@ body {
 }
 
 @media (max-width: 420px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-  }
-  .card-name { font-size: 0.72rem; }
+  .pair { gap: 0.35rem; }
+  .card-name { font-size: 0.85rem; }
 }

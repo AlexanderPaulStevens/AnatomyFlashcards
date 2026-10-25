@@ -46,86 +46,190 @@
     });
   }
 
+  function addPin(thumb, pin) {
+    if (!pin) return;
+    const mark = document.createElement("span");
+    mark.className = "pin-arrow";
+    mark.style.left = `${pin.x * 100}%`;
+    mark.style.top = `${pin.y * 100}%`;
+    mark.setAttribute("aria-hidden", "true");
+    thumb.appendChild(mark);
+  }
+
+  function makeThumb(src, { badge, pin, alt }) {
+    const thumb = document.createElement("div");
+    thumb.className = "thumb";
+
+    const b = document.createElement("span");
+    b.className = "badge";
+    b.textContent = badge;
+    thumb.appendChild(b);
+
+    if (src) {
+      const img = document.createElement("img");
+      img.alt = alt;
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.addEventListener("load", () => img.classList.add("ready"));
+      img.addEventListener("error", () => {
+        img.remove();
+        thumb.classList.add("broken");
+      });
+      img.src = src;
+      thumb.appendChild(img);
+      addPin(thumb, pin);
+    } else {
+      const miss = document.createElement("p");
+      miss.className = "missing";
+      miss.textContent = "geen foto";
+      thumb.appendChild(miss);
+    }
+    return thumb;
+  }
+
   function renderGallery() {
     const row = currentRow();
+    const withAny = row.items.filter((i) => i.spot?.image || i.commons?.image || i.image).length;
     els.pill.textContent = `${row.side} · ${row.label}`;
-    els.count.textContent = `${row.items.length} structuren`;
+    els.count.textContent = `${row.items.length} structuren · ${withAny} met foto`;
     els.gallery.innerHTML = "";
 
     row.items.forEach((item, i) => {
-      const card = document.createElement("button");
-      card.type = "button";
+      const card = document.createElement("article");
       card.className = "card";
       card.style.animationDelay = `${Math.min(i, 24) * 0.03}s`;
 
-      const thumb = document.createElement("div");
-      thumb.className = "thumb";
-
-      if (item.source === "spot-region" || item.source === "region") {
-        const badge = document.createElement("span");
-        badge.className = "badge";
-        badge.textContent = "regio";
-        thumb.title = "Spot-foto uit dezelfde regio (geen exacte pin)";
-        thumb.appendChild(badge);
-      }
-      if (item.optional) {
-        const opt = document.createElement("span");
-        opt.className = "badge opt";
-        opt.textContent = "opt";
-        thumb.appendChild(opt);
-      }
-
-      if (item.image) {
-        const img = document.createElement("img");
-        img.alt = item.name;
-        img.loading = "lazy";
-        img.decoding = "async";
-        img.addEventListener("load", () => img.classList.add("ready"));
-        img.addEventListener("error", () => {
-          img.remove();
-          thumb.style.background = "#1a3339";
-        });
-        img.src = item.image;
-        thumb.appendChild(img);
-
-        if (item.pin && item.source === "spot") {
-          const pin = document.createElement("span");
-          pin.className = "pin";
-          pin.style.left = `${item.pin.x * 100}%`;
-          pin.style.top = `${item.pin.y * 100}%`;
-          pin.title = "Spot-markering";
-          thumb.appendChild(pin);
-        }
-      }
+      const head = document.createElement("div");
+      head.className = "card-head";
 
       const name = document.createElement("p");
       name.className = "card-name";
       name.textContent = item.name;
+      head.appendChild(name);
 
-      card.appendChild(thumb);
-      card.appendChild(name);
+      if (item.optional) {
+        const opt = document.createElement("span");
+        opt.className = "badge opt inline";
+        opt.textContent = "opt";
+        head.appendChild(opt);
+      }
+      card.appendChild(head);
 
-      if (item.matchedAs && item.matchedAs.toLowerCase() !== item.name.toLowerCase()) {
+      const pair = document.createElement("div");
+      pair.className = "pair";
+
+      const spot = item.spot || null;
+      const commons = item.commons || null;
+      const hasSpot = Boolean(spot?.image);
+      const hasCommons = Boolean(commons?.image);
+
+      // Legacy single-image items
+      if (!spot && !commons && item.image) {
+        const legacySpot = item.source === "spot" || item.pin;
+        const thumb = makeThumb(item.image, {
+          badge: legacySpot ? "cursus" : "commons",
+          pin: legacySpot ? item.pin : null,
+          alt: item.name,
+        });
+        thumb.tabIndex = 0;
+        thumb.role = "button";
+        thumb.addEventListener("click", () => openLightbox({
+          name: item.name,
+          image: item.image,
+          pin: legacySpot ? item.pin : null,
+          credit: item.credit,
+          matchedAs: item.matchedAs,
+          kind: legacySpot ? "cursus" : "commons",
+        }));
+        pair.appendChild(thumb);
+      } else {
+        if (hasSpot || hasCommons) {
+          if (hasSpot) {
+            const thumb = makeThumb(spot.image, {
+              badge: "cursus",
+              pin: spot.pin,
+              alt: item.name,
+            });
+            thumb.tabIndex = 0;
+            thumb.role = "button";
+            thumb.title = "Cursusfoto — oranje pijl markeert de structuur";
+            thumb.addEventListener("click", () => openLightbox({
+              name: item.name,
+              image: spot.image,
+              pin: spot.pin,
+              credit: spot.credit,
+              matchedAs: spot.matchedAs,
+              kind: "cursus",
+            }));
+            pair.appendChild(thumb);
+          }
+          if (hasCommons) {
+            const thumb = makeThumb(commons.image, {
+              badge: "commons",
+              pin: null,
+              alt: item.name,
+            });
+            thumb.tabIndex = 0;
+            thumb.role = "button";
+            thumb.title = commons.credit || "Wikimedia Commons";
+            thumb.addEventListener("click", () => openLightbox({
+              name: item.name,
+              image: commons.image,
+              pin: null,
+              credit: commons.credit,
+              matchedAs: commons.matchedAs,
+              kind: "commons",
+            }));
+            pair.appendChild(thumb);
+          }
+        } else {
+          const empty = makeThumb(null, { badge: "geen foto", pin: null, alt: item.name });
+          pair.appendChild(empty);
+          card.classList.add("no-img");
+        }
+      }
+
+      card.appendChild(pair);
+
+      if (spot?.matchedAs && spot.matchedAs.toLowerCase() !== item.name.toLowerCase()) {
         const sub = document.createElement("p");
         sub.className = "card-sub";
-        sub.textContent = `≈ ${item.matchedAs}`;
+        sub.textContent = `cursuslabel: ${spot.matchedAs}`;
         card.appendChild(sub);
       }
 
-      card.addEventListener("click", () => openLightbox(item));
+      const credits = [];
+      if (hasSpot) credits.push("cursus + markering");
+      if (hasCommons) credits.push(commons.credit || "commons");
+      if (credits.length) {
+        const cred = document.createElement("p");
+        cred.className = "card-credit";
+        cred.textContent = credits.join(" · ");
+        card.appendChild(cred);
+      }
+
       els.gallery.appendChild(card);
     });
   }
 
-  function openLightbox(item) {
-    if (!item.image) return;
-    els.lbCaption.textContent = item.name;
-    els.lbImg.src = item.image;
-    els.lbImg.alt = item.name;
-    if (item.pin && item.source === "spot") {
+  function openLightbox(view) {
+    if (!view?.image) return;
+    let caption = view.name;
+    if (view.kind === "cursus") caption += " · cursus";
+    if (view.kind === "commons") caption += " · commons";
+    if (view.matchedAs && view.kind === "cursus"
+        && view.matchedAs.toLowerCase() !== view.name.toLowerCase()) {
+      caption += `\nlabel: ${view.matchedAs}`;
+    }
+    if (view.credit) caption += `\n${view.credit}`;
+    els.lbCaption.textContent = caption;
+    els.lbImg.src = view.image;
+    els.lbImg.alt = view.name;
+    if (view.pin) {
       els.lbPin.classList.remove("hidden");
-      els.lbPin.style.left = `${item.pin.x * 100}%`;
-      els.lbPin.style.top = `${item.pin.y * 100}%`;
+      els.lbPin.className = "pin-arrow lb-pin";
+      els.lbPin.style.left = `${view.pin.x * 100}%`;
+      els.lbPin.style.top = `${view.pin.y * 100}%`;
     } else {
       els.lbPin.classList.add("hidden");
     }
