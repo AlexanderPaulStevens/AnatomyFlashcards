@@ -368,6 +368,31 @@ body {
   flex: 0 0 auto;
 }
 
+.img-callout {
+  position: absolute;
+  left: 0.35rem;
+  right: 0.35rem;
+  bottom: 0.35rem;
+  z-index: 3;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.62rem;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #1a0a04;
+  background: var(--acid);
+  padding: 0.28rem 0.4rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+.lb-callout {
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  font-size: 0.95rem;
+  padding: 0.45rem 0.65rem;
+}
+
 .badge {
   position: absolute;
   top: 0.35rem;

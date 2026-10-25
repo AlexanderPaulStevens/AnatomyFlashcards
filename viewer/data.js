@@ -8,8 +8,8 @@ window.VIEWER_DATA = {
       "label": "Bovenste lidmaat 1",
       "short": "Ant. boven 1",
       "bluelink": {
-        "label": "Pectoral / axilla",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back"
+        "label": "Pectoral / superficial back",
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images"
       },
       "items": [
         {
@@ -23,13 +23,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. cephalica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Cephalica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -54,13 +55,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Rr. cutanei anteriores",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "Rr. Cutanei anteriores n. intercostalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -85,13 +87,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Rr. cutanei laterales",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "Rr. Cutanei laterales n. intercostalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -116,13 +119,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Nn. supraclaviculares",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Nn. Supraclaviculares"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -147,31 +151,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. pectoralis major",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Pectoralis major"
           },
           "commons": {
-            "image": "assets/bassett/89_2.jpg",
+            "image": "assets/bassett/89_2_D.jpg",
             "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Clavicular part pectoralis major muscle",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/89_2.jpg",
+            "image": "assets/bassett/89_2_D.jpg",
             "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Clavicular part pectoralis major muscle",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/89_2.jpg",
+          "image": "assets/bassett/89_2_D.jpg",
           "pin": {
             "x": 0.7838,
             "y": 0.1376
@@ -192,31 +203,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. pectoralis minor",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Pectoralis minor"
           },
           "commons": {
-            "image": "assets/bassett/89_4.jpg",
+            "image": "assets/bassett/89_4_D.jpg",
             "matchedAs": "Right pectoralis minor muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#14 · Pectoralis minor muscle",
+            "legendNum": 14,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/89_4.jpg",
+            "image": "assets/bassett/89_4_D.jpg",
             "matchedAs": "Right pectoralis minor muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#14 · Pectoralis minor muscle",
+            "legendNum": 14,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/89_4.jpg",
+          "image": "assets/bassett/89_4_D.jpg",
           "pin": {
             "x": 0.7764,
             "y": 0.0825
@@ -237,13 +255,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. axillaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Axillaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -262,28 +281,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/90_4.jpg",
+            "image": "assets/bassett/90_4_D.jpg",
             "matchedAs": "Left axilla (continued); general view of contents; subclavius muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Subclavius muscle",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/90_4.jpg",
+            "image": "assets/bassett/90_4_D.jpg",
             "matchedAs": "Left axilla (continued); general view of contents; subclavius muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Subclavius muscle",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/90_4.jpg",
+          "image": "assets/bassett/90_4_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Left axilla (continued); general view of contents; subclavius muscle",
@@ -301,13 +326,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. axillaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Axillaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -332,13 +358,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. thoracoacromialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Thoracoacromialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -363,13 +390,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. en V. thoracica lateralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "A. Thoracica lateralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -390,8 +418,8 @@ window.VIEWER_DATA = {
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -413,13 +441,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. circumflexa scapulae",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Circumflexa scapulae"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -440,8 +469,8 @@ window.VIEWER_DATA = {
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -463,13 +492,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. thoracodorsalis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Thoracodorsalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -494,13 +524,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. en V. thoracodorsalis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "A. Thoracodorsalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -525,13 +556,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. en V. thoracodorsalis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "V. Thoracodorsalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -552,8 +584,8 @@ window.VIEWER_DATA = {
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Pectoral / axilla",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "label": "Pectoral / superficial back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -572,8 +604,8 @@ window.VIEWER_DATA = {
       "label": "Bovenste lidmaat 2",
       "short": "Ant. boven 2",
       "bluelink": {
-        "label": "Upper limb overview / brachial plexus",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb"
+        "label": "Upper limb overview",
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images"
       },
       "items": [
         {
@@ -587,13 +619,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. cephalica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Cephalica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -618,13 +651,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus antebrachii medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus antebrachii medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -649,13 +683,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus brachii medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus brachii medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -680,13 +715,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. basilica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Basilica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -711,13 +747,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. mediana cubiti",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Mediana cubiti"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -742,13 +779,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. medianus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Medianus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -773,13 +811,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. musculocutaneus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Musculocutaneus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -804,13 +843,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. ulnaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Ulnaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -835,13 +875,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. biceps brachii caput longum",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "M. Biceps brachii"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -866,31 +907,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. coracobrachialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Coracobrachialis"
           },
           "commons": {
-            "image": "assets/bassett/95_5.jpg",
+            "image": "assets/bassett/95_5_D.jpg",
             "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#14 · Upper pointer: Musculocutaneous nerve Lower pointer: Branches of musculocutaneous nerve (to coracobrachialis muscle)",
+            "legendNum": 14,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/95_5.jpg",
+            "image": "assets/bassett/95_5_D.jpg",
             "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#14 · Upper pointer: Musculocutaneous nerve Lower pointer: Branches of musculocutaneous nerve (to coracobrachialis muscle)",
+            "legendNum": 14,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/95_5.jpg",
+          "image": "assets/bassett/95_5_D.jpg",
           "pin": {
             "x": 0.8225,
             "y": 0.0455
@@ -911,13 +959,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. deltoideus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Deltoideus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -942,31 +991,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. brachialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Brachialis"
           },
           "commons": {
-            "image": "assets/bassett/95_5.jpg",
+            "image": "assets/bassett/95_5_D.jpg",
             "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#25 · Brachialis muscle",
+            "legendNum": 25,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/95_5.jpg",
+            "image": "assets/bassett/95_5_D.jpg",
             "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#25 · Brachialis muscle",
+            "legendNum": 25,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/95_5.jpg",
+          "image": "assets/bassett/95_5_D.jpg",
           "pin": {
             "x": 0.2915,
             "y": 0.8048
@@ -987,13 +1043,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. latissimus dorsi",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Latissimus dorsi"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1014,8 +1071,8 @@ window.VIEWER_DATA = {
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1037,31 +1094,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. teres major",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Teres major"
           },
           "commons": {
-            "image": "assets/bassett/93_6.jpg",
+            "image": "assets/bassett/93_6_D.jpg",
             "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#10 · Teres major muscle",
+            "legendNum": 10,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_6.jpg",
+            "image": "assets/bassett/93_6_D.jpg",
             "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#10 · Teres major muscle",
+            "legendNum": 10,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_6.jpg",
+          "image": "assets/bassett/93_6_D.jpg",
           "pin": {
             "x": 0.8633,
             "y": 0.8333
@@ -1076,28 +1140,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/91_5.jpg",
+            "image": "assets/bassett/91_5_D.jpg",
             "matchedAs": "Left serratus anterior muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Branch of cervical nerve V to serratus anterior muscle",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/91_5.jpg",
+            "image": "assets/bassett/91_5_D.jpg",
             "matchedAs": "Left serratus anterior muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Branch of cervical nerve V to serratus anterior muscle",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/91_5.jpg",
+          "image": "assets/bassett/91_5_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Left serratus anterior muscle, anterolateral view",
@@ -1115,13 +1185,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. profunda brachii",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Profunda brachii"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1146,13 +1217,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1173,8 +1245,8 @@ window.VIEWER_DATA = {
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1196,13 +1268,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. circumflexa humeri posterior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "A. Circumflexa humeri anterior en posterior"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1227,13 +1300,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. axillaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Axillaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1254,8 +1328,8 @@ window.VIEWER_DATA = {
           "commons": null,
           "internet": null,
           "bluelink": {
-            "label": "Upper limb overview / brachial plexus",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-upper-limb",
+            "label": "Upper limb overview",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1275,7 +1349,7 @@ window.VIEWER_DATA = {
       "short": "Ant. boven 3",
       "bluelink": {
         "label": "Wrist, hand and foot",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images"
       },
       "items": [
         {
@@ -1289,13 +1363,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. cephalica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Cephalica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1320,13 +1395,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus antebrachii medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus antebrachii medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1351,13 +1427,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus brachii medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus brachii medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1382,13 +1459,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus antebrachii lateralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus antebrachii lateralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1413,13 +1491,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. basilica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Basilica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1441,7 +1520,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1463,13 +1542,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "R. superficialis n. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "R. Superficialis n. radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1494,13 +1574,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. medianus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Medianus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1525,13 +1606,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. ulnaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Ulnaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1556,13 +1638,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1587,13 +1670,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. flexor carpi ulnaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Flexor carpi ulnaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1618,13 +1702,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. palmaris longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Palmaris longus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1646,7 +1731,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1668,13 +1753,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. flexor carpi radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Flexor carpi radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1696,7 +1782,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1718,13 +1804,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. flexor digitorum profundus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Flexor digitorum profundus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1749,31 +1836,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. flexor pollicis longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Flexor pollicis longus"
           },
           "commons": {
-            "image": "assets/bassett/102_5.jpg",
+            "image": "assets/bassett/102_5_D.jpg",
             "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Tendon sheath of flexor pollicis longus muscle",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_5.jpg",
+            "image": "assets/bassett/102_5_D.jpg",
             "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Tendon sheath of flexor pollicis longus muscle",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_5.jpg",
+          "image": "assets/bassett/102_5_D.jpg",
           "pin": {
             "x": 0.598,
             "y": 0.0713
@@ -1791,7 +1885,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1813,31 +1907,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. brachioradialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Brachioradialis"
           },
           "commons": {
-            "image": "assets/bassett/106_4.jpg",
+            "image": "assets/bassett/106_4_D.jpg",
             "matchedAs": "Nerve supply to brachioradialis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/106_4.jpg",
+            "image": "assets/bassett/106_4_D.jpg",
             "matchedAs": "Nerve supply to brachioradialis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/106_4.jpg",
+          "image": "assets/bassett/106_4_D.jpg",
           "pin": {
             "x": 0.656,
             "y": 0.9055
@@ -1858,13 +1959,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. brachialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Brachialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1889,13 +1991,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1917,7 +2020,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1939,13 +2042,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Aponeurosis palmaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Aponeurosis palmaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -1970,31 +2074,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. palmaris brevis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Palmaris brevis"
           },
           "commons": {
-            "image": "assets/bassett/101_6.jpg",
+            "image": "assets/bassett/101_6_D.jpg",
             "matchedAs": "Nerve supply to palmaris brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#9 · Palmaris brevis muscle (reflected laterally)",
+            "legendNum": 9,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/101_6.jpg",
+            "image": "assets/bassett/101_6_D.jpg",
             "matchedAs": "Nerve supply to palmaris brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#9 · Palmaris brevis muscle (reflected laterally)",
+            "legendNum": 9,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/101_6.jpg",
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": {
             "x": 0.7315,
             "y": 0.8625
@@ -2009,28 +2120,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/102_3.jpg",
+            "image": "assets/bassett/102_3_D.jpg",
             "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Abductor pollicis brevis muscle (reflected in two parts)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_3.jpg",
+            "image": "assets/bassett/102_3_D.jpg",
             "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Abductor pollicis brevis muscle (reflected in two parts)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_3.jpg",
+          "image": "assets/bassett/102_3_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
@@ -2042,28 +2159,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/102_5.jpg",
+            "image": "assets/bassett/102_5_D.jpg",
             "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Flexor pollicis brevis muscle (portion of muscle which inserts with abductor pollicis brevis muscle)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_5.jpg",
+            "image": "assets/bassett/102_5_D.jpg",
             "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Flexor pollicis brevis muscle (portion of muscle which inserts with abductor pollicis brevis muscle)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_5.jpg",
+          "image": "assets/bassett/102_5_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
@@ -2075,28 +2198,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/102_3.jpg",
+            "image": "assets/bassett/102_3_D.jpg",
             "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#10 · Opponens pollicis muscle",
+            "legendNum": 10,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_3.jpg",
+            "image": "assets/bassett/102_3_D.jpg",
             "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#10 · Opponens pollicis muscle",
+            "legendNum": 10,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_3.jpg",
+          "image": "assets/bassett/102_3_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
@@ -2114,31 +2243,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. abductor digiti minimi",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Abductor digiti minimi"
           },
           "commons": {
-            "image": "assets/bassett/197_6.jpg",
+            "image": "assets/bassett/197_6_D.jpg",
             "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/197_6.jpg",
+            "image": "assets/bassett/197_6_D.jpg",
             "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/197_6.jpg",
+          "image": "assets/bassett/197_6_D.jpg",
           "pin": {
             "x": 0.8491,
             "y": 0.2693
@@ -2156,7 +2292,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2175,7 +2311,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2197,13 +2333,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. pronator quadratus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Pronator quadratus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2228,13 +2365,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Aa. digitales palmares communes",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "Aa. Digitales palmares communes II-IV"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2259,13 +2397,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Arcus palmaris superficialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Arcus palmaris superficialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2287,7 +2426,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2306,7 +2445,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2325,7 +2464,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2345,7 +2484,7 @@ window.VIEWER_DATA = {
       "short": "Ant. onder 1",
       "bluelink": {
         "label": "Lumbar spine, hip and knee",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images"
       },
       "items": [
         {
@@ -2359,13 +2498,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. saphena magna",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Saphena magna"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2387,7 +2527,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2409,13 +2549,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus femoris lateralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus femoris lateralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2440,13 +2581,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Rr. cutanei anteriores n. femoralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Rr. Cutanei anteriores n. femoralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2468,7 +2610,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2490,13 +2632,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. rectus femoris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Rectus femoris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2521,13 +2664,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. vastus lateralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Vastus lateralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2552,13 +2696,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. vastus medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Vastus medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2580,7 +2725,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2602,13 +2747,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. sartorius",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Sartorius"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2633,13 +2779,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. femoralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Femoralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2664,13 +2811,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. femoralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Femoralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2695,13 +2843,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. femoralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Femoralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2726,13 +2875,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. tensor fasciae latae",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Tensor fasciae latae"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2757,13 +2907,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. saphenus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Saphenus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2788,13 +2939,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. femoralis profunda",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "A. Profunda femoris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2819,13 +2971,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. circumflexa femoris lateralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Circumflexa femoris lateralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2847,7 +3000,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2866,7 +3019,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2885,7 +3038,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2907,13 +3060,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. circumflexa femoris medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Circumflexa femoris medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2935,7 +3089,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -2951,28 +3105,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_6.jpg",
+            "image": "assets/bassett/184_6_D.jpg",
             "matchedAs": "Iliopsoas and quadratus lumborum muscles, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_6.jpg",
+            "image": "assets/bassett/184_6_D.jpg",
             "matchedAs": "Iliopsoas and quadratus lumborum muscles, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_6.jpg",
+          "image": "assets/bassett/184_6_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Iliopsoas and quadratus lumborum muscles, anterior view",
@@ -2990,13 +3150,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. pectineus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Pectineus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3018,7 +3179,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3038,7 +3199,7 @@ window.VIEWER_DATA = {
       "short": "Ant. onder 2",
       "bluelink": {
         "label": "Overview of lower limb",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images"
       },
       "items": [
         {
@@ -3052,13 +3213,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. saphena magna",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Saphena magna"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3083,13 +3245,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. peroneus superficialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Peroneus superficialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3114,13 +3277,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. saphenus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Saphenus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3142,7 +3306,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3161,7 +3325,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3183,31 +3347,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. tibialis anterior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Tibialis anterior"
           },
           "commons": {
-            "image": "assets/bassett/192_4.jpg",
+            "image": "assets/bassett/192_4_D.jpg",
             "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_4.jpg",
+            "image": "assets/bassett/192_4_D.jpg",
             "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_4.jpg",
+          "image": "assets/bassett/192_4_D.jpg",
           "pin": {
             "x": 0.3405,
             "y": 0.1037
@@ -3228,31 +3399,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor digitorum longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor digitorum longus"
           },
           "commons": {
-            "image": "assets/bassett/192_3.jpg",
+            "image": "assets/bassett/192_3_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_3.jpg",
+            "image": "assets/bassett/192_3_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_3.jpg",
+          "image": "assets/bassett/192_3_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1307
@@ -3273,31 +3451,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor hallucis longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor hallucis longus"
           },
           "commons": {
-            "image": "assets/bassett/192_2.jpg",
+            "image": "assets/bassett/192_2_D.jpg",
             "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Extensor hallucis longus muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_2.jpg",
+            "image": "assets/bassett/192_2_D.jpg",
             "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Extensor hallucis longus muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_2.jpg",
+          "image": "assets/bassett/192_2_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1733
@@ -3315,7 +3500,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3334,7 +3519,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3353,7 +3538,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3369,28 +3554,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/197_7.jpg",
+            "image": "assets/bassett/197_7_D.jpg",
             "matchedAs": "Dorsalis pedis artery; intrinsic muscles of dorsum of foot, viewed from in front",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-7",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Dorsalis pedis artery",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/197_7.jpg",
+            "image": "assets/bassett/197_7_D.jpg",
             "matchedAs": "Dorsalis pedis artery; intrinsic muscles of dorsum of foot, viewed from in front",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-7",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Dorsalis pedis artery",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/197_7.jpg",
+          "image": "assets/bassett/197_7_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Dorsalis pedis artery; intrinsic muscles of dorsum of foot, viewed from in front",
@@ -3408,31 +3599,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor digitorum longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor digitorum longus (pees)"
           },
           "commons": {
-            "image": "assets/bassett/192_3.jpg",
+            "image": "assets/bassett/192_3_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_3.jpg",
+            "image": "assets/bassett/192_3_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_3.jpg",
+          "image": "assets/bassett/192_3_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1307
@@ -3453,31 +3651,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor hallucis longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor hallucis longus (pees)"
           },
           "commons": {
-            "image": "assets/bassett/192_2.jpg",
+            "image": "assets/bassett/192_2_D.jpg",
             "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Extensor hallucis longus muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_2.jpg",
+            "image": "assets/bassett/192_2_D.jpg",
             "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Extensor hallucis longus muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_2.jpg",
+          "image": "assets/bassett/192_2_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1733
@@ -3498,13 +3703,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Arcus venosus dorsalis pedis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Arcus venosus dorsalis pedis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3529,13 +3735,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. adductor longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Adductor longus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3557,7 +3764,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3573,28 +3780,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_4.jpg",
+            "image": "assets/bassett/184_4_D.jpg",
             "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_4.jpg",
+            "image": "assets/bassett/184_4_D.jpg",
             "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_4.jpg",
+          "image": "assets/bassett/184_4_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
@@ -3612,13 +3825,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. gracilis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Gracilis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3643,13 +3857,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. peroneus longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Peroneus longus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3671,7 +3886,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3690,7 +3905,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3706,28 +3921,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/198_1.jpg",
+            "image": "assets/bassett/198_1_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/198_1.jpg",
+            "image": "assets/bassett/198_1_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/198_1.jpg",
+          "image": "assets/bassett/198_1_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
@@ -3739,28 +3960,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/198_1.jpg",
+            "image": "assets/bassett/198_1_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/198_1.jpg",
+            "image": "assets/bassett/198_1_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/198_1.jpg",
+          "image": "assets/bassett/198_1_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
@@ -3775,7 +4002,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -3809,7 +4036,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. occipitalis major",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Occipitalis major"
           },
           "commons": null,
           "internet": null,
@@ -3840,7 +4068,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. occipitalis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Occipitalis"
           },
           "commons": null,
           "internet": null,
@@ -3871,7 +4100,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. occipitalis minor",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Occipitalis minor"
           },
           "commons": null,
           "internet": null,
@@ -3902,7 +4132,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. occipitalis tertius",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Occipitalis tertius"
           },
           "commons": null,
           "internet": null,
@@ -3952,7 +4183,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. splenius capitis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Splenius capitis"
           },
           "commons": null,
           "internet": null,
@@ -4002,7 +4234,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. trapezius",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "M. Trapezius pars descendens"
           },
           "commons": null,
           "internet": null,
@@ -4052,7 +4285,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. semispinalis capitis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Semispinalis capitis"
           },
           "commons": null,
           "internet": null,
@@ -4083,7 +4317,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. rectus capitis posterior major",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Rectus capitis posterior major en minor"
           },
           "commons": null,
           "internet": null,
@@ -4127,20 +4362,26 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/93_6.jpg",
+            "image": "assets/bassett/93_6_D.jpg",
             "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#13 · Supraspinatus",
+            "legendNum": 13,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_6.jpg",
+            "image": "assets/bassett/93_6_D.jpg",
             "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#13 · Supraspinatus",
+            "legendNum": 13,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Deep back and spinal cord",
@@ -4148,7 +4389,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_6.jpg",
+          "image": "assets/bassett/93_6_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
@@ -4166,23 +4407,30 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. levator scapulae",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Levator scapulae"
           },
           "commons": {
-            "image": "assets/bassett/212_5.jpg",
+            "image": "assets/bassett/212_5_D.jpg",
             "matchedAs": "Left levator scapulae and rhomboid muscles; nerve supply to rhomboid major",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Levator scapulae muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/212_5.jpg",
+            "image": "assets/bassett/212_5_D.jpg",
             "matchedAs": "Left levator scapulae and rhomboid muscles; nerve supply to rhomboid major",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-5",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Levator scapulae muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Deep back and spinal cord",
@@ -4190,7 +4438,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/212_5.jpg",
+          "image": "assets/bassett/212_5_D.jpg",
           "pin": {
             "x": 0.8149,
             "y": 0.3067
@@ -4211,7 +4459,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. obliquus capitis superior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Obliquus capitis superior en inferior"
           },
           "commons": null,
           "internet": null,
@@ -4278,7 +4527,7 @@ window.VIEWER_DATA = {
       "short": "Post. boven 2",
       "bluelink": {
         "label": "Pectoral region and superficial back",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images"
       },
       "items": [
         {
@@ -4289,7 +4538,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4311,13 +4560,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus antebrachii posterior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus antebrachii posterior"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4342,13 +4592,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus brachii lateralis superior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus brachii lateralis superior"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4373,13 +4624,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. trapezius",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "M. Trapezius pars ascendens / pars transversa"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4401,7 +4653,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4420,7 +4672,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4442,13 +4694,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. latissimus dorsi",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Latissimus dorsi"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4473,13 +4726,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. rhomboideus minor",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Rhomboideus minor"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4504,31 +4758,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. rhomboideus major",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Rhomboideus major"
           },
           "commons": {
-            "image": "assets/bassett/93_4.jpg",
+            "image": "assets/bassett/93_4_D.jpg",
             "matchedAs": "Nerve supply to left rhomboideus major muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_4.jpg",
+            "image": "assets/bassett/93_4_D.jpg",
             "matchedAs": "Nerve supply to left rhomboideus major muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_4.jpg",
+          "image": "assets/bassett/93_4_D.jpg",
           "pin": {
             "x": 0.1003,
             "y": 0.6687
@@ -4549,31 +4810,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. infraspinatus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Infraspinatus"
           },
           "commons": {
-            "image": "assets/bassett/93_6.jpg",
+            "image": "assets/bassett/93_6_D.jpg",
             "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Teres minor muscle (fused with infraspinatus muscle)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_6.jpg",
+            "image": "assets/bassett/93_6_D.jpg",
             "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Teres minor muscle (fused with infraspinatus muscle)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_6.jpg",
+          "image": "assets/bassett/93_6_D.jpg",
           "pin": {
             "x": 0.7995,
             "y": 0.36
@@ -4594,13 +4862,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. deltoideus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Deltoideus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4622,7 +4891,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4638,28 +4907,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/212_6.jpg",
+            "image": "assets/bassett/212_6_D.jpg",
             "matchedAs": "Left serratus posterior superior in relation to splenius and erector spinae muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Serratus posterior superior muscle",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/212_6.jpg",
+            "image": "assets/bassett/212_6_D.jpg",
             "matchedAs": "Left serratus posterior superior in relation to splenius and erector spinae muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Serratus posterior superior muscle",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/212_6.jpg",
+          "image": "assets/bassett/212_6_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Left serratus posterior superior in relation to splenius and erector spinae muscles",
@@ -4671,28 +4946,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/213_1.jpg",
+            "image": "assets/bassett/213_1_D.jpg",
             "matchedAs": "Left serratus posterior inferior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Serratus posterior inferior muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/213_1.jpg",
+            "image": "assets/bassett/213_1_D.jpg",
             "matchedAs": "Left serratus posterior inferior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Serratus posterior inferior muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/213_1.jpg",
+          "image": "assets/bassett/213_1_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Left serratus posterior inferior muscle",
@@ -4704,28 +4985,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/214_2.jpg",
+            "image": "assets/bassett/214_2_D.jpg",
             "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#2 · Iliocostalis lumborum muscle",
+            "legendNum": 2,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/214_2.jpg",
+            "image": "assets/bassett/214_2_D.jpg",
             "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#2 · Iliocostalis lumborum muscle",
+            "legendNum": 2,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/214_2.jpg",
+          "image": "assets/bassett/214_2_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
@@ -4743,31 +5030,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. longissimus cervicis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "M. Longissimus"
           },
           "commons": {
-            "image": "assets/bassett/214_2.jpg",
+            "image": "assets/bassett/214_2_D.jpg",
             "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#11 · Longissimus thoracis muscle",
+            "legendNum": 11,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/214_2.jpg",
+            "image": "assets/bassett/214_2_D.jpg",
             "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#11 · Longissimus thoracis muscle",
+            "legendNum": 11,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/214_2.jpg",
+          "image": "assets/bassett/214_2_D.jpg",
           "pin": {
             "x": 0.8219,
             "y": 0.2747
@@ -4782,28 +5076,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/213_6.jpg",
+            "image": "assets/bassett/213_6_D.jpg",
             "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#17 · Spinalis thoracis muscle",
+            "legendNum": 17,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/213_6.jpg",
+            "image": "assets/bassett/213_6_D.jpg",
             "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#17 · Spinalis thoracis muscle",
+            "legendNum": 17,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/213_6.jpg",
+          "image": "assets/bassett/213_6_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
@@ -4821,13 +5121,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. teres major",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Teres major / minor"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4849,7 +5150,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4868,7 +5169,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4890,13 +5191,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. en V. thoracodorsalis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "A. Thoracodorsalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4921,13 +5223,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. thoracodorsalis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Thoracodorsalis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4949,7 +5252,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Pectoral region and superficial back",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/pectoral-region-and-superficial-back",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -4969,7 +5272,7 @@ window.VIEWER_DATA = {
       "short": "Post. boven 3",
       "bluelink": {
         "label": "Shoulder",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images"
       },
       "items": [
         {
@@ -4980,7 +5283,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5002,13 +5305,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus antebrachii posterior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus antebrachii posterior"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5033,13 +5337,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "R. superficialis n. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "R. Superficialis n. radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5061,7 +5366,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5083,13 +5388,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. cephalica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Cephalica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5114,13 +5420,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. basilica",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Basilica"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5145,13 +5452,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. axillaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Axillaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5176,31 +5484,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. triceps caput longum",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "M. Triceps"
           },
           "commons": {
-            "image": "assets/bassett/96_1.jpg",
+            "image": "assets/bassett/96_1_D.jpg",
             "matchedAs": "Left triceps muscle, posteromedial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Triceps brachii muscle (long head)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/96_1.jpg",
+            "image": "assets/bassett/96_1_D.jpg",
             "matchedAs": "Left triceps muscle, posteromedial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Triceps brachii muscle (long head)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/96_1.jpg",
+          "image": "assets/bassett/96_1_D.jpg",
           "pin": {
             "x": 0.4355,
             "y": 0.8319
@@ -5221,13 +5536,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. profunda brachii",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Profunda brachii"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5252,13 +5568,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5283,13 +5600,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. ulnaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Ulnaris"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5314,31 +5632,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor digitorum",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor digitorum"
           },
           "commons": {
-            "image": "assets/bassett/107_1.jpg",
+            "image": "assets/bassett/107_1_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum communis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Common extensor digitorum muscle (retracted)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/107_1.jpg",
+            "image": "assets/bassett/107_1_D.jpg",
             "matchedAs": "Nerve supply to extensor digitorum communis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Common extensor digitorum muscle (retracted)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/107_1.jpg",
+          "image": "assets/bassett/107_1_D.jpg",
           "pin": {
             "x": 0.2575,
             "y": 0.7613
@@ -5359,31 +5684,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. brachioradialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Brachioradialis"
           },
           "commons": {
-            "image": "assets/bassett/106_4.jpg",
+            "image": "assets/bassett/106_4_D.jpg",
             "matchedAs": "Nerve supply to brachioradialis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/106_4.jpg",
+            "image": "assets/bassett/106_4_D.jpg",
             "matchedAs": "Nerve supply to brachioradialis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/106_4.jpg",
+          "image": "assets/bassett/106_4_D.jpg",
           "pin": {
             "x": 0.656,
             "y": 0.9055
@@ -5401,7 +5733,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5420,7 +5752,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5436,28 +5768,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/106_6.jpg",
+            "image": "assets/bassett/106_6_D.jpg",
             "matchedAs": "Nerve supply to extensor carpi ulnaris muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#6 · Extensor carpi ulnaris muscle (retracted)",
+            "legendNum": 6,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/106_6.jpg",
+            "image": "assets/bassett/106_6_D.jpg",
             "matchedAs": "Nerve supply to extensor carpi ulnaris muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#6 · Extensor carpi ulnaris muscle (retracted)",
+            "legendNum": 6,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/106_6.jpg",
+          "image": "assets/bassett/106_6_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Nerve supply to extensor carpi ulnaris muscle",
@@ -5472,7 +5810,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5494,13 +5832,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. radialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5525,31 +5864,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. abductor pollicis longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Abductor pollicis longus"
           },
           "commons": {
-            "image": "assets/bassett/108_3.jpg",
+            "image": "assets/bassett/108_3_D.jpg",
             "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Muscular branch of radial nerve (to abductor pollicis longus muscle)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_3.jpg",
+            "image": "assets/bassett/108_3_D.jpg",
             "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Muscular branch of radial nerve (to abductor pollicis longus muscle)",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_3.jpg",
+          "image": "assets/bassett/108_3_D.jpg",
           "pin": {
             "x": 0.8505,
             "y": 0.6818
@@ -5570,31 +5916,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor pollicis brevis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor pollicis brevis"
           },
           "commons": {
-            "image": "assets/bassett/108_4.jpg",
+            "image": "assets/bassett/108_4_D.jpg",
             "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#1 · Muscular branch of radial nerve (to extensor pollicis brevis muscle)",
+            "legendNum": 1,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_4.jpg",
+            "image": "assets/bassett/108_4_D.jpg",
             "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#1 · Muscular branch of radial nerve (to extensor pollicis brevis muscle)",
+            "legendNum": 1,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_4.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": {
             "x": 0.802,
             "y": 0.8225
@@ -5609,28 +5962,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/108_3.jpg",
+            "image": "assets/bassett/108_3_D.jpg",
             "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Left pointer: Muscular branch of radial nerve (to extensor indicis muscle) Right pointer: Extensor indicis muscle",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_3.jpg",
+            "image": "assets/bassett/108_3_D.jpg",
             "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Left pointer: Muscular branch of radial nerve (to extensor indicis muscle) Right pointer: Extensor indicis muscle",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_3.jpg",
+          "image": "assets/bassett/108_3_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
@@ -5648,31 +6007,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. extensor pollicis longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Extensor pollicis longus"
           },
           "commons": {
-            "image": "assets/bassett/108_3.jpg",
+            "image": "assets/bassett/108_3_D.jpg",
             "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Extensor pollicis longus muscle (dissected)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_3.jpg",
+            "image": "assets/bassett/108_3_D.jpg",
             "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Extensor pollicis longus muscle (dissected)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_3.jpg",
+          "image": "assets/bassett/108_3_D.jpg",
           "pin": {
             "x": 0.383,
             "y": 0.9329
@@ -5690,7 +6056,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5712,31 +6078,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. supinator",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Supinator"
           },
           "commons": {
-            "image": "assets/bassett/107_6.jpg",
+            "image": "assets/bassett/107_6_D.jpg",
             "matchedAs": "Nerve supply to supinator muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#1 · Muscular branch of radial nerve (to supinator muscle)",
+            "legendNum": 1,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/107_6.jpg",
+            "image": "assets/bassett/107_6_D.jpg",
             "matchedAs": "Nerve supply to supinator muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#1 · Muscular branch of radial nerve (to supinator muscle)",
+            "legendNum": 1,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/107_6.jpg",
+          "image": "assets/bassett/107_6_D.jpg",
           "pin": {
             "x": 0.4365,
             "y": 0.9046
@@ -5751,28 +6124,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/107_3.jpg",
+            "image": "assets/bassett/107_3_D.jpg",
             "matchedAs": "Anconeus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Anconeus muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/107_3.jpg",
+            "image": "assets/bassett/107_3_D.jpg",
             "matchedAs": "Anconeus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#4 · Anconeus muscle",
+            "legendNum": 4,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/107_3.jpg",
+          "image": "assets/bassett/107_3_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Anconeus muscle",
@@ -5790,13 +6169,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. radialis profundus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "R. Profundus n. radialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5819,7 +6199,7 @@ window.VIEWER_DATA = {
       "short": "Post. onder 1",
       "bluelink": {
         "label": "Lumbar spine, hip and knee",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images"
       },
       "items": [
         {
@@ -5833,13 +6213,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Nn. clunium superiores",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Nn. Clunium superiores"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5864,7 +6245,8 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. gluteus maximus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Gluteus maximus"
           },
           "commons": {
             "image": "assets/m_gluteus_maximus_a2be4a68.jpg",
@@ -5872,7 +6254,9 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGluteus_maximus_muscle_dissection.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Gluteus maximus",
+            "imageKind": "photo"
           },
           "internet": {
             "image": "assets/m_gluteus_maximus_a2be4a68.jpg",
@@ -5880,11 +6264,13 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGluteus_maximus_muscle_dissection.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Gluteus maximus",
+            "imageKind": "photo"
           },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5909,13 +6295,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Nn. clunium medii",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Nn. Clunium medii"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5940,13 +6327,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Nn. clunium inferiores",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Nn. Clunium inferiores"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5971,13 +6359,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. gluteus medius",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Gluteus medius"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -5999,7 +6388,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6021,31 +6410,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. piriformis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Piriformis"
           },
           "commons": {
-            "image": "assets/bassett/181_4.jpg",
+            "image": "assets/bassett/181_4_D.jpg",
             "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/181_4.jpg",
+            "image": "assets/bassett/181_4_D.jpg",
             "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/181_4.jpg",
+          "image": "assets/bassett/181_4_D.jpg",
           "pin": {
             "x": 0.7485,
             "y": 0.0891
@@ -6066,13 +6462,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. ischiadicus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Ischiadicus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6094,7 +6491,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6113,7 +6510,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6132,7 +6529,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6153,7 +6550,9 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AObturator_internus_muscle.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Obturator internus",
+            "imageKind": "photo"
           },
           "internet": {
             "image": "assets/m_obturator_internus_2bded316.jpg",
@@ -6161,11 +6560,13 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AObturator_internus_muscle.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Obturator internus",
+            "imageKind": "photo"
           },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6184,7 +6585,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6206,13 +6607,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. en V. pudenda interna",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "A. Pudenda interna"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6234,7 +6636,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6253,7 +6655,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6272,7 +6674,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6294,13 +6696,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "Ligamentum sacrotuberale",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "Ligamentum sacrotuberale"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6322,7 +6725,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6344,13 +6747,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. pudendus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Pudendus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6375,13 +6779,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. circumflexa femoris medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Circumflexa femoris medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/lumbar-spine-hip-and-knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6404,7 +6809,7 @@ window.VIEWER_DATA = {
       "short": "Post. onder 2",
       "bluelink": {
         "label": "Overview of lower limb",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images"
       },
       "items": [
         {
@@ -6418,13 +6823,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus femoris posterior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus femoris posterior"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6449,13 +6855,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. saphena parva",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Saphena parva"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6480,13 +6887,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. poplitea",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Poplitea"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6511,13 +6919,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. ischiadicus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Ischiadicus"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6542,13 +6951,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. tibialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Tibialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6573,13 +6983,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. peroneus communis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Peroneus communis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6604,31 +7015,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. biceps femoris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Biceps femoris"
           },
           "commons": {
-            "image": "assets/bassett/183_6.jpg",
+            "image": "assets/bassett/183_6_D.jpg",
             "matchedAs": "Biceps femoris muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Muscular branch of sciatic nerve (branch of common peroneal nerve to short head of biceps femoris)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/183_6.jpg",
+            "image": "assets/bassett/183_6_D.jpg",
             "matchedAs": "Biceps femoris muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Muscular branch of sciatic nerve (branch of common peroneal nerve to short head of biceps femoris)",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/183_6.jpg",
+          "image": "assets/bassett/183_6_D.jpg",
           "pin": {
             "x": 0.5195,
             "y": 0.9029
@@ -6643,28 +7061,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_2.jpg",
+            "image": "assets/bassett/184_2_D.jpg",
             "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#9 · Semimembranosus muscle",
+            "legendNum": 9,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_2.jpg",
+            "image": "assets/bassett/184_2_D.jpg",
             "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#9 · Semimembranosus muscle",
+            "legendNum": 9,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_2.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
@@ -6676,28 +7100,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_1.jpg",
+            "image": "assets/bassett/184_1_D.jpg",
             "matchedAs": "Nerve supply to semitendinosus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Muscular branch of sciatic nerve (to semitendinosus muscle)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_1.jpg",
+            "image": "assets/bassett/184_1_D.jpg",
             "matchedAs": "Nerve supply to semitendinosus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#5 · Muscular branch of sciatic nerve (to semitendinosus muscle)",
+            "legendNum": 5,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_1.jpg",
+          "image": "assets/bassett/184_1_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Nerve supply to semitendinosus muscle",
@@ -6709,28 +7139,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_4.jpg",
+            "image": "assets/bassett/184_4_D.jpg",
             "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_4.jpg",
+            "image": "assets/bassett/184_4_D.jpg",
             "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
+            "legendNum": 8,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_4.jpg",
+          "image": "assets/bassett/184_4_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
@@ -6748,13 +7184,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "A. poplitea",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "A. Poplitea"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6776,7 +7213,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6795,7 +7232,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6814,7 +7251,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6833,7 +7270,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6852,7 +7289,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6871,7 +7308,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6890,7 +7327,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6909,7 +7346,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Overview of lower limb",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/overview-of-lower-limb",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6929,7 +7366,7 @@ window.VIEWER_DATA = {
       "short": "Post. onder 3",
       "bluelink": {
         "label": "Wrist, hand and foot",
-        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot"
+        "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images"
       },
       "items": [
         {
@@ -6943,13 +7380,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "V. saphena parva",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "V. Saphena parva"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -6974,13 +7412,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus surae medialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus surae medialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7005,13 +7444,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. cutaneus surae lateralis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Cutaneus surae lateralis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7033,7 +7473,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7049,28 +7489,34 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/195_1.jpg",
+            "image": "assets/bassett/195_1_D.jpg",
             "matchedAs": "Soleus muscle, posterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#1 · Soleus muscle",
+            "legendNum": 1,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/195_1.jpg",
+            "image": "assets/bassett/195_1_D.jpg",
             "matchedAs": "Soleus muscle, posterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#1 · Soleus muscle",
+            "legendNum": 1,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/195_1.jpg",
+          "image": "assets/bassett/195_1_D.jpg",
           "pin": null,
           "source": "internet",
           "matchedAs": "Soleus muscle, posterior view",
@@ -7087,7 +7533,9 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGastrocnemius_muscle_3.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Gastrocnemius",
+            "imageKind": "photo"
           },
           "internet": {
             "image": "assets/m_gastrocnemius_1406ee17.jpg",
@@ -7095,11 +7543,13 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGastrocnemius_muscle_3.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Gastrocnemius",
+            "imageKind": "photo"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7120,7 +7570,9 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlantaris_muscle_2.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Plantaris",
+            "imageKind": "photo"
           },
           "internet": {
             "image": "assets/m_plantaris_9f216987.jpg",
@@ -7128,11 +7580,13 @@ window.VIEWER_DATA = {
             "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
             "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlantaris_muscle_2.jpg",
             "confidence": "commons",
-            "provider": "commons"
+            "provider": "commons",
+            "callout": "M. Plantaris",
+            "imageKind": "photo"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7151,7 +7605,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7170,7 +7624,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7189,7 +7643,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7208,7 +7662,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7230,13 +7684,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. tibialis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "N. Tibialis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7258,7 +7713,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7277,7 +7732,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7299,31 +7754,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. abductor hallucis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Abductor hallucis"
           },
           "commons": {
-            "image": "assets/bassett/198_6.jpg",
+            "image": "assets/bassett/198_6_D.jpg",
             "matchedAs": "Superficial nerves and vessels in relation to abductor hallucis muscle and tendons of foot, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Abductor hallucis muscle",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/198_6.jpg",
+            "image": "assets/bassett/198_6_D.jpg",
             "matchedAs": "Superficial nerves and vessels in relation to abductor hallucis muscle and tendons of foot, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#7 · Abductor hallucis muscle",
+            "legendNum": 7,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/198_6.jpg",
+          "image": "assets/bassett/198_6_D.jpg",
           "pin": {
             "x": 0.1105,
             "y": 0.444
@@ -7344,13 +7806,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. flexor digitorum brevis",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Flexor digitorum brevis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7375,31 +7838,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. abductor digiti minimi",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Abductor digiti minimi"
           },
           "commons": {
-            "image": "assets/bassett/197_6.jpg",
+            "image": "assets/bassett/197_6_D.jpg",
             "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/197_6.jpg",
+            "image": "assets/bassett/197_6_D.jpg",
             "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/197_6.jpg",
+          "image": "assets/bassett/197_6_D.jpg",
           "pin": {
             "x": 0.8491,
             "y": 0.2693
@@ -7420,13 +7890,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. quadratus plantaris",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "M. Quadratus plantae"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7448,7 +7919,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7470,13 +7941,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. peroneus longus",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Peroneus longus / brevis"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7501,13 +7973,14 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "N. digitalis plantaris proprius van I",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "alias"
+            "confidence": "alias",
+            "callout": "N. Digitalis plantaris proprius"
           },
           "commons": null,
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7529,7 +8002,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7551,31 +8024,38 @@ window.VIEWER_DATA = {
             },
             "matchedAs": "M. tibialis anterior",
             "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact"
+            "confidence": "exact",
+            "callout": "M. Tibialis anterior"
           },
           "commons": {
-            "image": "assets/bassett/192_4.jpg",
+            "image": "assets/bassett/192_4_D.jpg",
             "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_4.jpg",
+            "image": "assets/bassett/192_4_D.jpg",
             "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
             "confidence": "bassett",
-            "provider": "bassett"
+            "provider": "bassett",
+            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
+            "legendNum": 12,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_4.jpg",
+          "image": "assets/bassett/192_4_D.jpg",
           "pin": {
             "x": 0.3405,
             "y": 0.1037
@@ -7593,7 +8073,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7612,7 +8092,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7631,7 +8111,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7650,7 +8130,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
@@ -7669,7 +8149,7 @@ window.VIEWER_DATA = {
           "internet": null,
           "bluelink": {
             "label": "Wrist, hand and foot",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/wrist-hand-and-foot",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },

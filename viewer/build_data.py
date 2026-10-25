@@ -550,6 +550,12 @@ def main():
             local_path = ROOT / local
             if not local_path.exists():
                 continue
+            legend = best.get("legend") or {}
+            callout = None
+            if legend.get("n") and legend.get("text"):
+                callout = f"#{legend['n']} · {legend['text']}"
+            elif legend.get("text"):
+                callout = legend["text"]
             bassett_map[key] = {
                 "image": local,
                 "matchedAs": best.get("title") or best.get("bn"),
@@ -557,6 +563,9 @@ def main():
                 "sourceUrl": best.get("page"),
                 "confidence": "bassett",
                 "bn": best.get("bn"),
+                "imageKind": best.get("imageKind") or "photo",
+                "callout": callout,
+                "legendNum": legend.get("n"),
             }
 
     bluelink = {}
@@ -586,6 +595,7 @@ def main():
                     "matchedAs": q["answer"],
                     "credit": "Cursus dissectiefoto (gelabeld)",
                     "confidence": kind,
+                    "callout": display,
                 }
                 stats[f"spot-{kind}"] += 1
 
@@ -599,6 +609,9 @@ def main():
                     "sourceUrl": bm["sourceUrl"],
                     "confidence": "bassett",
                     "provider": "bassett",
+                    "callout": bm.get("callout"),
+                    "legendNum": bm.get("legendNum"),
+                    "imageKind": bm.get("imageKind"),
                 }
                 stats["used-bassett"] += 1
             elif cm:
@@ -609,6 +622,8 @@ def main():
                     "sourceUrl": cm["sourceUrl"],
                     "confidence": "commons",
                     "provider": "commons",
+                    "callout": display,
+                    "imageKind": "photo",
                 }
                 stats["used-commons"] += 1
 

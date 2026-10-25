@@ -90,23 +90,35 @@ def parse_plate(bn: str, region: str) -> dict | None:
                 title = t
                 break
 
-    # legend: numbered lines like "1. Gluteus maximus muscle"
-    text = re.sub(r"<br\s*/?>", "\n", html, flags=re.I)
-    text = re.sub(r"</li>", "\n", text, flags=re.I)
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"[ \t]+", " ", text)
+    # legend: prefer <ol><li>… then plain "1. Label" lines
     labels = []
-    for line in text.splitlines():
-        line = line.strip()
-        m = re.match(r"^(\d{1,3})\.\s+(.+)$", line)
-        if not m:
+    for ol in re.findall(r"<ol[^>]*>(.*?)</ol>", html, re.I | re.S):
+        items = re.findall(r"<li[^>]*>(.*?)</li>", ol, re.I | re.S)
+        if not items or len(items) > 50:
             continue
-        lab = m.group(2).strip()
-        if len(lab) < 4 or len(lab) > 180:
-            continue
-        if lab.lower().startswith("creative commons"):
-            continue
-        labels.append(lab)
+        for it in items:
+            lab = re.sub(r"<[^>]+>", " ", it)
+            lab = re.sub(r"\s+", " ", lab).strip()
+            if 4 <= len(lab) <= 180 and not lab.lower().startswith("creative commons"):
+                labels.append(lab)
+        if labels:
+            break
+    if not labels:
+        text = re.sub(r"<br\s*/?>", "\n", html, flags=re.I)
+        text = re.sub(r"</li>", "\n", text, flags=re.I)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"[ \t]+", " ", text)
+        for line in text.splitlines():
+            line = line.strip()
+            m = re.match(r"^(\d{1,3})\.\s+(.+)$", line)
+            if not m:
+                continue
+            lab = m.group(2).strip()
+            if len(lab) < 4 or len(lab) > 180:
+                continue
+            if lab.lower().startswith("creative commons"):
+                continue
+            labels.append(lab)
 
     return {
         "bn": bn,
@@ -127,23 +139,140 @@ def core_phrase(term: str) -> str:
     return n.strip()
 
 
+def expand_hay(hay: str) -> str:
+    """Bassett uses peroneus/peroneal; checklist uses fibularis/fibular (and vice versa)."""
+    alts = [
+        hay,
+        hay.replace("peroneus", "fibularis").replace("peroneal", "fibular"),
+        hay.replace("fibularis", "peroneus").replace("fibular ", "peroneal ").replace("fibular\n", "peroneal\n"),
+        # English ↔ Latin plurals / common Bassett wording
+        hay.replace("lumbricales", "lumbrical").replace("lumbrical muscles", "lumbricales"),
+        hay.replace("sublimis", "superficialis"),
+        hay.replace("superficialis", "sublimis"),
+    ]
+    return " | ".join(alts)
+
+
+# Latin checklist core → English phrases that appear in Bassett legends/titles
+ENGLISH_ALIASES = {
+    "ulnaris": ["ulnar"],
+    "radialis": ["radial"],
+    "medianus": ["median"],
+    "tibialis": ["tibial"],
+    "femoralis": ["femoral"],
+    "axillaris": ["axillary"],
+    "musculocutaneus": ["musculocutaneous"],
+    "ischiadicus": ["sciatic"],
+    "obturatorius": ["obturator"],
+    "suralis": ["sural"],
+    "accessorius": ["accessory"],
+    "suprascapularis": ["suprascapular"],
+    "subscapularis": ["subscapular"],
+    "vertebralis": ["vertebral"],
+    "gluteus minimus": ["gluteus minimus"],
+    "glutea inferior": ["inferior gluteal"],
+    "glutea superior": ["superior gluteal"],
+    "gluteus inferior": ["inferior gluteal"],
+    "gluteus superior": ["superior gluteal"],
+    "plantaris lateralis": ["lateral plantar"],
+    "plantaris medialis": ["medial plantar"],
+    "tibialis anterior": ["anterior tibial", "tibialis anterior"],
+    "tibialis posterior": ["posterior tibial", "tibialis posterior"],
+    "circumflexa humeri": ["circumflex humeral"],
+    "circumflexa ilium": ["circumflex iliac"],
+    "epigastrica inferior": ["inferior epigastric"],
+    "profunda femoris": ["profunda femoris", "deep femoral"],
+    "perforantes": ["perforating"],
+    "pudendae externae": ["external pudendal"],
+    "pudenda interna": ["internal pudendal"],
+    "thoracicus longus": ["long thoracic"],
+    "thoracodorsalis": ["thoracodorsal"],
+    "thoracoepigastrica": ["thoracoepigastric", "thoraco-epigastric"],
+    "thoraco-epigastrica": ["thoracoepigastric", "thoraco-epigastric"],
+    "transversa colli": ["transverse cervical"],
+    "dorsalis scapulae": ["dorsal scapular"],
+    "auricularis magnus": ["great auricular", "greater auricular"],
+    "cutaneus brachii lateralis inferior": ["inferior lateral cutaneous", "lateral cutaneous"],
+    "digitales plantares communes": ["common plantar digital"],
+    "digitalis plantaris": ["plantar digital"],
+    "metatarsales plantares": ["plantar metatarsal"],
+    "saphenus": ["saphenous"],
+    "hiatus saphenus": ["saphenous opening", "fossa ovalis"],
+    "tractus iliotibialis": ["iliotibial"],
+    "fascia cruris": ["crural fascia", "fascia of leg"],
+    "fascia thoracolumbalis": ["thoracolumbar fascia", "lumbodorsal fascia"],
+    "aponeurosis plantaris": ["plantar aponeurosis"],
+    "retinaculum": ["retinaculum"],
+    "arcus palmaris profundus": ["deep palmar arch"],
+    "rete venosum dorsale manus": ["dorsal venous", "venous network"],
+    "opponens digiti minimi": ["opponens digiti minimi", "opponens digiti quinti"],
+    "flexor digiti minimi": ["flexor digiti minimi", "flexor digiti quinti"],
+    "adductor hallucis": ["adductor hallucis"],
+    "adductor pollicis": ["adductor pollicis"],
+    "adductor brevis": ["adductor brevis"],
+    "quadratus femoris": ["quadratus femoris"],
+    "gemellus": ["gemellus"],
+    "popliteus": ["popliteus"],
+    "plantaris": ["plantaris"],
+    "pronator teres": ["pronator teres"],
+    "flexor digitorum superficialis": ["flexor digitorum superficialis", "flexor digitorum sublimis"],
+    "flexor hallucis longus": ["flexor hallucis longus"],
+    "flexor hallucis brevis": ["flexor hallucis brevis"],
+    "flexor digitorum longus": ["flexor digitorum longus"],
+    "extensor digiti minimi": ["extensor digiti minimi", "extensor digiti quinti"],
+    "extensor carpi radialis": ["extensor carpi radialis"],
+    "vastus intermedius": ["vastus intermedius"],
+    "splenius cervicis": ["splenius cervicis", "splenius colli"],
+    "semispinalis": ["semispinalis"],
+    "suboccipitalis": ["suboccipital"],
+    "sacrospinale": ["sacrospinous"],
+    "interossei": ["interosseous", "interossei"],
+    "lumbricales": ["lumbrical"],
+    "mediana antebrachii": ["median antebrachial", "intermediate antebrachial"],
+    "collateralis ulnaris": ["ulnar collateral"],
+    "surales": ["sural"],
+    "genu": ["genicular"],
+}
+
+
+def phrase_in_hay(phrase: str, hay: str) -> bool:
+    if len(phrase) < 4:
+        return False
+    if phrase in hay:
+        return True
+    toks = [t for t in re.findall(r"[a-z]{3,}", phrase)]
+    if not toks:
+        return False
+    pat = r"\b" + r"\s+".join(re.escape(t) for t in toks) + r"\b"
+    if re.search(pat, hay):
+        return True
+    # try without trailing size/side words if still ≥2 tokens
+    soft = {"medialis", "lateralis", "anterior", "posterior", "superior", "inferior"}
+    core = [t for t in toks if t not in soft]
+    if len(core) >= 2:
+        pat2 = r"\b" + r"\s+".join(re.escape(t) for t in core) + r"\b"
+        if re.search(pat2, hay):
+            return True
+    # English aliases
+    for lat, engs in ENGLISH_ALIASES.items():
+        if lat in phrase:
+            rest = phrase.replace(lat, "").strip()
+            for en in engs:
+                if en in hay and (not rest or all(t in hay for t in re.findall(r"[a-z]{4,}", rest))):
+                    return True
+    return False
+
+
 def legend_matches(term: str, plate: dict) -> bool:
     blob = plate.get("label_blob") or ""
     title = (plate.get("title") or "").lower()
-    hay = blob + " | " + title
+    hay = expand_hay(blob + " | " + title)
     phrase = core_phrase(term)
     if len(phrase) < 4:
         return False
 
-    # Require contiguous core phrase (avoids "adductor … brevis" across a long title)
-    if phrase not in hay:
-        # allow optional "muscle/nerve/artery/vein" inserted after the Latin name
-        toks = [t for t in re.findall(r"[a-z]{3,}", phrase)]
-        if len(toks) < 1:
-            return False
-        pat = r"\b" + r"\s+".join(re.escape(t) for t in toks) + r"\b"
-        if not re.search(pat, hay):
-            return False
+    if not phrase_in_hay(phrase, hay):
+        return False
 
     n = norm(term)
     # Reject opposite polarity qualifiers when phrase itself includes one
@@ -235,34 +364,7 @@ def download(url: str, dest: Path) -> bool:
     return False
 
 
-def main():
-    index = json.loads(INDEX.read_text(encoding="utf-8"))
-    catalog = {}
-    if CATALOG.exists():
-        catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
-
-    bns = sorted(index.keys(), key=lambda x: [int(p) for p in x.split("-")])
-    print(f"Fetching {len(bns)} Bassett plates…", flush=True)
-    for i, bn in enumerate(bns, 1):
-        if bn in catalog and catalog[bn].get("labels"):
-            continue
-        print(f"[{i}/{len(bns)}] {bn}", flush=True)
-        try:
-            plate = parse_plate(bn, index[bn])
-        except Exception as e:
-            print("  err", e)
-            time.sleep(3)
-            continue
-        if not plate:
-            print("  no photo")
-            continue
-        catalog[bn] = plate
-        if i % 10 == 0:
-            CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
-        time.sleep(0.7)
-    CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("catalog", len(catalog))
-
+def rematch_and_download(catalog: dict) -> dict:
     rows = json.loads(ROWS.read_text(encoding="utf-8"))
     terms = sorted({t.replace("**", "").strip() for r in rows for t in r["terms"]}, key=str.lower)
 
@@ -274,29 +376,85 @@ def main():
                 hits.append({
                     "bn": bn,
                     "title": plate.get("title"),
-                    "page": plate["page"],
-                    "photo": plate["photo"],
+                    "page": plate.get("page") or f"https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn={bn}",
+                    "photo": plate.get("photo"),
                     "region": plate.get("region"),
                     "labels_sample": plate.get("labels", [])[:8],
                 })
         if hits:
-            # prefer fewer labels (more focused) then by bn
-            hits.sort(key=lambda h: (len(catalog[h["bn"]].get("labels") or []), h["bn"]))
+            # prefer plates with a focused legend, then by bn
+            hits.sort(key=lambda h: (len(catalog[h["bn"]].get("labels") or []) or 99, h["bn"]))
             matches[norm(term)] = {"term": term, "best": hits[0], "alts": hits[1:4]}
 
     MATCHES.write_text(json.dumps(matches, ensure_ascii=False, indent=2), encoding="utf-8")
     print("matched terms", len(matches), "/", len(terms))
 
-    # download best photos
     ASSETS.mkdir(parents=True, exist_ok=True)
     for key, m in matches.items():
         best = m["best"]
-        dest = ASSETS / f"{best['bn'].replace('-', '_')}.jpg"
+        bn = best["bn"]
+        plate = catalog.get(bn) or {}
+        # Prefer numbered diagram when available (structure callouts)
+        if plate.get("diagram_local") and (ROOT / plate["diagram_local"]).exists():
+            best["local"] = plate["diagram_local"]
+            best["imageKind"] = "diagram"
+            print("OK", m["term"], "←", bn, "(diagram)", best.get("title"))
+            continue
+        if not best.get("photo"):
+            best["local"] = None
+            print("FAIL", m["term"], "←", bn, "no photo")
+            continue
+        dest = ASSETS / f"{bn.replace('-', '_')}.jpg"
         ok = download(best["photo"], dest)
         best["local"] = f"assets/bassett/{dest.name}" if ok else None
-        print(("OK" if ok else "FAIL"), m["term"], "←", best["bn"], best.get("title"))
-        time.sleep(0.5)
+        best["imageKind"] = "photo"
+        print(("OK" if ok else "FAIL"), m["term"], "←", bn, best.get("title"))
+        time.sleep(0.35)
     MATCHES.write_text(json.dumps(matches, ensure_ascii=False, indent=2), encoding="utf-8")
+    return matches
+
+
+def main():
+    import argparse
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--rematch-only", action="store_true", help="Skip plate fetch; rematch + download from catalog")
+    args = ap.parse_args()
+
+    catalog = {}
+    if CATALOG.exists():
+        catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+
+    if not args.rematch_only:
+        index = json.loads(INDEX.read_text(encoding="utf-8"))
+        bns = sorted(index.keys(), key=lambda x: [int(p) for p in x.split("-")])
+        print(f"Fetching {len(bns)} Bassett plates…", flush=True)
+        for i, bn in enumerate(bns, 1):
+            if bn in catalog and catalog[bn].get("labels"):
+                continue
+            print(f"[{i}/{len(bns)}] {bn}", flush=True)
+            try:
+                plate = parse_plate(bn, index[bn])
+            except Exception as e:
+                print("  err", e)
+                time.sleep(3)
+                continue
+            if not plate:
+                print("  no photo")
+                continue
+            # preserve any previously enriched diagram fields
+            prev = catalog.get(bn) or {}
+            for k in ("diagram", "diagram_local"):
+                if prev.get(k) and not plate.get(k):
+                    plate[k] = prev[k]
+            catalog[bn] = plate
+            if i % 10 == 0:
+                CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+            time.sleep(0.7)
+        CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+        print("catalog", len(catalog))
+
+    rematch_and_download(catalog)
 
 
 if __name__ == "__main__":

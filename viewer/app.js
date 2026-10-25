@@ -15,6 +15,7 @@
     lbImg: document.getElementById("lb-img"),
     lbPin: document.getElementById("lb-pin"),
     lbCaption: document.getElementById("lb-caption"),
+    lbCallout: document.getElementById("lb-callout"),
   };
 
   let side = "Anterior";
@@ -56,7 +57,15 @@
     thumb.appendChild(mark);
   }
 
-  function makeThumb(src, { badge, pin, alt }) {
+  function addCallout(thumb, text) {
+    if (!text) return;
+    const tag = document.createElement("p");
+    tag.className = "img-callout";
+    tag.textContent = text;
+    thumb.appendChild(tag);
+  }
+
+  function makeThumb(src, { badge, pin, alt, callout }) {
     const thumb = document.createElement("div");
     thumb.className = "thumb";
 
@@ -78,6 +87,7 @@
       img.src = src;
       thumb.appendChild(img);
       addPin(thumb, pin);
+      addCallout(thumb, callout || alt);
     } else {
       const miss = document.createElement("p");
       miss.className = "missing";
@@ -89,7 +99,9 @@
 
   function internetBadge(block) {
     if (!block) return "internet";
-    if (block.provider === "bassett" || block.confidence === "bassett") return "bassett";
+    if (block.provider === "bassett" || block.confidence === "bassett") {
+      return block.legendNum ? `bassett #${block.legendNum}` : "bassett";
+    }
     if (block.provider === "commons" || block.confidence === "commons") return "commons";
     return "internet";
   }
@@ -116,7 +128,6 @@
     els.count.textContent = `${row.items.length} structuren · ${withAny} met foto`;
     els.gallery.innerHTML = "";
 
-    // BlueLink atlas strip for this row
     const bl = row.bluelink || row.items.find((i) => i.bluelink)?.bluelink;
     if (bl?.url) {
       const atlas = document.createElement("a");
@@ -160,18 +171,21 @@
 
       if (hasSpot || hasNet) {
         if (hasSpot) {
+          const callout = spot.callout || item.name;
           const thumb = makeThumb(spot.image, {
             badge: "cursus",
             pin: spot.pin,
             alt: item.name,
+            callout,
           });
-          thumb.title = "Cursusfoto — oranje pijl markeert de structuur";
+          thumb.title = "Oranje pijl = deze structuur";
           bindThumb(thumb, {
             name: item.name,
             image: spot.image,
             pin: spot.pin,
             credit: spot.credit,
             matchedAs: spot.matchedAs,
+            callout,
             kind: "cursus",
             sourceUrl: null,
           });
@@ -179,10 +193,12 @@
         }
         if (hasNet) {
           const badge = internetBadge(net);
+          const callout = net.callout || item.name;
           const thumb = makeThumb(net.image, {
             badge,
             pin: null,
             alt: item.name,
+            callout,
           });
           thumb.title = net.credit || badge;
           bindThumb(thumb, {
@@ -191,13 +207,19 @@
             pin: null,
             credit: net.credit,
             matchedAs: net.matchedAs,
+            callout,
             kind: badge,
             sourceUrl: net.sourceUrl,
           });
           pair.appendChild(thumb);
         }
       } else {
-        const empty = makeThumb(null, { badge: "geen foto", pin: null, alt: item.name });
+        const empty = makeThumb(null, {
+          badge: "geen foto",
+          pin: null,
+          alt: item.name,
+          callout: null,
+        });
         pair.appendChild(empty);
         card.classList.add("no-img");
       }
@@ -212,8 +234,10 @@
       }
 
       const credits = [];
-      if (hasSpot) credits.push("cursus + markering");
-      if (hasNet) credits.push(net.credit || internetBadge(net));
+      if (hasSpot) credits.push("cursus + pijl");
+      if (hasNet) {
+        credits.push(net.callout ? `gemarkeerd: ${net.callout}` : (net.credit || internetBadge(net)));
+      }
       if (credits.length) {
         const cred = document.createElement("p");
         cred.className = "card-credit";
@@ -229,6 +253,7 @@
     if (!view?.image) return;
     let caption = view.name;
     if (view.kind) caption += ` · ${view.kind}`;
+    if (view.callout && view.callout !== view.name) caption += `\n→ ${view.callout}`;
     if (view.matchedAs && view.kind === "cursus"
         && view.matchedAs.toLowerCase() !== view.name.toLowerCase()) {
       caption += `\nlabel: ${view.matchedAs}`;
@@ -238,6 +263,10 @@
     els.lbCaption.textContent = caption;
     els.lbImg.src = view.image;
     els.lbImg.alt = view.name;
+    if (els.lbCallout) {
+      els.lbCallout.textContent = view.callout || view.name;
+      els.lbCallout.hidden = false;
+    }
     if (view.pin) {
       els.lbPin.classList.remove("hidden");
       els.lbPin.className = "pin-arrow lb-pin";
