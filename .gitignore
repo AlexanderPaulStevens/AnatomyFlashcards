@@ -1,0 +1,6 @@
+PDF/
+spot/raw/
+spot/preview/
+**/__pycache__/
+*.pyc
+.DS_Store

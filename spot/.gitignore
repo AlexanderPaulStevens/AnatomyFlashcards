@@ -1,0 +1,4 @@
+raw/
+preview/
+__pycache__/
+*.pyc
