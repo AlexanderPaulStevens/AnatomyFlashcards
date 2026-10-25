@@ -156,11 +156,13 @@ def main() -> None:
         plate = catalog[bn]
         lab = find_label(m["term"], plate.get("labels") or [])
         best["legend"] = lab
-        if plate.get("diagram_local"):
-            best["local"] = plate["diagram_local"]
-            best["imageKind"] = "diagram"
-        else:
-            best["imageKind"] = "photo"
+        # Keep cadaver photo as display image; diagrams are only for legend lookup
+        photo_local = f"assets/bassett/{bn.replace('-', '_')}.jpg"
+        if (ROOT / photo_local).exists():
+            best["local"] = photo_local
+        elif best.get("local") and str(best["local"]).endswith("_D.jpg"):
+            best["local"] = None
+        best["imageKind"] = "photo"
         print(m["term"], "=>", lab, "|", best.get("local"))
 
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")

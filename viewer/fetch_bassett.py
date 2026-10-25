@@ -649,13 +649,10 @@ def rematch_and_download(catalog: dict) -> dict:
         best = m["best"]
         bn = best["bn"]
         plate = catalog.get(bn) or {}
-        if plate.get("diagram_local") and (ROOT / plate["diagram_local"]).exists():
-            best["local"] = plate["diagram_local"]
-            best["imageKind"] = "diagram"
-            print("OK", m["term"], "←", bn, "(diagram)", best.get("title"), flush=True)
-            continue
+        # Always use the cadaver stereo photo (.L), never the numbered drawing (.D)
         if not best.get("photo"):
             best["local"] = None
+            best["imageKind"] = None
             print("FAIL", m["term"], "←", bn, "no photo", flush=True)
             continue
         dest = ASSETS / f"{bn.replace('-', '_')}.jpg"

@@ -1,13 +1,13 @@
 """
 Build viewer/data.js from the 11 checklist rows.
 
-Image policy:
+Image policy (photos of real dissections only — no drawings/diagrams):
   1. Spot course photo with pin highlight (when exact type-safe match)
   2. Verified internet cadaver photo:
-       - Stanford Bassett (CC BY-SA; structure named in plate legend)
+       - Stanford Bassett stereo photograph (CC BY-SA; never the .D drawings)
        - Wikimedia Commons (curated Anatomist90 / clear title)
-  3. Last resort: Gray's Anatomy 1918 public-domain plate (labeled illustration)
-  4. Michigan BlueLink regional atlas link (educational use; open in browser)
+  3. Michigan BlueLink regional atlas link (educational use; open in browser)
+  4. Otherwise: no image (better empty than a drawing)
 
 Usage: python viewer/build_data.py
 """
@@ -276,23 +276,6 @@ CURATED_COMMONS = {
     "m. serratus posterior superior": "File:Posterior superior serratus muscle.jpg",
 }
 
-# Last resort when no cadaver photo exists: Gray's Anatomy 1918 (public domain) labeled plates.
-# Keys must match norm() (aa./nn. collapse to a./n.).
-CURATED_GRAY = {
-    "m. vastus intermedius": "File:Gray430.png",
-    "m. adductor hallucis": "File:Gray443.png",
-    "hiatus saphenus": "File:Gray546.png",
-    "a. pudendae externae": "File:Gray541.png",
-    "n. suboccipitalis": "File:Gray805.png",
-    "r. superficialis a. transversa colli": "File:Gray520.png",
-    "n. cutaneus brachii lateralis inferior": "File:Gray813.png",
-    "n. gluteus superior": "File:Gray824.png",
-    "n. gluteus inferior": "File:Gray824.png",
-    "n. digitales plantares communes": "File:Gray554.png",
-    "v. mediana antebrachii": "File:Gray574.png",
-}
-
-
 def http_get_json(params: dict, retries: int = 5) -> dict:
     url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode({**params, "format": "json"})
     last = None
@@ -560,12 +543,28 @@ def main():
         raw = json.loads(BASSETT_MATCHES.read_text(encoding="utf-8"))
         for key, m in raw.items():
             best = m.get("best") or {}
+            bn = best.get("bn") or ""
+            # Prefer stereo photograph; never use Bassett numbered drawings (_D.jpg)
+            candidates = []
+            photo_name = f"assets/bassett/{bn.replace('-', '_')}.jpg" if bn else ""
+            if photo_name:
+                candidates.append(photo_name)
             local = best.get("local")
-            if not local:
+            if local and not str(local).endswith("_D.jpg"):
+                candidates.append(local)
+            local_path = None
+            for rel in candidates:
+                p = ROOT / rel
+                if p.exists() and p.stat().st_size > 2000:
+                    local_path = p
+                    local = rel.replace("\\", "/")
+                    break
+            if not local_path:
+                stats["bassett-skip-diagram"] += 1
                 continue
-            local_path = ROOT / local
-            if not local_path.exists():
-                continue
+            if best.get("imageKind") == "diagram":
+                stats["bassett-skip-diagram"] += 1
+                # still OK if we found a real photo above
             legend = best.get("legend") or {}
             callout = None
             if legend.get("n") and legend.get("text"):
@@ -579,67 +578,10 @@ def main():
                 "sourceUrl": best.get("page"),
                 "confidence": "bassett",
                 "bn": best.get("bn"),
-                "imageKind": best.get("imageKind") or "photo",
+                "imageKind": "photo",
                 "callout": callout,
                 "legendNum": legend.get("n"),
             }
-
-    print(f"Resolving Gray PD fallbacks among {len(unique_terms)}…", flush=True)
-    gray_map = {}
-    for term in unique_terms:
-        key = norm(term)
-        if key in commons_map or key in bassett_map:
-            continue
-        curated = CURATED_GRAY.get(key)
-        if not curated:
-            continue
-        ASSETS.mkdir(exist_ok=True)
-        slug = "gray_" + re.sub(r"[^a-z0-9]+", "_", key)[:60].strip("_")
-        existing = sorted(ASSETS.glob(f"{slug}_*"), key=lambda p: p.stat().st_mtime, reverse=True)
-        existing = next((p for p in existing if p.stat().st_size > 1000), None)
-        if existing:
-            gray_map[key] = {
-                "image": f"assets/{existing.name}",
-                "matchedAs": curated,
-                "credit": "Gray's Anatomy 1918 · public domain",
-                "sourceUrl": f"https://commons.wikimedia.org/wiki/{urllib.parse.quote(curated.replace(' ', '_'))}",
-                "confidence": "gray",
-                "imageKind": "illustration",
-                "callout": term.replace("**", "").strip(),
-            }
-            stats["gray-local"] += 1
-            continue
-        meta = fetch_file_meta(curated)
-        if not meta:
-            stats["gray-miss"] += 1
-            continue
-        h = hashlib.sha1((curated + term).encode()).hexdigest()[:8]
-        dest = ASSETS / f"{slug}_{h}.png"
-        url = meta.get("thumburl") or meta.get("url")
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=60) as r:
-                data = r.read()
-            if len(data) < 800:
-                stats["gray-miss"] += 1
-                continue
-            dest.write_bytes(data)
-        except Exception as e:
-            print("  gray dl fail", term, e)
-            stats["gray-miss"] += 1
-            continue
-        time.sleep(1.0)
-        gray_map[key] = {
-            "image": f"assets/{dest.name}",
-            "matchedAs": curated,
-            "credit": "Gray's Anatomy 1918 · public domain",
-            "sourceUrl": meta.get("pageurl"),
-            "confidence": "gray",
-            "imageKind": "illustration",
-            "callout": term.replace("**", "").strip(),
-        }
-        stats["gray"] += 1
-        print("  →", curated, flush=True)
 
     bluelink = {}
     if BLUELINK.exists():
@@ -657,7 +599,6 @@ def main():
             key = norm(display)
             cm = commons_map.get(key)
             bm = bassett_map.get(key)
-            gm = gray_map.get(key)
             hit = find_spot(term, by_ans)
 
             spot_block = None
@@ -673,7 +614,7 @@ def main():
                 }
                 stats[f"spot-{kind}"] += 1
 
-            # Prefer Bassett (legend-verified) then Commons, then Gray PD illustration
+            # Prefer Bassett cadaver photo (legend-verified) then Commons photo
             internet_block = None
             if bm:
                 internet_block = {
@@ -685,7 +626,7 @@ def main():
                     "provider": "bassett",
                     "callout": bm.get("callout"),
                     "legendNum": bm.get("legendNum"),
-                    "imageKind": bm.get("imageKind"),
+                    "imageKind": "photo",
                 }
                 stats["used-bassett"] += 1
             elif cm:
@@ -700,18 +641,6 @@ def main():
                     "imageKind": "photo",
                 }
                 stats["used-commons"] += 1
-            elif gm:
-                internet_block = {
-                    "image": gm["image"],
-                    "matchedAs": gm["matchedAs"],
-                    "credit": gm["credit"],
-                    "sourceUrl": gm["sourceUrl"],
-                    "confidence": "gray",
-                    "provider": "gray",
-                    "callout": gm.get("callout") or display,
-                    "imageKind": "illustration",
-                }
-                stats["used-gray"] += 1
 
             bluelink_block = None
             if bl_row:
@@ -763,8 +692,8 @@ def main():
             "terms": bl_meta.get("terms"),
         },
         "policy": (
-            "Spot-cursusfoto met markering + geverifieerde internetdissectie "
-            "(Bassett CC BY-SA of Commons); zo nodig Gray 1918 (PD) als laatste redmiddel. "
+            "Alleen echte dissectiefoto's: Spot-cursusfoto met markering + "
+            "Bassett-stereo (CC BY-SA) of Commons. Geen tekeningen/diagrammen. "
             "BlueLink-atlas per regio als extra naslag."
         ),
     }
