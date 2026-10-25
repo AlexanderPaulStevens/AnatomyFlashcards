@@ -155,25 +155,25 @@ window.VIEWER_DATA = {
             "callout": "M. Pectoralis major"
           },
           "commons": {
-            "image": "assets/bassett/89_2_D.jpg",
-            "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
+            "image": "assets/bassett/90_1_D.jpg",
+            "matchedAs": "Right axillary fascia, inferior aspect",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Clavicular part pectoralis major muscle",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/89_2_D.jpg",
-            "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
+            "image": "assets/bassett/90_1_D.jpg",
+            "matchedAs": "Right axillary fascia, inferior aspect",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Clavicular part pectoralis major muscle",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -182,7 +182,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/89_2_D.jpg",
+          "image": "assets/bassett/90_1_D.jpg",
           "pin": {
             "x": 0.7838,
             "y": 0.1376
@@ -190,7 +190,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. pectoralis major",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1"
         },
         {
           "name": "M. Pectoralis minor",
@@ -207,25 +207,25 @@ window.VIEWER_DATA = {
             "callout": "M. Pectoralis minor"
           },
           "commons": {
-            "image": "assets/bassett/89_4_D.jpg",
-            "matchedAs": "Right pectoralis minor muscle",
+            "image": "assets/bassett/89_3_D.jpg",
+            "matchedAs": "Nerve and blood supply of left pectoralis major muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-3",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#14 · Pectoralis minor muscle",
-            "legendNum": 14,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/89_4_D.jpg",
-            "matchedAs": "Right pectoralis minor muscle",
+            "image": "assets/bassett/89_3_D.jpg",
+            "matchedAs": "Nerve and blood supply of left pectoralis major muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-3",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#14 · Pectoralis minor muscle",
-            "legendNum": 14,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -234,7 +234,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/89_4_D.jpg",
+          "image": "assets/bassett/89_3_D.jpg",
           "pin": {
             "x": 0.7764,
             "y": 0.0825
@@ -242,7 +242,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. pectoralis minor",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-3"
         },
         {
           "name": "V. Axillaris",
@@ -258,48 +258,68 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "V. Axillaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/89_3_D.jpg",
+            "matchedAs": "Nerve and blood supply of left pectoralis major muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/89_3_D.jpg",
+            "matchedAs": "Nerve and blood supply of left pectoralis major muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p81_i0.jpg",
+          "image": "assets/bassett/89_3_D.jpg",
           "pin": {
             "x": 0.371,
             "y": 0.1836
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "V. axillaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-3"
         },
         {
           "name": "M. Subclavius",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/90_4_D.jpg",
-            "matchedAs": "Left axilla (continued); general view of contents; subclavius muscle",
+            "image": "assets/bassett/91_1_D.jpg",
+            "matchedAs": "Left sternoclavicular joint opened",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Subclavius muscle",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/90_4_D.jpg",
-            "matchedAs": "Left axilla (continued); general view of contents; subclavius muscle",
+            "image": "assets/bassett/91_1_D.jpg",
+            "matchedAs": "Left sternoclavicular joint opened",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Subclavius muscle",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -308,12 +328,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/90_4_D.jpg",
+          "image": "assets/bassett/91_1_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Left axilla (continued); general view of contents; subclavius muscle",
+          "matchedAs": "Left sternoclavicular joint opened",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-1"
         },
         {
           "name": "A. Axillaris",
@@ -329,23 +349,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "A. Axillaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/96_3_D.jpg",
+            "matchedAs": "Relation of right radial nerve to humerus, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/96_3_D.jpg",
+            "matchedAs": "Relation of right radial nerve to humerus, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p81_i0.jpg",
+          "image": "assets/bassett/96_3_D.jpg",
           "pin": {
             "x": 0.047,
             "y": 0.2228
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. axillaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-3"
         },
         {
           "name": "A. Thoracoacromialis",
@@ -415,20 +455,40 @@ window.VIEWER_DATA = {
           "name": "A. Subscapularis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/90_5_D.jpg",
+            "matchedAs": "Left axilla (continued); relations of structures in posterior part of axillary fossa",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/90_5_D.jpg",
+            "matchedAs": "Left axilla (continued); relations of structures in posterior part of axillary fossa",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/90_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Left axilla (continued); relations of structures in posterior part of axillary fossa",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-5"
         },
         {
           "name": "A. Circumflexa scapulae",
@@ -466,20 +526,40 @@ window.VIEWER_DATA = {
           "name": "V. Thoraco-epigastrica",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/89_1_D.jpg",
+            "matchedAs": "Superficial structures of left arm and thorax, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/89_1_D.jpg",
+            "matchedAs": "Superficial structures of left arm and thorax, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/89_1_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial structures of left arm and thorax, anterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-1"
         },
         {
           "name": "N. Thoracodorsalis",
@@ -495,23 +575,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Thoracodorsalis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p02_i0.jpg",
+          "image": "assets/bassett/93_3_D.jpg",
           "pin": {
             "x": 0.8079,
             "y": 0.648
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. thoracodorsalis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3"
         },
         {
           "name": "A. Thoracodorsalis",
@@ -527,23 +627,43 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "A. Thoracodorsalis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p02_i0.jpg",
+          "image": "assets/bassett/93_3_D.jpg",
           "pin": {
             "x": 0.7744,
             "y": 0.7293
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. en V. thoracodorsalis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3"
         },
         {
           "name": "V. Thoracodorsalis",
@@ -581,20 +701,40 @@ window.VIEWER_DATA = {
           "name": "N. Thoracicus longus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_6_D.jpg",
+            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_6_D.jpg",
+            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral / superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/93_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6"
         }
       ]
     },
@@ -782,23 +922,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Medianus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i0.jpg",
+          "image": "assets/bassett/103_2_D.jpg",
           "pin": {
             "x": 0.5735,
             "y": 0.6863
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. medianus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2"
         },
         {
           "name": "N. Musculocutaneus",
@@ -814,23 +974,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Musculocutaneus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/92_2_D.jpg",
+            "matchedAs": "Left subdeltoid bursa",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/92_2_D.jpg",
+            "matchedAs": "Left subdeltoid bursa",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i1.jpg",
+          "image": "assets/bassett/92_2_D.jpg",
           "pin": {
             "x": 0.295,
             "y": 0.0795
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. musculocutaneus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-2"
         },
         {
           "name": "N. Ulnaris",
@@ -846,23 +1026,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Ulnaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i0.jpg",
+          "image": "assets/bassett/105_7_D.jpg",
           "pin": {
             "x": 0.4605,
             "y": 0.7433
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. ulnaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7"
         },
         {
           "name": "M. Biceps brachii",
@@ -878,23 +1078,43 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "M. Biceps brachii"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/89_2_D.jpg",
+            "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/89_2_D.jpg",
+            "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i0.jpg",
+          "image": "assets/bassett/89_2_D.jpg",
           "pin": {
             "x": 0.247,
             "y": 0.1292
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. biceps brachii caput longum",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2"
         },
         {
           "name": "M. Coracobrachialis",
@@ -911,25 +1131,25 @@ window.VIEWER_DATA = {
             "callout": "M. Coracobrachialis"
           },
           "commons": {
-            "image": "assets/bassett/95_5_D.jpg",
-            "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
+            "image": "assets/bassett/92_4_D.jpg",
+            "matchedAs": "Fascial planes anterior to left shoulder joint",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#14 · Upper pointer: Musculocutaneous nerve Lower pointer: Branches of musculocutaneous nerve (to coracobrachialis muscle)",
-            "legendNum": 14,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/95_5_D.jpg",
-            "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
+            "image": "assets/bassett/92_4_D.jpg",
+            "matchedAs": "Fascial planes anterior to left shoulder joint",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#14 · Upper pointer: Musculocutaneous nerve Lower pointer: Branches of musculocutaneous nerve (to coracobrachialis muscle)",
-            "legendNum": 14,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -938,7 +1158,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/95_5_D.jpg",
+          "image": "assets/bassett/92_4_D.jpg",
           "pin": {
             "x": 0.8225,
             "y": 0.0455
@@ -946,7 +1166,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. coracobrachialis",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-4"
         },
         {
           "name": "M. Deltoideus",
@@ -995,25 +1215,25 @@ window.VIEWER_DATA = {
             "callout": "M. Brachialis"
           },
           "commons": {
-            "image": "assets/bassett/95_5_D.jpg",
-            "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#25 · Brachialis muscle",
-            "legendNum": 25,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/95_5_D.jpg",
-            "matchedAs": "Nerve supply to left coracobrachialis, biceps and brachialis muscles, medial view",
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#25 · Brachialis muscle",
-            "legendNum": 25,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -1022,7 +1242,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/95_5_D.jpg",
+          "image": "assets/bassett/107_1_D.jpg",
           "pin": {
             "x": 0.2915,
             "y": 0.8048
@@ -1030,7 +1250,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. brachialis",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-5"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1"
         },
         {
           "name": "M. Latissimus dorsi",
@@ -1046,42 +1266,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Latissimus dorsi"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/90_1_D.jpg",
+            "matchedAs": "Right axillary fascia, inferior aspect",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/90_1_D.jpg",
+            "matchedAs": "Right axillary fascia, inferior aspect",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p51_i0.jpg",
+          "image": "assets/bassett/90_1_D.jpg",
           "pin": {
             "x": 0.5508,
             "y": 0.9113
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. latissimus dorsi",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1"
         },
         {
           "name": "M. Subscapularis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/94_5_D.jpg",
+            "matchedAs": "Capsule and ligaments of left shoulder joint, inferior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/94_5_D.jpg",
+            "matchedAs": "Capsule and ligaments of left shoulder joint, inferior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/94_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Capsule and ligaments of left shoulder joint, inferior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-5"
         },
         {
           "name": "M. Teres major",
@@ -1098,25 +1358,25 @@ window.VIEWER_DATA = {
             "callout": "M. Teres major"
           },
           "commons": {
-            "image": "assets/bassett/93_6_D.jpg",
-            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#10 · Teres major muscle",
-            "legendNum": 10,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_6_D.jpg",
-            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#10 · Teres major muscle",
-            "legendNum": 10,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -1125,7 +1385,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_6_D.jpg",
+          "image": "assets/bassett/93_7_D.jpg",
           "pin": {
             "x": 0.8633,
             "y": 0.8333
@@ -1133,32 +1393,32 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. teres major",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7"
         },
         {
           "name": "M. Serratus anterior",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/91_5_D.jpg",
-            "matchedAs": "Left serratus anterior muscle, anterolateral view",
+            "image": "assets/bassett/89_2_D.jpg",
+            "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Branch of cervical nerve V to serratus anterior muscle",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/91_5_D.jpg",
-            "matchedAs": "Left serratus anterior muscle, anterolateral view",
+            "image": "assets/bassett/89_2_D.jpg",
+            "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Branch of cervical nerve V to serratus anterior muscle",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -1167,12 +1427,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/91_5_D.jpg",
+          "image": "assets/bassett/89_2_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Left serratus anterior muscle, anterolateral view",
+          "matchedAs": "Right pectoralis major and deltoid muscles, anterior view",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=91-5"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=89-2"
         },
         {
           "name": "A. Profunda brachii",
@@ -1220,42 +1480,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Radialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p62_i0.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": {
             "x": 0.518,
             "y": 0.1114
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. radialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4"
         },
         {
           "name": "A. Collateralis ulnaris superior en inferior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/96_5.jpg",
+            "matchedAs": "Relation of left radial nerve to triceps muscle, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/96_5.jpg",
+            "matchedAs": "Relation of left radial nerve to triceps muscle, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/96_5.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Relation of left radial nerve to triceps muscle, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-5"
         },
         {
           "name": "A. Circumflexa humeri anterior en posterior",
@@ -1303,42 +1603,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Axillaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p02_i0.jpg",
+          "image": "assets/bassett/93_7_D.jpg",
           "pin": {
             "x": 0.3731,
             "y": 0.084
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. axillaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7"
         },
         {
           "name": "Nn. Subscapulares",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/90_5_D.jpg",
+            "matchedAs": "Left axilla (continued); relations of structures in posterior part of axillary fossa",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/90_5_D.jpg",
+            "matchedAs": "Left axilla (continued); relations of structures in posterior part of axillary fossa",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Upper limb overview",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-upper-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/90_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Left axilla (continued); relations of structures in posterior part of axillary fossa",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-5"
         }
       ]
     },
@@ -1516,20 +1856,38 @@ window.VIEWER_DATA = {
           "name": "V. Mediana antebrachii",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_v_mediana_antebrachii_25aada14.png",
+            "matchedAs": "File:Gray574.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray574.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "V. Mediana antebrachii",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_v_mediana_antebrachii_25aada14.png",
+            "matchedAs": "File:Gray574.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray574.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "V. Mediana antebrachii",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_v_mediana_antebrachii_25aada14.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray574.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray574.png"
         },
         {
           "name": "R. Superficialis n. radialis",
@@ -1577,23 +1935,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Medianus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i0.jpg",
+          "image": "assets/bassett/103_2_D.jpg",
           "pin": {
             "x": 0.5735,
             "y": 0.6863
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. medianus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2"
         },
         {
           "name": "N. Ulnaris",
@@ -1609,23 +1987,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Ulnaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i0.jpg",
+          "image": "assets/bassett/105_7_D.jpg",
           "pin": {
             "x": 0.4605,
             "y": 0.7433
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. ulnaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7"
         },
         {
           "name": "N. Radialis",
@@ -1641,23 +2039,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Radialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p62_i0.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": {
             "x": 0.518,
             "y": 0.1114
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. radialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4"
         },
         {
           "name": "M. Flexor carpi ulnaris",
@@ -1673,23 +2091,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Flexor carpi ulnaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/106_2_D.jpg",
+            "matchedAs": "Relations of extensor muscles to ulnar border of forearm",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/106_2_D.jpg",
+            "matchedAs": "Relations of extensor muscles to ulnar border of forearm",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p69_i1.jpg",
+          "image": "assets/bassett/106_2_D.jpg",
           "pin": {
             "x": 0.8695,
             "y": 0.8248
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. flexor carpi ulnaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-2"
         },
         {
           "name": "M. Palmaris longus",
@@ -1705,42 +2143,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Palmaris longus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/101_4_D.jpg",
+            "matchedAs": "Superficial volar arch",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/101_4_D.jpg",
+            "matchedAs": "Superficial volar arch",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p69_i1.jpg",
+          "image": "assets/bassett/101_4_D.jpg",
           "pin": {
             "x": 0.5485,
             "y": 0.7835
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. palmaris longus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-4"
         },
         {
           "name": "M. Flexor digitorum superficialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/103_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2"
         },
         {
           "name": "M. Flexor carpi radialis",
@@ -1756,42 +2234,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Flexor carpi radialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_3_D.jpg",
+            "matchedAs": "Flexor digitorum sublimis muscle in hand and wrist",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_3_D.jpg",
+            "matchedAs": "Flexor digitorum sublimis muscle in hand and wrist",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p69_i1.jpg",
+          "image": "assets/bassett/103_3_D.jpg",
           "pin": {
             "x": 0.6305,
             "y": 0.0513
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. flexor carpi radialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-3"
         },
         {
           "name": "M. Pronator teres",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/107_2_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/107_2_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/107_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to extensor carpi radialis brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-2"
         },
         {
           "name": "M. Flexor digitorum profundus",
@@ -1807,23 +2325,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Flexor digitorum profundus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p71_i0.jpg",
+          "image": "assets/bassett/103_2_D.jpg",
           "pin": {
             "x": 0.741,
             "y": 0.8975
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. flexor digitorum profundus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2"
         },
         {
           "name": "M. Flexor pollicis longus",
@@ -1840,25 +2378,25 @@ window.VIEWER_DATA = {
             "callout": "M. Flexor pollicis longus"
           },
           "commons": {
-            "image": "assets/bassett/102_5_D.jpg",
-            "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Tendon sheath of flexor pollicis longus muscle",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_5_D.jpg",
-            "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Tendon sheath of flexor pollicis longus muscle",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -1867,7 +2405,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_5_D.jpg",
+          "image": "assets/bassett/102_4_D.jpg",
           "pin": {
             "x": 0.598,
             "y": 0.0713
@@ -1875,26 +2413,46 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. flexor pollicis longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4"
         },
         {
           "name": "N. Ulnaris r. palmaris en dorsalis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to palmaris brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6"
         },
         {
           "name": "M. Brachioradialis",
@@ -1911,25 +2469,25 @@ window.VIEWER_DATA = {
             "callout": "M. Brachioradialis"
           },
           "commons": {
-            "image": "assets/bassett/106_4_D.jpg",
-            "matchedAs": "Nerve supply to brachioradialis muscle",
+            "image": "assets/bassett/106_5_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/106_4_D.jpg",
-            "matchedAs": "Nerve supply to brachioradialis muscle",
+            "image": "assets/bassett/106_5_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -1938,7 +2496,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/106_4_D.jpg",
+          "image": "assets/bassett/106_5_D.jpg",
           "pin": {
             "x": 0.656,
             "y": 0.9055
@@ -1946,7 +2504,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. brachioradialis",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5"
         },
         {
           "name": "A. Brachialis",
@@ -1994,42 +2552,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "A. Radialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p58_i0.jpg",
+          "image": "assets/bassett/107_1_D.jpg",
           "pin": {
             "x": 0.592,
             "y": 0.8799
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. radialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1"
         },
         {
           "name": "A. Ulnaris",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_2_D.jpg",
+            "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/103_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Common synovial sheath of flexor tendons (ulnar bursa)",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-2"
         },
         {
           "name": "Aponeurosis palmaris",
@@ -2045,23 +2643,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "Aponeurosis palmaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/101_3_D.jpg",
+            "matchedAs": "Superficial structures of palm, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/101_3_D.jpg",
+            "matchedAs": "Superficial structures of palm, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p67_i0.jpg",
+          "image": "assets/bassett/101_3_D.jpg",
           "pin": {
             "x": 0.505,
             "y": 0.8677
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "Aponeurosis palmaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-3"
         },
         {
           "name": "M. Palmaris brevis",
@@ -2084,8 +2702,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#9 · Palmaris brevis muscle (reflected laterally)",
-            "legendNum": 9,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
@@ -2095,8 +2713,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#9 · Palmaris brevis muscle (reflected laterally)",
-            "legendNum": 9,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -2120,25 +2738,25 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/102_3_D.jpg",
-            "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Abductor pollicis brevis muscle (reflected in two parts)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_3_D.jpg",
-            "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Abductor pollicis brevis muscle (reflected in two parts)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -2147,37 +2765,37 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_3_D.jpg",
+          "image": "assets/bassett/102_4_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
+          "matchedAs": "Nerve supply to opponens pollicis muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4"
         },
         {
           "name": "M. Flexor pollicis brevis",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/102_5_D.jpg",
-            "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Flexor pollicis brevis muscle (portion of muscle which inserts with abductor pollicis brevis muscle)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_5_D.jpg",
-            "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Flexor pollicis brevis muscle (portion of muscle which inserts with abductor pollicis brevis muscle)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -2186,37 +2804,37 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_5_D.jpg",
+          "image": "assets/bassett/102_4_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Tendon sheath of flexor pollicis longus muscle; branches of ulnar nerve to flexor pollicis brevis muscle",
+          "matchedAs": "Nerve supply to opponens pollicis muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-5"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4"
         },
         {
           "name": "M. Opponens pollicis",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/102_3_D.jpg",
-            "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#10 · Opponens pollicis muscle",
-            "legendNum": 10,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/102_3_D.jpg",
-            "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
+            "image": "assets/bassett/102_4_D.jpg",
+            "matchedAs": "Nerve supply to opponens pollicis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#10 · Opponens pollicis muscle",
-            "legendNum": 10,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -2225,12 +2843,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/102_3_D.jpg",
+          "image": "assets/bassett/102_4_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Opponens pollicis muscle; nerve supply to abductor pollicis brevis muscle",
+          "matchedAs": "Nerve supply to opponens pollicis muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-4"
         },
         {
           "name": "M. Abductor digiti minimi",
@@ -2247,25 +2865,25 @@ window.VIEWER_DATA = {
             "callout": "M. Abductor digiti minimi"
           },
           "commons": {
-            "image": "assets/bassett/197_6_D.jpg",
-            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/197_6_D.jpg",
-            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -2274,7 +2892,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/197_6_D.jpg",
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": {
             "x": 0.8491,
             "y": 0.2693
@@ -2282,45 +2900,85 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. abductor digiti minimi",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6"
         },
         {
           "name": "M. Flexor digiti minimi",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to palmaris brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6"
         },
         {
           "name": "M. Opponens digiti minimi",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to palmaris brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6"
         },
         {
           "name": "M. Pronator quadratus",
@@ -2336,23 +2994,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Pronator quadratus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/110_7_D.jpg",
+            "matchedAs": "Frontal section, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=110-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/110_7_D.jpg",
+            "matchedAs": "Frontal section, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=110-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p71_i0.jpg",
+          "image": "assets/bassett/110_7_D.jpg",
           "pin": {
             "x": 0.5165,
             "y": 0.8975
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. pronator quadratus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=110-7"
         },
         {
           "name": "Aa. Digitales palmares communes II-IV",
@@ -2422,58 +3100,118 @@ window.VIEWER_DATA = {
           "name": "Mm. Lumbricales",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/102_1_D.jpg",
+            "matchedAs": "Relation of third and fourth lumbrical muscles to synovial sheaths of flexor tendons",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/102_1_D.jpg",
+            "matchedAs": "Relation of third and fourth lumbrical muscles to synovial sheaths of flexor tendons",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/102_1_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Relation of third and fourth lumbrical muscles to synovial sheaths of flexor tendons",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-1"
         },
         {
           "name": "Arcus palmaris profundus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/105_2_D.jpg",
+            "matchedAs": "Dorsal interosseous muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/105_2_D.jpg",
+            "matchedAs": "Dorsal interosseous muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/105_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Dorsal interosseous muscles",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-2"
         },
         {
           "name": "M. Adductor pollicis caput transversum",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/103_7_D.jpg",
+            "matchedAs": "Insertions of flexor tendons",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/103_7_D.jpg",
+            "matchedAs": "Insertions of flexor tendons",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/103_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Insertions of flexor tendons",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=103-7"
         }
       ]
     },
@@ -2523,20 +3261,38 @@ window.VIEWER_DATA = {
           "name": "Hiatus saphenus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_hiatus_saphenus_0c8cceb4.png",
+            "matchedAs": "File:Gray546.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray546.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "Hiatus saphenus",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_hiatus_saphenus_0c8cceb4.png",
+            "matchedAs": "File:Gray546.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray546.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "Hiatus saphenus",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_hiatus_saphenus_0c8cceb4.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray546.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray546.png"
         },
         {
           "name": "N. Cutaneus femoris lateralis",
@@ -2606,20 +3362,40 @@ window.VIEWER_DATA = {
           "name": "Tractus iliotibialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/182_3_D.jpg",
+            "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/182_3_D.jpg",
+            "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/182_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3"
         },
         {
           "name": "M. Rectus femoris",
@@ -2635,23 +3411,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Rectus femoris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p24_i0.jpg",
+          "image": "assets/bassett/185_3_D.jpg",
           "pin": {
             "x": 0.357,
             "y": 0.8141
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. rectus femoris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3"
         },
         {
           "name": "M. Vastus lateralis",
@@ -2667,23 +3463,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Vastus lateralis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p24_i0.jpg",
+          "image": "assets/bassett/182_4_D.jpg",
           "pin": {
             "x": 0.5945,
             "y": 0.8672
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. vastus lateralis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4"
         },
         {
           "name": "M. Vastus medialis",
@@ -2699,42 +3515,80 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Vastus medialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p23_i0.jpg",
+          "image": "assets/bassett/185_3_D.jpg",
           "pin": {
             "x": 0.318,
             "y": 0.1334
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. vastus medialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3"
         },
         {
           "name": "M. Vastus intermedius",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_m_vastus_intermedius_d64f4da9.png",
+            "matchedAs": "File:Gray430.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray430.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "M. Vastus intermedius",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_m_vastus_intermedius_d64f4da9.png",
+            "matchedAs": "File:Gray430.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray430.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "M. Vastus intermedius",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_m_vastus_intermedius_d64f4da9.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray430.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray430.png"
         },
         {
           "name": "M. Sartorius",
@@ -2750,23 +3604,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Sartorius"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p20_i0.jpg",
+          "image": "assets/bassett/189_4_D.jpg",
           "pin": {
             "x": 0.227,
             "y": 0.9226
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. sartorius",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4"
         },
         {
           "name": "V. Femoralis",
@@ -2814,23 +3688,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "A. Femoralis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/181_6_D.jpg",
+            "matchedAs": "Capsule and ligaments of left hip joint, viewed from below",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/181_6_D.jpg",
+            "matchedAs": "Capsule and ligaments of left hip joint, viewed from below",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p25_i0.jpg",
+          "image": "assets/bassett/181_6_D.jpg",
           "pin": {
             "x": 0.3418,
             "y": 0.126
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. femoralis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-6"
         },
         {
           "name": "N. Femoralis",
@@ -2846,23 +3740,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Femoralis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p25_i0.jpg",
+          "image": "assets/bassett/189_4_D.jpg",
           "pin": {
             "x": 0.2819,
             "y": 0.176
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. femoralis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4"
         },
         {
           "name": "M. Tensor fasciae latae",
@@ -2878,23 +3792,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Tensor fasciae latae"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p24_i0.jpg",
+          "image": "assets/bassett/185_3_D.jpg",
           "pin": {
             "x": 0.166,
             "y": 0.9261
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. tensor fasciae latae",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3"
         },
         {
           "name": "N. Saphenus",
@@ -2910,23 +3844,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Saphenus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p23_i0.jpg",
+          "image": "assets/bassett/189_4_D.jpg",
           "pin": {
             "x": 0.2585,
             "y": 0.3885
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. saphenus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4"
         },
         {
           "name": "A. Profunda femoris",
@@ -2942,23 +3896,43 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "A. Profunda femoris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_1_D.jpg",
+            "matchedAs": "Nerve supply to semitendinosus muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_1_D.jpg",
+            "matchedAs": "Nerve supply to semitendinosus muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p27_i0.jpg",
+          "image": "assets/bassett/184_1_D.jpg",
           "pin": {
             "x": 0.8186,
             "y": 0.1227
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. femoralis profunda",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1"
         },
         {
           "name": "A. Circumflexa femoris lateralis",
@@ -2996,112 +3970,43 @@ window.VIEWER_DATA = {
           "name": "A. Epigastrica inferior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/138_1.jpg",
+            "matchedAs": "Femoral septum and associated lymph node, left side viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=138-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/138_1.jpg",
+            "matchedAs": "Femoral septum and associated lymph node, left side viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=138-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/138_1.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Femoral septum and associated lymph node, left side viewed from above",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=138-1"
         },
         {
           "name": "A. Circumflexa ilium",
-          "optional": false,
-          "spot": null,
-          "commons": null,
-          "internet": null,
-          "bluelink": {
-            "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
-            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
-            "provider": "bluelink"
-          },
-          "image": null,
-          "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
-        },
-        {
-          "name": "Aa. Pudendae externae",
-          "optional": false,
-          "spot": null,
-          "commons": null,
-          "internet": null,
-          "bluelink": {
-            "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
-            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
-            "provider": "bluelink"
-          },
-          "image": null,
-          "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
-        },
-        {
-          "name": "A. Circumflexa femoris medialis",
-          "optional": false,
-          "spot": {
-            "image": "../spot/assets/p27_i0.jpg",
-            "pin": {
-              "x": 0.1834,
-              "y": 0.1513
-            },
-            "matchedAs": "A. circumflexa femoris medialis",
-            "credit": "Cursus dissectiefoto (gelabeld)",
-            "confidence": "exact",
-            "callout": "A. Circumflexa femoris medialis"
-          },
-          "commons": null,
-          "internet": null,
-          "bluelink": {
-            "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
-            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
-            "provider": "bluelink"
-          },
-          "image": "../spot/assets/p27_i0.jpg",
-          "pin": {
-            "x": 0.1834,
-            "y": 0.1513
-          },
-          "source": "spot",
-          "matchedAs": "A. circumflexa femoris medialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
-        },
-        {
-          "name": "Aa. Perforantes",
-          "optional": false,
-          "spot": null,
-          "commons": null,
-          "internet": null,
-          "bluelink": {
-            "label": "Lumbar spine, hip and knee",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
-            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
-            "provider": "bluelink"
-          },
-          "image": null,
-          "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
-        },
-        {
-          "name": "M. Iliopsoas",
           "optional": false,
           "spot": null,
           "commons": {
@@ -3140,6 +4045,153 @@ window.VIEWER_DATA = {
           "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-6"
         },
         {
+          "name": "Aa. Pudendae externae",
+          "optional": false,
+          "spot": null,
+          "commons": {
+            "image": "assets/gray_a_pudendae_externae_c3787d65.png",
+            "matchedAs": "File:Gray541.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray541.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "Aa. Pudendae externae",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_a_pudendae_externae_c3787d65.png",
+            "matchedAs": "File:Gray541.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray541.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "Aa. Pudendae externae",
+            "imageKind": "illustration"
+          },
+          "bluelink": {
+            "label": "Lumbar spine, hip and knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
+            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
+            "provider": "bluelink"
+          },
+          "image": "assets/gray_a_pudendae_externae_c3787d65.png",
+          "pin": null,
+          "source": "internet",
+          "matchedAs": "File:Gray541.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray541.png"
+        },
+        {
+          "name": "A. Circumflexa femoris medialis",
+          "optional": false,
+          "spot": {
+            "image": "../spot/assets/p27_i0.jpg",
+            "pin": {
+              "x": 0.1834,
+              "y": 0.1513
+            },
+            "matchedAs": "A. circumflexa femoris medialis",
+            "credit": "Cursus dissectiefoto (gelabeld)",
+            "confidence": "exact",
+            "callout": "A. Circumflexa femoris medialis"
+          },
+          "commons": null,
+          "internet": null,
+          "bluelink": {
+            "label": "Lumbar spine, hip and knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
+            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
+            "provider": "bluelink"
+          },
+          "image": "../spot/assets/p27_i0.jpg",
+          "pin": {
+            "x": 0.1834,
+            "y": 0.1513
+          },
+          "source": "spot",
+          "matchedAs": "A. circumflexa femoris medialis",
+          "credit": "Cursus dissectiefoto (gelabeld)",
+          "sourceUrl": null
+        },
+        {
+          "name": "Aa. Perforantes",
+          "optional": false,
+          "spot": null,
+          "commons": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "bluelink": {
+            "label": "Lumbar spine, hip and knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
+            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
+            "provider": "bluelink"
+          },
+          "image": "assets/bassett/182_4_D.jpg",
+          "pin": null,
+          "source": "internet",
+          "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4"
+        },
+        {
+          "name": "M. Iliopsoas",
+          "optional": false,
+          "spot": null,
+          "commons": {
+            "image": "assets/bassett/185_2_D.jpg",
+            "matchedAs": "Right iliopsoas muscle in relation to spine, pelvis and femur",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/185_2_D.jpg",
+            "matchedAs": "Right iliopsoas muscle in relation to spine, pelvis and femur",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "bluelink": {
+            "label": "Lumbar spine, hip and knee",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
+            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
+            "provider": "bluelink"
+          },
+          "image": "assets/bassett/185_2_D.jpg",
+          "pin": null,
+          "source": "internet",
+          "matchedAs": "Right iliopsoas muscle in relation to spine, pelvis and femur",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-2"
+        },
+        {
           "name": "M. Pectineus",
           "optional": false,
           "spot": {
@@ -3153,42 +4205,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Pectineus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/182_1_D.jpg",
+            "matchedAs": "Interior of left hip joint, viewed from below",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/182_1_D.jpg",
+            "matchedAs": "Interior of left hip joint, viewed from below",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p20_i0.jpg",
+          "image": "assets/bassett/182_1_D.jpg",
           "pin": {
             "x": 0.2525,
             "y": 0.0577
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. pectineus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-1"
         },
         {
           "name": "N. Obturatorius",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/182_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4"
         }
       ]
     },
@@ -3248,23 +4340,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Peroneus superficialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p22_i0.jpg",
+          "image": "assets/bassett/193_7_D.jpg",
           "pin": {
             "x": 0.5025,
             "y": 0.3213
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. peroneus superficialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7"
         },
         {
           "name": "N. Saphenus",
@@ -3280,61 +4392,121 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Saphenus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/189_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of left knee, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p23_i0.jpg",
+          "image": "assets/bassett/189_4_D.jpg",
           "pin": {
             "x": 0.2585,
             "y": 0.3885
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. saphenus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=189-4"
         },
         {
           "name": "Fascia cruris",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/194_3_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/194_3_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/194_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3"
         },
         {
           "name": "Retinaculum Mm. extensorum superius en inferius",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/191_7_D.jpg",
+            "matchedAs": "Muscles of left leg and foot, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/191_7_D.jpg",
+            "matchedAs": "Muscles of left leg and foot, anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/191_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Muscles of left leg and foot, anterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-7"
         },
         {
           "name": "M. Tibialis anterior",
@@ -3351,25 +4523,25 @@ window.VIEWER_DATA = {
             "callout": "M. Tibialis anterior"
           },
           "commons": {
-            "image": "assets/bassett/192_4_D.jpg",
-            "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_4_D.jpg",
-            "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3378,7 +4550,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_4_D.jpg",
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": {
             "x": 0.3405,
             "y": 0.1037
@@ -3386,7 +4558,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. tibialis anterior",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "M. Extensor digitorum longus",
@@ -3403,25 +4575,25 @@ window.VIEWER_DATA = {
             "callout": "M. Extensor digitorum longus"
           },
           "commons": {
-            "image": "assets/bassett/192_3_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_3_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3430,7 +4602,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_3_D.jpg",
+          "image": "assets/bassett/196_6_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1307
@@ -3438,7 +4610,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. extensor digitorum longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6"
         },
         {
           "name": "M. Extensor hallucis longus",
@@ -3455,25 +4627,25 @@ window.VIEWER_DATA = {
             "callout": "M. Extensor hallucis longus"
           },
           "commons": {
-            "image": "assets/bassett/192_2_D.jpg",
-            "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Extensor hallucis longus muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_2_D.jpg",
-            "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Extensor hallucis longus muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3482,7 +4654,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_2_D.jpg",
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1733
@@ -3490,89 +4662,149 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. extensor hallucis longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "A. Tibialis anterior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "V. Tibialis anterior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "N. Peroneus profundus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "A. Dorsalis pedis",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/197_7_D.jpg",
-            "matchedAs": "Dorsalis pedis artery; intrinsic muscles of dorsum of foot, viewed from in front",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-7",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Dorsalis pedis artery",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/197_7_D.jpg",
-            "matchedAs": "Dorsalis pedis artery; intrinsic muscles of dorsum of foot, viewed from in front",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-7",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Dorsalis pedis artery",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3581,12 +4813,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/197_7_D.jpg",
+          "image": "assets/bassett/196_6_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Dorsalis pedis artery; intrinsic muscles of dorsum of foot, viewed from in front",
+          "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-7"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6"
         },
         {
           "name": "M. Extensor digitorum longus (pees)",
@@ -3603,25 +4835,25 @@ window.VIEWER_DATA = {
             "callout": "M. Extensor digitorum longus (pees)"
           },
           "commons": {
-            "image": "assets/bassett/192_3_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_3_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum longus, close-up view of upper part of leg",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Muscular branch of deep peroneal nerve (to extensor digitorum longus muscle)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3630,7 +4862,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_3_D.jpg",
+          "image": "assets/bassett/196_6_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1307
@@ -3638,7 +4870,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. extensor digitorum longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6"
         },
         {
           "name": "M. Extensor hallucis longus (pees)",
@@ -3655,25 +4887,25 @@ window.VIEWER_DATA = {
             "callout": "M. Extensor hallucis longus (pees)"
           },
           "commons": {
-            "image": "assets/bassett/192_2_D.jpg",
-            "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Extensor hallucis longus muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_2_D.jpg",
-            "matchedAs": "Extensor hallucis longus muscle, anterolateral view",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Extensor hallucis longus muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3682,7 +4914,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_2_D.jpg",
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": {
             "x": 0.551,
             "y": 0.1733
@@ -3690,7 +4922,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. extensor hallucis longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-2"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "Arcus venosus dorsalis pedis",
@@ -3738,67 +4970,107 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Adductor longus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/185_3_D.jpg",
+            "matchedAs": "General view of superficial vessels and nerves of left thigh; anterior muscles of right thigh",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p20_i0.jpg",
+          "image": "assets/bassett/185_3_D.jpg",
           "pin": {
             "x": 0.4365,
             "y": 0.0739
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. adductor longus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=185-3"
         },
         {
           "name": "M. Adductor brevis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/102_6.jpg",
+            "matchedAs": "Relations of deep head of flexor pollicis brevis, tendon of flexor pollicis longus, and adductor pollicis muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/102_6.jpg",
+            "matchedAs": "Relations of deep head of flexor pollicis brevis, tendon of flexor pollicis longus, and adductor pollicis muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/102_6.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Relations of deep head of flexor pollicis brevis, tendon of flexor pollicis longus, and adductor pollicis muscles",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-6"
         },
         {
           "name": "M. Adductor magnus",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_4_D.jpg",
-            "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_4_D.jpg",
-            "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3807,12 +5079,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_4_D.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+          "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "M. Gracilis",
@@ -3828,23 +5100,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Gracilis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p20_i0.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": {
             "x": 0.611,
             "y": 0.1247
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. gracilis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "M. Peroneus longus",
@@ -3860,86 +5152,146 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Peroneus longus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p19_i0.jpg",
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": {
             "x": 0.6415,
             "y": 0.1527
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. peroneus longus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "M. Peroneus brevis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/193_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7"
         },
         {
           "name": "M. Peroneus tertius",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/193_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7"
         },
         {
           "name": "M. Extensor digitorum brevis",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/198_1_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/198_1_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
+            "image": "assets/bassett/196_6_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3948,37 +5300,37 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/198_1_D.jpg",
+          "image": "assets/bassett/196_6_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
+          "matchedAs": "Superficial nerves and blood vessels of dorsum of foot",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=196-6"
         },
         {
           "name": "M. Extensor hallucis brevis",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/198_1_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
+            "image": "assets/bassett/191_7_D.jpg",
+            "matchedAs": "Muscles of left leg and foot, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/198_1_D.jpg",
-            "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
+            "image": "assets/bassett/191_7_D.jpg",
+            "matchedAs": "Muscles of left leg and foot, anterior view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Extensor digitorum brevis muscle (reflected, extensor hallucis brevis muscle in background)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -3987,31 +5339,51 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/198_1_D.jpg",
+          "image": "assets/bassett/191_7_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Nerve supply to extensor digitorum brevis and extensor hallucis brevis muscles",
+          "matchedAs": "Muscles of left leg and foot, anterior view",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-1"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-7"
         },
         {
           "name": "Mm. Interossei",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/198_3_D.jpg",
+            "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/198_3_D.jpg",
+            "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/198_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3"
         }
       ]
     },
@@ -4157,20 +5529,40 @@ window.VIEWER_DATA = {
           "name": "N. Auricularis magnus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/68_1.jpg",
+            "matchedAs": "Facial relations, posterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=68-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/68_1.jpg",
+            "matchedAs": "Facial relations, posterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=68-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/68_1.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Facial relations, posterolateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=68-1"
         },
         {
           "name": "M. Splenius capitis",
@@ -4186,42 +5578,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Splenius capitis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_5.jpg",
+            "matchedAs": "Dorsal scapular nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/93_5.jpg",
+            "matchedAs": "Dorsal scapular nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p46_i0.jpg",
+          "image": "assets/bassett/93_5.jpg",
           "pin": {
             "x": 0.0879,
             "y": 0.5427
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. splenius capitis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-5"
         },
         {
           "name": "M. Splenius cervicis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/216_2_D.jpg",
+            "matchedAs": "Left splenius muscles; right trapezius muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=216-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/216_2_D.jpg",
+            "matchedAs": "Left splenius muscles; right trapezius muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=216-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/216_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Left splenius muscles; right trapezius muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=216-2"
         },
         {
           "name": "M. Trapezius pars descendens",
@@ -4237,42 +5669,82 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "M. Trapezius pars descendens"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/92_1_D.jpg",
+            "matchedAs": "Right deltoid muscle, lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/92_1_D.jpg",
+            "matchedAs": "Right deltoid muscle, lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p51_i0.jpg",
+          "image": "assets/bassett/92_1_D.jpg",
           "pin": {
             "x": 0.2773,
             "y": 0.532
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. trapezius",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1"
         },
         {
           "name": "N. Accessorius",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_4_D.jpg",
+            "matchedAs": "Nerve supply to left rhomboideus major muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_4_D.jpg",
+            "matchedAs": "Nerve supply to left rhomboideus major muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/93_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to left rhomboideus major muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4"
         },
         {
           "name": "M. Semispinalis capitis",
@@ -4288,23 +5760,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Semispinalis capitis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/213_6_D.jpg",
+            "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/213_6_D.jpg",
+            "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p46_i0.jpg",
+          "image": "assets/bassett/213_6_D.jpg",
           "pin": {
             "x": 0.0891,
             "y": 0.5587
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. semispinalis capitis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6"
         },
         {
           "name": "M. Rectus capitis posterior major en minor",
@@ -4342,45 +5834,65 @@ window.VIEWER_DATA = {
           "name": "M. Semispinalis thoracis / cervicis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/213_3_D.jpg",
+            "matchedAs": "Erector spinae muscle, close-up view of thoracic portion",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/213_3_D.jpg",
+            "matchedAs": "Erector spinae muscle, close-up view of thoracic portion",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/213_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Erector spinae muscle, close-up view of thoracic portion",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-3"
         },
         {
           "name": "M. Supraspinatus",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/93_6_D.jpg",
-            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "image": "assets/bassett/94_2_D.jpg",
+            "matchedAs": "Nerve and blood supply to supraspinatus and infraspinatus muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#13 · Supraspinatus",
-            "legendNum": 13,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_6_D.jpg",
-            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "image": "assets/bassett/94_2_D.jpg",
+            "matchedAs": "Nerve and blood supply to supraspinatus and infraspinatus muscles",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#13 · Supraspinatus",
-            "legendNum": 13,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -4389,12 +5901,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_6_D.jpg",
+          "image": "assets/bassett/94_2_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+          "matchedAs": "Nerve and blood supply to supraspinatus and infraspinatus muscles",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-2"
         },
         {
           "name": "M. Levator scapulae",
@@ -4411,25 +5923,25 @@ window.VIEWER_DATA = {
             "callout": "M. Levator scapulae"
           },
           "commons": {
-            "image": "assets/bassett/212_5_D.jpg",
-            "matchedAs": "Left levator scapulae and rhomboid muscles; nerve supply to rhomboid major",
+            "image": "assets/bassett/212_7_D.jpg",
+            "matchedAs": "Nerve supply to serratus posterior superior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Levator scapulae muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/212_5_D.jpg",
-            "matchedAs": "Left levator scapulae and rhomboid muscles; nerve supply to rhomboid major",
+            "image": "assets/bassett/212_7_D.jpg",
+            "matchedAs": "Nerve supply to serratus posterior superior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-5",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Levator scapulae muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -4438,7 +5950,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/212_5_D.jpg",
+          "image": "assets/bassett/212_7_D.jpg",
           "pin": {
             "x": 0.8149,
             "y": 0.3067
@@ -4446,7 +5958,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. levator scapulae",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-5"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7"
         },
         {
           "name": "M. Obliquus capitis superior en inferior",
@@ -4484,39 +5996,77 @@ window.VIEWER_DATA = {
           "name": "N. Suboccipitalis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_n_suboccipitalis_6eb1f7e5.png",
+            "matchedAs": "File:Gray805.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray805.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Suboccipitalis",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_n_suboccipitalis_6eb1f7e5.png",
+            "matchedAs": "File:Gray805.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray805.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Suboccipitalis",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_n_suboccipitalis_6eb1f7e5.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray805.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray805.png"
         },
         {
           "name": "A. Vertebralis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/217_2_D.jpg",
+            "matchedAs": "General view of spinal cord in situ",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=217-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/217_2_D.jpg",
+            "matchedAs": "General view of spinal cord in situ",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=217-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Deep back and spinal cord",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/deep-back-and-spinal-cord",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/217_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "General view of spinal cord in situ",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=217-2"
         }
       ]
     },
@@ -4534,20 +6084,40 @@ window.VIEWER_DATA = {
           "name": "Rr. Dorsales spinale zenuwen",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/214_4.jpg",
+            "matchedAs": "Ligaments of costotransverse articulations; dorsal rami of spinal nerves, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/214_4.jpg",
+            "matchedAs": "Ligaments of costotransverse articulations; dorsal rami of spinal nerves, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/214_4.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Ligaments of costotransverse articulations; dorsal rami of spinal nerves, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-4"
         },
         {
           "name": "N. Cutaneus antebrachii posterior",
@@ -4627,61 +6197,121 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "M. Trapezius pars ascendens / pars transversa"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/92_1_D.jpg",
+            "matchedAs": "Right deltoid muscle, lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/92_1_D.jpg",
+            "matchedAs": "Right deltoid muscle, lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p51_i0.jpg",
+          "image": "assets/bassett/92_1_D.jpg",
           "pin": {
             "x": 0.2773,
             "y": 0.532
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. trapezius",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1"
         },
         {
           "name": "Fascia thoracolumbalis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/93_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3"
         },
         {
           "name": "N. Accessorius",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_4_D.jpg",
+            "matchedAs": "Nerve supply to left rhomboideus major muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_4_D.jpg",
+            "matchedAs": "Nerve supply to left rhomboideus major muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/93_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to left rhomboideus major muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-4"
         },
         {
           "name": "M. Latissimus dorsi",
@@ -4697,23 +6327,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Latissimus dorsi"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/90_1_D.jpg",
+            "matchedAs": "Right axillary fascia, inferior aspect",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/90_1_D.jpg",
+            "matchedAs": "Right axillary fascia, inferior aspect",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p51_i0.jpg",
+          "image": "assets/bassett/90_1_D.jpg",
           "pin": {
             "x": 0.5508,
             "y": 0.9113
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. latissimus dorsi",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=90-1"
         },
         {
           "name": "M. Rhomboideus minor",
@@ -4814,25 +6464,25 @@ window.VIEWER_DATA = {
             "callout": "M. Infraspinatus"
           },
           "commons": {
-            "image": "assets/bassett/93_6_D.jpg",
-            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Teres minor muscle (fused with infraspinatus muscle)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/93_6_D.jpg",
-            "matchedAs": "Supraspinatus, infraspinatus, teres minor and teres major muscles",
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Teres minor muscle (fused with infraspinatus muscle)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -4841,7 +6491,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/93_6_D.jpg",
+          "image": "assets/bassett/93_7_D.jpg",
           "pin": {
             "x": 0.7995,
             "y": 0.36
@@ -4849,7 +6499,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. infraspinatus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7"
         },
         {
           "name": "M. Deltoideus",
@@ -4887,45 +6537,63 @@ window.VIEWER_DATA = {
           "name": "R. Superficialis a. transversa colli",
           "optional": true,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_r_superficialis_a_transversa_colli_628b373b.png",
+            "matchedAs": "File:Gray520.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray520.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "R. Superficialis a. transversa colli",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_r_superficialis_a_transversa_colli_628b373b.png",
+            "matchedAs": "File:Gray520.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray520.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "R. Superficialis a. transversa colli",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_r_superficialis_a_transversa_colli_628b373b.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray520.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray520.png"
         },
         {
           "name": "M. Serratus posterior superior",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/212_6_D.jpg",
-            "matchedAs": "Left serratus posterior superior in relation to splenius and erector spinae muscles",
+            "image": "assets/bassett/212_7_D.jpg",
+            "matchedAs": "Nerve supply to serratus posterior superior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Serratus posterior superior muscle",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/212_6_D.jpg",
-            "matchedAs": "Left serratus posterior superior in relation to splenius and erector spinae muscles",
+            "image": "assets/bassett/212_7_D.jpg",
+            "matchedAs": "Nerve supply to serratus posterior superior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Serratus posterior superior muscle",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -4934,12 +6602,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/212_6_D.jpg",
+          "image": "assets/bassett/212_7_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Left serratus posterior superior in relation to splenius and erector spinae muscles",
+          "matchedAs": "Nerve supply to serratus posterior superior muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7"
         },
         {
           "name": "M. Serratus posterior inferior",
@@ -4952,8 +6620,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Serratus posterior inferior muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
@@ -4963,8 +6631,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Serratus posterior inferior muscle",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -4985,25 +6653,25 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/214_2_D.jpg",
-            "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
+            "image": "assets/bassett/212_7_D.jpg",
+            "matchedAs": "Nerve supply to serratus posterior superior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#2 · Iliocostalis lumborum muscle",
-            "legendNum": 2,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/214_2_D.jpg",
-            "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
+            "image": "assets/bassett/212_7_D.jpg",
+            "matchedAs": "Nerve supply to serratus posterior superior muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#2 · Iliocostalis lumborum muscle",
-            "legendNum": 2,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5012,12 +6680,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/214_2_D.jpg",
+          "image": "assets/bassett/212_7_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
+          "matchedAs": "Nerve supply to serratus posterior superior muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=212-7"
         },
         {
           "name": "M. Longissimus",
@@ -5034,25 +6702,25 @@ window.VIEWER_DATA = {
             "callout": "M. Longissimus"
           },
           "commons": {
-            "image": "assets/bassett/214_2_D.jpg",
-            "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
+            "image": "assets/bassett/214_1_D.jpg",
+            "matchedAs": "Multifidus muscle in lumbar region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#11 · Longissimus thoracis muscle",
-            "legendNum": 11,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/214_2_D.jpg",
-            "matchedAs": "Deep dissection of iliocostalis lumborum and longissimus thoracic muscles; multifidus muscle",
+            "image": "assets/bassett/214_1_D.jpg",
+            "matchedAs": "Multifidus muscle in lumbar region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#11 · Longissimus thoracis muscle",
-            "legendNum": 11,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5061,7 +6729,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/214_2_D.jpg",
+          "image": "assets/bassett/214_1_D.jpg",
           "pin": {
             "x": 0.8219,
             "y": 0.2747
@@ -5069,32 +6737,32 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. longissimus cervicis",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-2"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-1"
         },
         {
           "name": "M. Spinalis",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/213_6_D.jpg",
-            "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
+            "image": "assets/bassett/214_1_D.jpg",
+            "matchedAs": "Multifidus muscle in lumbar region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#17 · Spinalis thoracis muscle",
-            "legendNum": 17,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/213_6_D.jpg",
-            "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
+            "image": "assets/bassett/214_1_D.jpg",
+            "matchedAs": "Multifidus muscle in lumbar region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#17 · Spinalis thoracis muscle",
-            "legendNum": 17,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5103,12 +6771,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/213_6_D.jpg",
+          "image": "assets/bassett/214_1_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Components of erector spinae muscle in relation to semispinalis muscles in upper thoracic region",
+          "matchedAs": "Multifidus muscle in lumbar region",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=213-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-1"
         },
         {
           "name": "M. Teres major / minor",
@@ -5124,61 +6792,121 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Teres major / minor"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p51_i0.jpg",
+          "image": "assets/bassett/93_7_D.jpg",
           "pin": {
             "x": 0.8633,
             "y": 0.8333
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. teres major",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7"
         },
         {
           "name": "A. Suprascapularis",
           "optional": true,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/95_3_D.jpg",
+            "matchedAs": "Right biceps muscle. anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/95_3_D.jpg",
+            "matchedAs": "Right biceps muscle. anterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/95_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Right biceps muscle. anterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=95-3"
         },
         {
           "name": "N. Suprascapularis",
           "optional": true,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/94_2_D.jpg",
+            "matchedAs": "Nerve and blood supply to supraspinatus and infraspinatus muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/94_2_D.jpg",
+            "matchedAs": "Nerve and blood supply to supraspinatus and infraspinatus muscles",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/94_2_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve and blood supply to supraspinatus and infraspinatus muscles",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=94-2"
         },
         {
           "name": "A. Thoracodorsalis",
@@ -5194,23 +6922,43 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "A. Thoracodorsalis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p02_i0.jpg",
+          "image": "assets/bassett/93_3_D.jpg",
           "pin": {
             "x": 0.7744,
             "y": 0.7293
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. en V. thoracodorsalis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3"
         },
         {
           "name": "N. Thoracodorsalis",
@@ -5226,42 +6974,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Thoracodorsalis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_3_D.jpg",
+            "matchedAs": "Nerve and blood supply to left lattisimus dorsi muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p02_i0.jpg",
+          "image": "assets/bassett/93_3_D.jpg",
           "pin": {
             "x": 0.8079,
             "y": 0.648
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. thoracodorsalis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-3"
         },
         {
           "name": "N. Dorsalis scapulae",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_5.jpg",
+            "matchedAs": "Dorsal scapular nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/93_5.jpg",
+            "matchedAs": "Dorsal scapular nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Pectoral region and superficial back",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-pectoral-region-and-superficial-back-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/93_5.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Dorsal scapular nerve",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-5"
         }
       ]
     },
@@ -5279,20 +7067,38 @@ window.VIEWER_DATA = {
           "name": "N. Cutaneus brachii lateralis inferior",
           "optional": true,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_n_cutaneus_brachii_lateralis_inferior_6f6e1bdd.png",
+            "matchedAs": "File:Gray813.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray813.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Cutaneus brachii lateralis inferior",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_n_cutaneus_brachii_lateralis_inferior_6f6e1bdd.png",
+            "matchedAs": "File:Gray813.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray813.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Cutaneus brachii lateralis inferior",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_n_cutaneus_brachii_lateralis_inferior_6f6e1bdd.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray813.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray813.png"
         },
         {
           "name": "N. Cutaneus antebrachii posterior",
@@ -5362,20 +7168,40 @@ window.VIEWER_DATA = {
           "name": "R. Dorsalis n. ulnaris",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/105_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7"
         },
         {
           "name": "V. Cephalica",
@@ -5455,23 +7281,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Axillaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/93_7_D.jpg",
+            "matchedAs": "Quadrangular and triangular spaces, close-up view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p02_i0.jpg",
+          "image": "assets/bassett/93_7_D.jpg",
           "pin": {
             "x": 0.3731,
             "y": 0.084
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. axillaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=93-7"
         },
         {
           "name": "M. Triceps",
@@ -5488,25 +7334,25 @@ window.VIEWER_DATA = {
             "callout": "M. Triceps"
           },
           "commons": {
-            "image": "assets/bassett/96_1_D.jpg",
-            "matchedAs": "Left triceps muscle, posteromedial view",
+            "image": "assets/bassett/92_1_D.jpg",
+            "matchedAs": "Right deltoid muscle, lateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Triceps brachii muscle (long head)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/96_1_D.jpg",
-            "matchedAs": "Left triceps muscle, posteromedial view",
+            "image": "assets/bassett/92_1_D.jpg",
+            "matchedAs": "Right deltoid muscle, lateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Triceps brachii muscle (long head)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5515,7 +7361,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/96_1_D.jpg",
+          "image": "assets/bassett/92_1_D.jpg",
           "pin": {
             "x": 0.4355,
             "y": 0.8319
@@ -5523,7 +7369,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. triceps caput longum",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=96-1"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=92-1"
         },
         {
           "name": "A. Profunda brachii",
@@ -5571,23 +7417,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Radialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p62_i0.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": {
             "x": 0.518,
             "y": 0.1114
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. radialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4"
         },
         {
           "name": "N. Ulnaris",
@@ -5603,23 +7469,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Ulnaris"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p01_i0.jpg",
+          "image": "assets/bassett/105_7_D.jpg",
           "pin": {
             "x": 0.4605,
             "y": 0.7433
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. ulnaris",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7"
         },
         {
           "name": "M. Extensor digitorum",
@@ -5642,8 +7528,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Common extensor digitorum muscle (retracted)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
@@ -5653,8 +7539,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Common extensor digitorum muscle (retracted)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5688,25 +7574,25 @@ window.VIEWER_DATA = {
             "callout": "M. Brachioradialis"
           },
           "commons": {
-            "image": "assets/bassett/106_4_D.jpg",
-            "matchedAs": "Nerve supply to brachioradialis muscle",
+            "image": "assets/bassett/106_5_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/106_4_D.jpg",
-            "matchedAs": "Nerve supply to brachioradialis muscle",
+            "image": "assets/bassett/106_5_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Brachioradialis muscle (retracted laterally from origin)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5715,7 +7601,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/106_4_D.jpg",
+          "image": "assets/bassett/106_5_D.jpg",
           "pin": {
             "x": 0.656,
             "y": 0.9055
@@ -5723,70 +7609,110 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. brachioradialis",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5"
         },
         {
           "name": "M. Extensor carpi radialis longus en brevis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/106_5_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/106_5_D.jpg",
+            "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/106_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to extensor carpi radialis longus muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-5"
         },
         {
           "name": "M. Extensor digiti minimi",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/106_7_D.jpg",
+            "matchedAs": "Nerve supply to extensor digiti quinti proprius muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/106_7_D.jpg",
+            "matchedAs": "Nerve supply to extensor digiti quinti proprius muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/106_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to extensor digiti quinti proprius muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-7"
         },
         {
           "name": "M. Extensor carpi ulnaris",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/106_6_D.jpg",
-            "matchedAs": "Nerve supply to extensor carpi ulnaris muscle",
+            "image": "assets/bassett/107_3_D.jpg",
+            "matchedAs": "Anconeus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#6 · Extensor carpi ulnaris muscle (retracted)",
-            "legendNum": 6,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/106_6_D.jpg",
-            "matchedAs": "Nerve supply to extensor carpi ulnaris muscle",
+            "image": "assets/bassett/107_3_D.jpg",
+            "matchedAs": "Anconeus muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#6 · Extensor carpi ulnaris muscle (retracted)",
-            "legendNum": 6,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5795,31 +7721,51 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/106_6_D.jpg",
+          "image": "assets/bassett/107_3_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Nerve supply to extensor carpi ulnaris muscle",
+          "matchedAs": "Anconeus muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=106-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3"
         },
         {
           "name": "Rete venosum dorsale manus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/105_7_D.jpg",
+            "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/105_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial vessels and nerves; antibrachial fascia",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=105-7"
         },
         {
           "name": "A. Radialis",
@@ -5835,23 +7781,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "A. Radialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p58_i0.jpg",
+          "image": "assets/bassett/107_1_D.jpg",
           "pin": {
             "x": 0.592,
             "y": 0.8799
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. radialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1"
         },
         {
           "name": "M. Abductor pollicis longus",
@@ -5868,25 +7834,25 @@ window.VIEWER_DATA = {
             "callout": "M. Abductor pollicis longus"
           },
           "commons": {
-            "image": "assets/bassett/108_3_D.jpg",
-            "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Muscular branch of radial nerve (to abductor pollicis longus muscle)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_3_D.jpg",
-            "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#4 · Muscular branch of radial nerve (to abductor pollicis longus muscle)",
-            "legendNum": 4,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5895,7 +7861,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_3_D.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": {
             "x": 0.8505,
             "y": 0.6818
@@ -5903,7 +7869,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. abductor pollicis longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4"
         },
         {
           "name": "M. Extensor pollicis brevis",
@@ -5926,8 +7892,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#1 · Muscular branch of radial nerve (to extensor pollicis brevis muscle)",
-            "legendNum": 1,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
@@ -5937,8 +7903,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#1 · Muscular branch of radial nerve (to extensor pollicis brevis muscle)",
-            "legendNum": 1,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5962,25 +7928,25 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/108_3_D.jpg",
-            "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Left pointer: Muscular branch of radial nerve (to extensor indicis muscle) Right pointer: Extensor indicis muscle",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_3_D.jpg",
-            "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Left pointer: Muscular branch of radial nerve (to extensor indicis muscle) Right pointer: Extensor indicis muscle",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -5989,12 +7955,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_3_D.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+          "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4"
         },
         {
           "name": "M. Extensor pollicis longus",
@@ -6011,25 +7977,25 @@ window.VIEWER_DATA = {
             "callout": "M. Extensor pollicis longus"
           },
           "commons": {
-            "image": "assets/bassett/108_3_D.jpg",
-            "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Extensor pollicis longus muscle (dissected)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/108_3_D.jpg",
-            "matchedAs": "Nerve supply to abductor pollicis longus, extensor pollicis longus and extensor indicis proprius muscles",
+            "image": "assets/bassett/108_4_D.jpg",
+            "matchedAs": "Nerve supply to extensor pollicis brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Extensor pollicis longus muscle (dissected)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -6038,7 +8004,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/108_3_D.jpg",
+          "image": "assets/bassett/108_4_D.jpg",
           "pin": {
             "x": 0.383,
             "y": 0.9329
@@ -6046,26 +8012,46 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. extensor pollicis longus",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=108-4"
         },
         {
           "name": "Mm. Interossei",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/198_3_D.jpg",
+            "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/198_3_D.jpg",
+            "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Shoulder",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/198_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3"
         },
         {
           "name": "M. Supinator",
@@ -6082,14 +8068,56 @@ window.VIEWER_DATA = {
             "callout": "M. Supinator"
           },
           "commons": {
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/107_1_D.jpg",
+            "matchedAs": "Nerve supply to extensor digitorum communis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "bluelink": {
+            "label": "Shoulder",
+            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
+            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
+            "provider": "bluelink"
+          },
+          "image": "assets/bassett/107_1_D.jpg",
+          "pin": {
+            "x": 0.4365,
+            "y": 0.9046
+          },
+          "source": "both",
+          "matchedAs": "M. supinator",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-1"
+        },
+        {
+          "name": "M. Anconeus",
+          "optional": false,
+          "spot": null,
+          "commons": {
             "image": "assets/bassett/107_6_D.jpg",
             "matchedAs": "Nerve supply to supinator muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#1 · Muscular branch of radial nerve (to supinator muscle)",
-            "legendNum": 1,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
@@ -6099,8 +8127,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#1 · Muscular branch of radial nerve (to supinator muscle)",
-            "legendNum": 1,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -6110,53 +8138,11 @@ window.VIEWER_DATA = {
             "provider": "bluelink"
           },
           "image": "assets/bassett/107_6_D.jpg",
-          "pin": {
-            "x": 0.4365,
-            "y": 0.9046
-          },
-          "source": "both",
-          "matchedAs": "M. supinator",
-          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-6"
-        },
-        {
-          "name": "M. Anconeus",
-          "optional": false,
-          "spot": null,
-          "commons": {
-            "image": "assets/bassett/107_3_D.jpg",
-            "matchedAs": "Anconeus muscle",
-            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3",
-            "confidence": "bassett",
-            "provider": "bassett",
-            "callout": "#4 · Anconeus muscle",
-            "legendNum": 4,
-            "imageKind": "diagram"
-          },
-          "internet": {
-            "image": "assets/bassett/107_3_D.jpg",
-            "matchedAs": "Anconeus muscle",
-            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3",
-            "confidence": "bassett",
-            "provider": "bassett",
-            "callout": "#4 · Anconeus muscle",
-            "legendNum": 4,
-            "imageKind": "diagram"
-          },
-          "bluelink": {
-            "label": "Shoulder",
-            "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-shoulder-images",
-            "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
-            "provider": "bluelink"
-          },
-          "image": "assets/bassett/107_3_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Anconeus muscle",
+          "matchedAs": "Nerve supply to supinator muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-3"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=107-6"
         },
         {
           "name": "R. Profundus n. radialis",
@@ -6249,24 +8235,26 @@ window.VIEWER_DATA = {
             "callout": "M. Gluteus maximus"
           },
           "commons": {
-            "image": "assets/m_gluteus_maximus_a2be4a68.jpg",
-            "matchedAs": "Gluteus maximus muscle dissection.jpg",
-            "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGluteus_maximus_muscle_dissection.jpg",
-            "confidence": "commons",
-            "provider": "commons",
-            "callout": "M. Gluteus maximus",
-            "imageKind": "photo"
+            "image": "assets/bassett/182_3_D.jpg",
+            "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/m_gluteus_maximus_a2be4a68.jpg",
-            "matchedAs": "Gluteus maximus muscle dissection.jpg",
-            "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGluteus_maximus_muscle_dissection.jpg",
-            "confidence": "commons",
-            "provider": "commons",
-            "callout": "M. Gluteus maximus",
-            "imageKind": "photo"
+            "image": "assets/bassett/182_3_D.jpg",
+            "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
@@ -6274,15 +8262,15 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/m_gluteus_maximus_a2be4a68.jpg",
+          "image": "assets/bassett/182_3_D.jpg",
           "pin": {
             "x": 0.567,
             "y": 0.0927
           },
           "source": "both",
           "matchedAs": "M. gluteus maximus",
-          "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGluteus_maximus_muscle_dissection.jpg"
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3"
         },
         {
           "name": "Nn. Clunium medii",
@@ -6362,42 +8350,82 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Gluteus medius"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/183_4.jpg",
+            "matchedAs": "Relations of sciatic nerve in upper part of thigh (continued)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/183_4.jpg",
+            "matchedAs": "Relations of sciatic nerve in upper part of thigh (continued)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p39_i0.jpg",
+          "image": "assets/bassett/183_4.jpg",
           "pin": {
             "x": 0.893,
             "y": 0.2103
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. gluteus medius",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-4"
         },
         {
           "name": "M. Gluteus minimus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/214_7_D.jpg",
+            "matchedAs": "Ligaments of lumbosacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/214_7_D.jpg",
+            "matchedAs": "Ligaments of lumbosacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/214_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Ligaments of lumbosacral region, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=214-7"
         },
         {
           "name": "M. Piriformis",
@@ -6465,104 +8493,184 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Ischiadicus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p16_i0.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": {
             "x": 0.6295,
             "y": 0.1756
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. ischiadicus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "A. Glutea inferior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/183_4.jpg",
+            "matchedAs": "Relations of sciatic nerve in upper part of thigh (continued)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/183_4.jpg",
+            "matchedAs": "Relations of sciatic nerve in upper part of thigh (continued)",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/183_4.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Relations of sciatic nerve in upper part of thigh (continued)",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-4"
         },
         {
           "name": "N. Gluteus inferior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_n_gluteus_inferior_26b84561.png",
+            "matchedAs": "File:Gray824.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray824.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Gluteus inferior",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_n_gluteus_inferior_26b84561.png",
+            "matchedAs": "File:Gray824.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray824.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Gluteus inferior",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_n_gluteus_inferior_26b84561.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray824.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray824.png"
         },
         {
           "name": "M. Gemellus superior / inferior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/181_4_D.jpg",
+            "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/181_4_D.jpg",
+            "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/181_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4"
         },
         {
           "name": "M. Obturator internus",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/m_obturator_internus_2bded316.jpg",
-            "matchedAs": "Obturator internus muscle.jpg",
-            "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AObturator_internus_muscle.jpg",
-            "confidence": "commons",
-            "provider": "commons",
-            "callout": "M. Obturator internus",
-            "imageKind": "photo"
+            "image": "assets/bassett/184_4_D.jpg",
+            "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/m_obturator_internus_2bded316.jpg",
-            "matchedAs": "Obturator internus muscle.jpg",
-            "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AObturator_internus_muscle.jpg",
-            "confidence": "commons",
-            "provider": "commons",
-            "callout": "M. Obturator internus",
-            "imageKind": "photo"
+            "image": "assets/bassett/184_4_D.jpg",
+            "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
@@ -6570,31 +8678,51 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/m_obturator_internus_2bded316.jpg",
+          "image": "assets/bassett/184_4_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Obturator internus muscle.jpg",
-          "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AObturator_internus_muscle.jpg"
+          "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4"
         },
         {
           "name": "M. Quadratus femoris",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_5_D.jpg",
+            "matchedAs": "Adductor minimus muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_5_D.jpg",
+            "matchedAs": "Adductor minimus muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/184_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Adductor minimus muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-5"
         },
         {
           "name": "A. Pudenda interna",
@@ -6610,80 +8738,158 @@ window.VIEWER_DATA = {
             "confidence": "alias",
             "callout": "A. Pudenda interna"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/215_1_D.jpg",
+            "matchedAs": "Ligaments of sacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/215_1_D.jpg",
+            "matchedAs": "Ligaments of sacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p39_i0.jpg",
+          "image": "assets/bassett/215_1_D.jpg",
           "pin": {
             "x": 0.5535,
             "y": 0.0695
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "A. en V. pudenda interna",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1"
         },
         {
           "name": "A. Glutea superior r. superficialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/215_1_D.jpg",
+            "matchedAs": "Ligaments of sacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/215_1_D.jpg",
+            "matchedAs": "Ligaments of sacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/215_1_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Ligaments of sacral region, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1"
         },
         {
           "name": "A. Glutea superior r. profundus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/215_1_D.jpg",
+            "matchedAs": "Ligaments of sacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/215_1_D.jpg",
+            "matchedAs": "Ligaments of sacral region, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/215_1_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Ligaments of sacral region, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=215-1"
         },
         {
           "name": "N. Gluteus superior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_n_gluteus_superior_88e48ced.png",
+            "matchedAs": "File:Gray824.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray824.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Gluteus superior",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_n_gluteus_superior_88e48ced.png",
+            "matchedAs": "File:Gray824.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray824.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "N. Gluteus superior",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_n_gluteus_superior_88e48ced.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray824.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray824.png"
         },
         {
           "name": "Ligamentum sacrotuberale",
@@ -6721,20 +8927,40 @@ window.VIEWER_DATA = {
           "name": "Ligamentum sacrospinale",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/181_4_D.jpg",
+            "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/181_4_D.jpg",
+            "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Lumbar spine, hip and knee",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-lumbar-spine-hip-and-knee-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/181_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Piriformis and obturator muscles, posterior view of right side",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=181-4"
         },
         {
           "name": "N. Pudendus",
@@ -6922,23 +9148,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Ischiadicus"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p16_i0.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": {
             "x": 0.6295,
             "y": 0.1756
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. ischiadicus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "N. Tibialis",
@@ -6954,23 +9200,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Tibialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p16_i0.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": {
             "x": 0.34,
             "y": 0.148
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. tibialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "N. Peroneus communis",
@@ -7019,25 +9285,25 @@ window.VIEWER_DATA = {
             "callout": "M. Biceps femoris"
           },
           "commons": {
-            "image": "assets/bassett/183_6_D.jpg",
-            "matchedAs": "Biceps femoris muscle",
+            "image": "assets/bassett/182_3_D.jpg",
+            "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Muscular branch of sciatic nerve (branch of common peroneal nerve to short head of biceps femoris)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/183_6_D.jpg",
-            "matchedAs": "Biceps femoris muscle",
+            "image": "assets/bassett/182_3_D.jpg",
+            "matchedAs": "Superficial vessels; fascia lata; posterior femoral cutaneous nerve",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Muscular branch of sciatic nerve (branch of common peroneal nerve to short head of biceps femoris)",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7046,7 +9312,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/183_6_D.jpg",
+          "image": "assets/bassett/182_3_D.jpg",
           "pin": {
             "x": 0.5195,
             "y": 0.9029
@@ -7054,7 +9320,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. biceps femoris",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=183-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-3"
         },
         {
           "name": "M. Semimembranosus",
@@ -7067,8 +9333,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#9 · Semimembranosus muscle",
-            "legendNum": 9,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
@@ -7078,8 +9344,8 @@ window.VIEWER_DATA = {
             "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#9 · Semimembranosus muscle",
-            "legendNum": 9,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7100,25 +9366,25 @@ window.VIEWER_DATA = {
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_1_D.jpg",
-            "matchedAs": "Nerve supply to semitendinosus muscle",
+            "image": "assets/bassett/182_5_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of popliteal region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Muscular branch of sciatic nerve (to semitendinosus muscle)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_1_D.jpg",
-            "matchedAs": "Nerve supply to semitendinosus muscle",
+            "image": "assets/bassett/182_5_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of popliteal region",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#5 · Muscular branch of sciatic nerve (to semitendinosus muscle)",
-            "legendNum": 5,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7127,37 +9393,37 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_1_D.jpg",
+          "image": "assets/bassett/182_5_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Nerve supply to semitendinosus muscle",
+          "matchedAs": "Superficial vessels and nerves of popliteal region",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-1"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-5"
         },
         {
           "name": "M. Adductor magnus",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/184_4_D.jpg",
-            "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/184_4_D.jpg",
-            "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#8 · Muscular branch of sciatic nerve (to adductor magnus muscle)",
-            "legendNum": 8,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7166,12 +9432,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/184_4_D.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Adductor magnus muscle; nerve supply from sciatic nerve",
+          "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "A. Poplitea",
@@ -7209,153 +9475,313 @@ window.VIEWER_DATA = {
           "name": "Aa. Surales",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/194_7_D.jpg",
+            "matchedAs": "Nerve supply to gastrcnemius muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/194_7_D.jpg",
+            "matchedAs": "Nerve supply to gastrcnemius muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/194_7_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to gastrcnemius muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-7"
         },
         {
           "name": "A. Genu superior lateralis en medialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/191_1.jpg",
+            "matchedAs": "Interior of right knee joint, lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/191_1.jpg",
+            "matchedAs": "Interior of right knee joint, lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/191_1.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Interior of right knee joint, lateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-1"
         },
         {
           "name": "A. Genu inferior lateralis en medialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/190_7.jpg",
+            "matchedAs": "Interior of right knee joint, anterior view showing relations of ligaments to internal structures",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=190-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/190_7.jpg",
+            "matchedAs": "Interior of right knee joint, anterior view showing relations of ligaments to internal structures",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=190-7",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/190_7.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Interior of right knee joint, anterior view showing relations of ligaments to internal structures",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=190-7"
         },
         {
           "name": "A. Genu media",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/190_3.jpg",
+            "matchedAs": "Capsule, ligaments and arteries of right knee, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=190-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
+          "internet": {
+            "image": "assets/bassett/190_3.jpg",
+            "matchedAs": "Capsule, ligaments and arteries of right knee, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=190-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "photo"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/190_3.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Capsule, ligaments and arteries of right knee, medial view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=190-3"
         },
         {
           "name": "Aa. Perforantes",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/182_4_D.jpg",
+            "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/182_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial vessels and nerves of mid-thigh, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=182-4"
         },
         {
           "name": "M. Popliteus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/191_6_D.jpg",
+            "matchedAs": "Cavity of right tibiofibular joint in relation to knee joint, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/191_6_D.jpg",
+            "matchedAs": "Cavity of right tibiofibular joint in relation to knee joint, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/191_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Cavity of right tibiofibular joint in relation to knee joint, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=191-6"
         },
         {
           "name": "A. Tibialis anterior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "A. Tibialis posterior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Overview of lower limb",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-overview-of-lower-limb-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/198_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5"
         }
       ]
     },
@@ -7469,45 +9895,65 @@ window.VIEWER_DATA = {
           "name": "N. Suralis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/194_3_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/194_3_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/194_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3"
         },
         {
           "name": "M. Soleus",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/bassett/195_1_D.jpg",
-            "matchedAs": "Soleus muscle, posterior view",
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#1 · Soleus muscle",
-            "legendNum": 1,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/195_1_D.jpg",
-            "matchedAs": "Soleus muscle, posterior view",
+            "image": "assets/bassett/193_7_D.jpg",
+            "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#1 · Soleus muscle",
-            "legendNum": 1,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7516,36 +9962,38 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/195_1_D.jpg",
+          "image": "assets/bassett/193_7_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Soleus muscle, posterior view",
+          "matchedAs": "Nerves and blood vessels to peroneus brevis muscle",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=193-7"
         },
         {
           "name": "M. Gastrocnemius",
           "optional": false,
           "spot": null,
           "commons": {
-            "image": "assets/m_gastrocnemius_1406ee17.jpg",
-            "matchedAs": "Gastrocnemius muscle 3.jpg",
-            "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGastrocnemius_muscle_3.jpg",
-            "confidence": "commons",
-            "provider": "commons",
-            "callout": "M. Gastrocnemius",
-            "imageKind": "photo"
+            "image": "assets/bassett/194_3_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/m_gastrocnemius_1406ee17.jpg",
-            "matchedAs": "Gastrocnemius muscle 3.jpg",
-            "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGastrocnemius_muscle_3.jpg",
-            "confidence": "commons",
-            "provider": "commons",
-            "callout": "M. Gastrocnemius",
-            "imageKind": "photo"
+            "image": "assets/bassett/194_3_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
           },
           "bluelink": {
             "label": "Wrist, hand and foot",
@@ -7553,12 +10001,12 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/m_gastrocnemius_1406ee17.jpg",
+          "image": "assets/bassett/194_3_D.jpg",
           "pin": null,
           "source": "internet",
-          "matchedAs": "Gastrocnemius muscle 3.jpg",
-          "credit": "Wikimedia Commons · Anatomist90 · CC BY-SA 3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGastrocnemius_muscle_3.jpg"
+          "matchedAs": "Superficial nerves and blood vessels of leg, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-3"
         },
         {
           "name": "M. Plantaris",
@@ -7601,77 +10049,157 @@ window.VIEWER_DATA = {
           "name": "M. Flexor hallucis longus",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/177_6_D.jpg",
+            "matchedAs": "Articulated bones of left foot, inferior aspect",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=177-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/177_6_D.jpg",
+            "matchedAs": "Articulated bones of left foot, inferior aspect",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=177-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/177_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Articulated bones of left foot, inferior aspect",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=177-6"
         },
         {
           "name": "M. Tibialis posterior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/177_3_D.jpg",
+            "matchedAs": "Right tibia and fibula, posterior view of lower parts",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=177-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/177_3_D.jpg",
+            "matchedAs": "Right tibia and fibula, posterior view of lower parts",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=177-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/177_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Right tibia and fibula, posterior view of lower parts",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=177-3"
         },
         {
           "name": "Aponeurosis plantaris",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/198_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5"
         },
         {
           "name": "A. Tibialis posterior",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/198_5_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5"
         },
         {
           "name": "N. Tibialis",
@@ -7687,61 +10215,119 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "N. Tibialis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/184_2_D.jpg",
+            "matchedAs": "Semimembranosus muscle and short head of biceps femoris",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p16_i0.jpg",
+          "image": "assets/bassett/184_2_D.jpg",
           "pin": {
             "x": 0.34,
             "y": 0.148
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "N. tibialis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=184-2"
         },
         {
           "name": "Nn. Digitales plantares communes",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_n_digitales_plantares_communes_9d5b5e4f.png",
+            "matchedAs": "File:Gray554.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray554.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "Nn. Digitales plantares communes",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_n_digitales_plantares_communes_9d5b5e4f.png",
+            "matchedAs": "File:Gray554.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray554.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "Nn. Digitales plantares communes",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_n_digitales_plantares_communes_9d5b5e4f.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray554.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray554.png"
         },
         {
           "name": "N. Plantaris lateralis / medialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/197_6_D.jpg",
+            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/197_6_D.jpg",
+            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/197_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6"
         },
         {
           "name": "M. Abductor hallucis",
@@ -7758,25 +10344,25 @@ window.VIEWER_DATA = {
             "callout": "M. Abductor hallucis"
           },
           "commons": {
-            "image": "assets/bassett/198_6_D.jpg",
-            "matchedAs": "Superficial nerves and vessels in relation to abductor hallucis muscle and tendons of foot, medial view",
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Abductor hallucis muscle",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/198_6_D.jpg",
-            "matchedAs": "Superficial nerves and vessels in relation to abductor hallucis muscle and tendons of foot, medial view",
+            "image": "assets/bassett/198_5_D.jpg",
+            "matchedAs": "Superficial nerves and blood vessels of foot, medial view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#7 · Abductor hallucis muscle",
-            "legendNum": 7,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7785,7 +10371,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/198_6_D.jpg",
+          "image": "assets/bassett/198_5_D.jpg",
           "pin": {
             "x": 0.1105,
             "y": 0.444
@@ -7793,7 +10379,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. abductor hallucis",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-5"
         },
         {
           "name": "M. Flexor digitorum brevis",
@@ -7809,23 +10395,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Flexor digitorum brevis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/195_1_D.jpg",
+            "matchedAs": "Soleus muscle, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/195_1_D.jpg",
+            "matchedAs": "Soleus muscle, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p04_i0.jpg",
+          "image": "assets/bassett/195_1_D.jpg",
           "pin": {
             "x": 0.1361,
             "y": 0.3033
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. flexor digitorum brevis",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=195-1"
         },
         {
           "name": "M. Abductor digiti minimi",
@@ -7842,25 +10448,25 @@ window.VIEWER_DATA = {
             "callout": "M. Abductor digiti minimi"
           },
           "commons": {
-            "image": "assets/bassett/197_6_D.jpg",
-            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/197_6_D.jpg",
-            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Branch of lateral plantar nerve (to abductor digiti minimi muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -7869,7 +10475,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/197_6_D.jpg",
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": {
             "x": 0.8491,
             "y": 0.2693
@@ -7877,7 +10483,7 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. abductor digiti minimi",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6"
         },
         {
           "name": "M. Quadratus plantae",
@@ -7915,20 +10521,40 @@ window.VIEWER_DATA = {
           "name": "M. Flexor digitorum longus (pees)",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/194_4_D.jpg",
+            "matchedAs": "Muscles of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/194_4_D.jpg",
+            "matchedAs": "Muscles of leg, posterior view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-4",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/194_4_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Muscles of leg, posterior view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=194-4"
         },
         {
           "name": "M. Peroneus longus / brevis",
@@ -7944,23 +10570,43 @@ window.VIEWER_DATA = {
             "confidence": "exact",
             "callout": "M. Peroneus longus / brevis"
           },
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "../spot/assets/p19_i0.jpg",
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": {
             "x": 0.6415,
             "y": 0.1527
           },
-          "source": "spot",
+          "source": "both",
           "matchedAs": "M. peroneus longus",
-          "credit": "Cursus dissectiefoto (gelabeld)",
-          "sourceUrl": null
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "N. Digitalis plantaris proprius",
@@ -7998,20 +10644,40 @@ window.VIEWER_DATA = {
           "name": "Aa. Metatarsales plantares",
           "optional": true,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/198_3_D.jpg",
+            "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/198_3_D.jpg",
+            "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/198_3_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Dorsal metatarsal arteries; dorsal interosseous muscles, viewed from above",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=198-3"
         },
         {
           "name": "M. Tibialis anterior",
@@ -8028,25 +10694,25 @@ window.VIEWER_DATA = {
             "callout": "M. Tibialis anterior"
           },
           "commons": {
-            "image": "assets/bassett/192_4_D.jpg",
-            "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "internet": {
-            "image": "assets/bassett/192_4_D.jpg",
-            "matchedAs": "Nerves and blood vessels to upper part of tibialis anterior muscle",
+            "image": "assets/bassett/192_6_D.jpg",
+            "matchedAs": "Deep peroneal nerve; nerve supply to extensor hallucis longus muscle, anterolateral view",
             "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6",
             "confidence": "bassett",
             "provider": "bassett",
-            "callout": "#12 · Muscular branch of deep peroneal nerve (to tibialis anterior muscle)",
-            "legendNum": 12,
+            "callout": null,
+            "legendNum": null,
             "imageKind": "diagram"
           },
           "bluelink": {
@@ -8055,7 +10721,7 @@ window.VIEWER_DATA = {
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": "assets/bassett/192_4_D.jpg",
+          "image": "assets/bassett/192_6_D.jpg",
           "pin": {
             "x": 0.3405,
             "y": 0.1037
@@ -8063,102 +10729,200 @@ window.VIEWER_DATA = {
           "source": "both",
           "matchedAs": "M. tibialis anterior",
           "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
-          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-4"
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=192-6"
         },
         {
           "name": "M. Flexor hallucis brevis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/199_1_D.jpg",
+            "matchedAs": "Medial and lateral plantar vessels and nerves, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=199-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/199_1_D.jpg",
+            "matchedAs": "Medial and lateral plantar vessels and nerves, medial view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=199-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/199_1_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Medial and lateral plantar vessels and nerves, medial view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=199-1"
         },
         {
           "name": "A. Plantaris lateralis en medialis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/197_6_D.jpg",
+            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/197_6_D.jpg",
+            "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/197_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to abductor digiti minimi muscle, close-up lateral view",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=197-6"
         },
         {
           "name": "Mm. Lumbricales",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/102_1_D.jpg",
+            "matchedAs": "Relation of third and fourth lumbrical muscles to synovial sheaths of flexor tendons",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/102_1_D.jpg",
+            "matchedAs": "Relation of third and fourth lumbrical muscles to synovial sheaths of flexor tendons",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-1",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/102_1_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Relation of third and fourth lumbrical muscles to synovial sheaths of flexor tendons",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=102-1"
         },
         {
           "name": "M. Flexor digiti minimi brevis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
+          "internet": {
+            "image": "assets/bassett/101_6_D.jpg",
+            "matchedAs": "Nerve supply to palmaris brevis muscle",
+            "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+            "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6",
+            "confidence": "bassett",
+            "provider": "bassett",
+            "callout": null,
+            "legendNum": null,
+            "imageKind": "diagram"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/bassett/101_6_D.jpg",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "Nerve supply to palmaris brevis muscle",
+          "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+          "sourceUrl": "https://lane.stanford.edu/biomed-resources/bassett/bassettView.html?bn=101-6"
         },
         {
           "name": "M. Adductor hallucis",
           "optional": false,
           "spot": null,
-          "commons": null,
-          "internet": null,
+          "commons": {
+            "image": "assets/gray_m_adductor_hallucis_0f20e41e.png",
+            "matchedAs": "File:Gray443.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray443.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "M. Adductor hallucis",
+            "imageKind": "illustration"
+          },
+          "internet": {
+            "image": "assets/gray_m_adductor_hallucis_0f20e41e.png",
+            "matchedAs": "File:Gray443.png",
+            "credit": "Gray's Anatomy 1918 · public domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray443.png",
+            "confidence": "gray",
+            "provider": "gray",
+            "callout": "M. Adductor hallucis",
+            "imageKind": "illustration"
+          },
           "bluelink": {
             "label": "Wrist, hand and foot",
             "url": "https://sites.google.com/a/umich.edu/bluelink/resources/bluelink/labeled-wrist-hand-and-foot-images",
             "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
             "provider": "bluelink"
           },
-          "image": null,
+          "image": "assets/gray_m_adductor_hallucis_0f20e41e.png",
           "pin": null,
-          "source": "missing",
-          "matchedAs": null,
-          "credit": null,
-          "sourceUrl": null
+          "source": "internet",
+          "matchedAs": "File:Gray443.png",
+          "credit": "Gray's Anatomy 1918 · public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGray443.png"
         }
       ]
     }
@@ -8168,5 +10932,5 @@ window.VIEWER_DATA = {
     "credit": "B. Kathleen Alsup & Glenn M. Fox, University of Michigan Medical School",
     "terms": "Educational use with credit; copyright retained by authors"
   },
-  "policy": "Spot-cursusfoto met markering + geverifieerde internetdissectie (Bassett CC BY-SA of Commons). BlueLink-atlas per regio als extra naslag."
+  "policy": "Spot-cursusfoto met markering + geverifieerde internetdissectie (Bassett CC BY-SA of Commons); zo nodig Gray 1918 (PD) als laatste redmiddel. BlueLink-atlas per regio als extra naslag."
 };

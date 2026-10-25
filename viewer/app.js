@@ -103,6 +103,7 @@
       return block.legendNum ? `bassett #${block.legendNum}` : "bassett";
     }
     if (block.provider === "commons" || block.confidence === "commons") return "commons";
+    if (block.provider === "gray" || block.confidence === "gray") return "gray";
     return "internet";
   }
 
