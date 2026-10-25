@@ -18,10 +18,11 @@ import argparse
 import hashlib
 import json
 import re
+import time
 from collections import defaultdict
 from pathlib import Path
 
-from PIL import Image, ImageDraw
+from PIL import Image
 from rapidocr_onnxruntime import RapidOCR
 
 from build_data import polish_label
@@ -342,20 +343,10 @@ def match_expected_to_ocr(
     return labels
 
 
-def remask(plate: dict) -> None:
-    reveal = ROOT / plate["imageReveal"]
-    if not reveal.exists():
-        return
-    img = Image.open(reveal).convert("RGB")
-    w, h = img.size
-    draw = ImageDraw.Draw(img)
-    for lab in plate["labels"]:
-        x0 = (lab["x"] - lab["w"] / 2) * w - 4
-        y0 = (lab["y"] - lab["h"] / 2) * h - 4
-        x1 = (lab["x"] + lab["w"] / 2) * w + 4
-        y1 = (lab["y"] + lab["h"] / 2) * h + 4
-        draw.rectangle([x0, y0, x1, y1], fill=(8, 8, 8))
-    img.save(ROOT / plate["image"], quality=82, optimize=True)
+def remask(plate: dict, ocr: RapidOCR | None = None) -> None:
+    from build_data import remask_plate
+
+    remask_plate(plate, ocr=ocr)
 
 
 def rebuild_questions(plates: list[dict], pool: list[str]) -> list[dict]:
@@ -675,7 +666,7 @@ def verify_plate(
 
     if changed and not check_only:
         plate = {**plate, "labels": labels}
-        remask(plate)
+        remask(plate, ocr=ocr)
 
     return plate, issues
 
@@ -772,6 +763,7 @@ def main():
             "questions": questions,
             "answerPool": all_answers,
             "anatomyVerified": True,
+            "assetVersion": time.strftime("%Y%m%d%H%M"),
         }
         DATA_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         DATA_JS.write_text(

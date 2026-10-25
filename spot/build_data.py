@@ -249,16 +249,84 @@ def mask_labels(img: Image.Image, labels: list) -> Image.Image:
     for lab in labels:
         x0, y0, x1, y1 = lab["x0"], lab["y0"], lab["x1"], lab["y1"]
         # Generous cover: OCR boxes hug glyphs tightly and JPEG softens edges
-        pad_x = max(10, int((x1 - x0) * 0.04) + 8)
-        pad_y = max(8, int((y1 - y0) * 0.12) + 6)
+        pad_x = max(12, int((x1 - x0) * 0.06) + 10)
+        pad_y = max(10, int((y1 - y0) * 0.25) + 8)
         box = [
             max(0, x0 - pad_x),
             max(0, y0 - pad_y),
             min(w - 1, x1 + pad_x),
             min(h - 1, y1 + pad_y),
         ]
-        draw.rectangle(box, fill=(8, 8, 8))
+        draw.rectangle(box, fill=(0, 0, 0))
     return out
+
+
+def ocr_mask_boxes(img: Image.Image, ocr: RapidOCR) -> list[dict]:
+    """Run OCR and return every text blob as a mask box (pixel coords)."""
+    import tempfile
+
+    # RapidOCR wants a path; write a short-lived JPEG
+    with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tmp:
+        tmp_path = Path(tmp.name)
+    try:
+        img.save(tmp_path, quality=95)
+        result, _ = ocr(str(tmp_path))
+    finally:
+        tmp_path.unlink(missing_ok=True)
+
+    boxes = []
+    for line in result or []:
+        box, text, conf = line
+        try:
+            conf_f = float(conf)
+        except Exception:
+            conf_f = 0.0
+        text = str(text).strip()
+        if conf_f < 0.35 or len(text) < 2 or not re.search(r"[A-Za-z]", text):
+            continue
+        if SKIP_RE.match(text):
+            continue
+        aabb = box_aabb(box, pad=2)
+        boxes.append(
+            {
+                "text": text,
+                "x0": aabb[0],
+                "y0": aabb[1],
+                "x1": aabb[2],
+                "y1": aabb[3],
+                "conf": conf_f,
+            }
+        )
+    return boxes
+
+
+def remask_plate(plate: dict, ocr: RapidOCR | None = None) -> None:
+    """
+    Rebuild quiz mask from the reveal image.
+    Covers *all* OCR text (landmarks, leftovers, stacked lines) plus stored
+    quiz label boxes so answers never stay readable.
+    """
+    reveal = ROOT / plate["imageReveal"]
+    if not reveal.exists():
+        return
+    img = Image.open(reveal).convert("RGB")
+    w, h = img.size
+
+    boxes: list[dict] = []
+    if ocr is not None:
+        boxes.extend(ocr_mask_boxes(img, ocr))
+
+    # Always paint stored quiz boxes too (belt + suspenders)
+    for lab in plate.get("labels") or []:
+        x0 = (lab["x"] - lab["w"] / 2) * w
+        y0 = (lab["y"] - lab["h"] / 2) * h
+        x1 = (lab["x"] + lab["w"] / 2) * w
+        y1 = (lab["y"] + lab["h"] / 2) * h
+        boxes.append({"x0": x0, "y0": y0, "x1": x1, "y1": y1})
+
+    masked = mask_labels(img, boxes)
+    out = ROOT / plate["image"]
+    masked.save(out, quality=90, optimize=True)
 
 
 def topic_slug(title: str) -> str:

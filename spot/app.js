@@ -5,6 +5,13 @@
     return;
   }
 
+  // Bust CDN/browser caches when masks are regenerated
+  const assetV = data.assetVersion || "";
+  function assetUrl(src) {
+    if (!src || !assetV) return src;
+    return src + (src.includes("?") ? "&" : "?") + "v=" + encodeURIComponent(assetV);
+  }
+
   let mode = "mc"; // mc | reveal
   let groupBy = "category"; // category | photo
   let selectedRegions = new Set();
@@ -239,11 +246,12 @@
   let loadToken = 0;
 
   function preload(src) {
-    if (!src || preloaded.has(src)) return;
-    preloaded.add(src);
+    const url = assetUrl(src);
+    if (!url || preloaded.has(url)) return;
+    preloaded.add(url);
     const img = new Image();
     img.decoding = "async";
-    img.src = src;
+    img.src = url;
   }
 
   function prefetchAround() {
@@ -352,7 +360,7 @@
       el.progress.style.width = `${((i + 1) / deck.length) * 100}%`;
     }
 
-    const src = mode === "reveal" ? q.imageReveal : q.image;
+    const src = assetUrl(mode === "reveal" ? q.imageReveal : q.image);
     setPhoto(src);
     prefetchAround();
 

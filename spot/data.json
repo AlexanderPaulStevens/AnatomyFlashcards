@@ -905,22 +905,22 @@
           "answer": "A. femoralis profunda",
           "x": 0.8186,
           "y": 0.1227,
-          "w": 0.2465,
-          "h": 0.0187
+          "w": 0.2625,
+          "h": 0.0293
         },
         {
           "answer": "A. circumflexa femoris medialis",
-          "x": 0.1844,
-          "y": 0.1413,
-          "w": 0.1603,
-          "h": 0.016
+          "x": 0.1834,
+          "y": 0.1513,
+          "w": 0.2024,
+          "h": 0.0467
         },
         {
           "answer": "A. circumflexa femoris lateralis",
           "x": 0.1613,
-          "y": 0.3467,
-          "w": 0.1784,
-          "h": 0.016
+          "y": 0.336,
+          "w": 0.1944,
+          "h": 0.048
         }
       ]
     },
@@ -4850,8 +4850,8 @@
       "answer": "A. femoralis profunda",
       "x": 0.8186,
       "y": 0.1227,
-      "pinW": 0.2465,
-      "pinH": 0.0187,
+      "pinW": 0.2625,
+      "pinH": 0.0293,
       "siblings": [
         "A. femoralis profunda",
         "A. circumflexa femoris medialis",
@@ -4878,10 +4878,10 @@
       "image": "assets/p27_i0_mask.jpg",
       "imageReveal": "assets/p27_i0.jpg",
       "answer": "A. circumflexa femoris medialis",
-      "x": 0.1844,
-      "y": 0.1413,
-      "pinW": 0.1603,
-      "pinH": 0.016,
+      "x": 0.1834,
+      "y": 0.1513,
+      "pinW": 0.2024,
+      "pinH": 0.0467,
       "siblings": [
         "A. femoralis profunda",
         "A. circumflexa femoris medialis",
@@ -4909,9 +4909,9 @@
       "imageReveal": "assets/p27_i0.jpg",
       "answer": "A. circumflexa femoris lateralis",
       "x": 0.1613,
-      "y": 0.3467,
-      "pinW": 0.1784,
-      "pinH": 0.016,
+      "y": 0.336,
+      "pinW": 0.1944,
+      "pinH": 0.048,
       "siblings": [
         "A. femoralis profunda",
         "A. circumflexa femoris medialis",
@@ -10315,5 +10315,6 @@
     "V. saphena parva",
     "Vv. brachiales",
     "Vv. pudendae externae"
-  ]
+  ],
+  "assetVersion": "202610251307"
 }

@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from PIL import Image, ImageDraw
+from PIL import Image
 from rapidocr_onnxruntime import RapidOCR
 
 ROOT = Path(__file__).resolve().parent
@@ -128,18 +128,9 @@ def main():
         plate["labels"] = new_labels
         print(pid, "→", [L["answer"] for L in new_labels])
 
-        # remask
-        reveal = ROOT / plate["imageReveal"]
-        masked = Image.open(reveal).convert("RGB")
-        draw = ImageDraw.Draw(masked)
-        mw, mh = masked.size
-        for lab in new_labels:
-            bx0 = (lab["x"] - lab["w"] / 2) * mw - 4
-            by0 = (lab["y"] - lab["h"] / 2) * mh - 4
-            bx1 = (lab["x"] + lab["w"] / 2) * mw + 4
-            by1 = (lab["y"] + lab["h"] / 2) * mh + 4
-            draw.rectangle([bx0, by0, bx1, by1], fill=(8, 8, 8))
-        masked.save(ROOT / plate["image"], quality=82, optimize=True)
+        from build_data import remask_plate
+
+        remask_plate(plate, ocr=ocr)
 
     # rebuild questions + pool
     import hashlib

@@ -6,9 +6,8 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import time
 from pathlib import Path
-
-from PIL import Image, ImageDraw
 
 from corrections import DROP, PLATE_ANSWERS, TEXT_FIX
 
@@ -29,7 +28,7 @@ PLATE_GROUPS: dict[str, list[list[int]]] = {
     "p22_i0": [[0, 1], [2], [3], [4]],
     "p23_i0": [[0], [1, 2], [3], [4], [5]],
     "p24_i0": [[0], [1], [2], [3], [4, 5]],
-    "p27_i0": [[0], [1, 2], [1, 3]],
+    "p27_i0": [[0], [1, 2], [3, 4]],  # profunda; circumflexa+medialis; circumflexa+lateralis
     "p32_i0": [[0], [1, 2], [3], [4], [5], [6]],
     "p32_i1": [[0, 1], [2, 3]],
     "p34_i0": [[0, 1], [2], [3], [4]],
@@ -68,22 +67,11 @@ def merge_labels(labels: list[dict], indices: list[int]) -> dict:
     }
 
 
-def remask(plate: dict) -> None:
-    """Rebuild masked image covering all label boxes."""
-    reveal = ROOT / plate["imageReveal"]
-    if not reveal.exists():
-        return
-    img = Image.open(reveal).convert("RGB")
-    w, h = img.size
-    draw = ImageDraw.Draw(img)
-    for lab in plate["labels"]:
-        x0 = (lab["x"] - lab["w"] / 2) * w - 4
-        y0 = (lab["y"] - lab["h"] / 2) * h - 4
-        x1 = (lab["x"] + lab["w"] / 2) * w + 4
-        y1 = (lab["y"] + lab["h"] / 2) * h + 4
-        draw.rectangle([x0, y0, x1, y1], fill=(8, 8, 8))
-    out = ROOT / plate["image"]
-    img.save(out, quality=82, optimize=True)
+def remask(plate: dict, ocr=None) -> None:
+    """Rebuild masked image covering all OCR text + quiz label boxes."""
+    from build_data import remask_plate
+
+    remask_plate(plate, ocr=ocr)
 
 
 def fix_plate(plate: dict) -> dict:
@@ -183,7 +171,11 @@ def rebuild_questions(plates: list[dict], pool: list[str]) -> list[dict]:
 
 
 def main():
+    from rapidocr_onnxruntime import RapidOCR
+
     data = json.loads(DATA_JSON.read_text(encoding="utf-8"))
+    print("Loading OCR for remask…")
+    ocr = RapidOCR()
     plates = []
     for plate in data["plates"]:
         before = [L["answer"] for L in plate["labels"]]
@@ -193,7 +185,7 @@ def main():
             print(f"{plate['id']}:")
             print(f"  was: {before}")
             print(f"  now: {after}")
-        remask(plate)
+        remask(plate, ocr=ocr)
         plates.append(plate)
 
     all_answers = sorted({L["answer"] for p in plates for L in p["labels"]}, key=str.lower)
@@ -211,6 +203,7 @@ def main():
         "questions": questions,
         "answerPool": all_answers,
         "correctionsApplied": True,
+        "assetVersion": time.strftime("%Y%m%d%H%M"),
     }
 
     DATA_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
