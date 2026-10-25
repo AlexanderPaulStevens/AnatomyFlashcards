@@ -251,6 +251,23 @@ body {
   gap: 0.45rem;
 }
 
+.atlas-link {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  color: var(--ink);
+  background: var(--acid);
+  text-decoration: none;
+  padding: 0.55rem 0.75rem;
+  margin-bottom: 0.15rem;
+  transition: transform 0.2s var(--ease), background 0.2s ease;
+}
+
+.atlas-link:hover {
+  transform: translateY(-1px);
+  background: var(--foam);
+}
+
 .pair {
   display: grid;
   grid-template-columns: 1fr 1fr;

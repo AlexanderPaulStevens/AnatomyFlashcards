@@ -87,12 +87,47 @@
     return thumb;
   }
 
+  function internetBadge(block) {
+    if (!block) return "internet";
+    if (block.provider === "bassett" || block.confidence === "bassett") return "bassett";
+    if (block.provider === "commons" || block.confidence === "commons") return "commons";
+    return "internet";
+  }
+
+  function bindThumb(thumb, view) {
+    thumb.tabIndex = 0;
+    thumb.setAttribute("role", "button");
+    const open = () => openLightbox(view);
+    thumb.addEventListener("click", open);
+    thumb.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        open();
+      }
+    });
+  }
+
   function renderGallery() {
     const row = currentRow();
-    const withAny = row.items.filter((i) => i.spot?.image || i.commons?.image || i.image).length;
+    const withAny = row.items.filter(
+      (i) => i.spot?.image || i.internet?.image || i.commons?.image || i.image
+    ).length;
     els.pill.textContent = `${row.side} · ${row.label}`;
     els.count.textContent = `${row.items.length} structuren · ${withAny} met foto`;
     els.gallery.innerHTML = "";
+
+    // BlueLink atlas strip for this row
+    const bl = row.bluelink || row.items.find((i) => i.bluelink)?.bluelink;
+    if (bl?.url) {
+      const atlas = document.createElement("a");
+      atlas.className = "atlas-link";
+      atlas.href = bl.url;
+      atlas.target = "_blank";
+      atlas.rel = "noopener noreferrer";
+      atlas.textContent = `BlueLink atlas · ${bl.label || "regio"}`;
+      atlas.title = (data.bluelinkMeta?.credit || "Michigan BlueLink") + " — educational use";
+      els.gallery.appendChild(atlas);
+    }
 
     row.items.forEach((item, i) => {
       const card = document.createElement("article");
@@ -119,74 +154,52 @@
       pair.className = "pair";
 
       const spot = item.spot || null;
-      const commons = item.commons || null;
+      const net = item.internet || item.commons || null;
       const hasSpot = Boolean(spot?.image);
-      const hasCommons = Boolean(commons?.image);
+      const hasNet = Boolean(net?.image);
 
-      // Legacy single-image items
-      if (!spot && !commons && item.image) {
-        const legacySpot = item.source === "spot" || item.pin;
-        const thumb = makeThumb(item.image, {
-          badge: legacySpot ? "cursus" : "commons",
-          pin: legacySpot ? item.pin : null,
-          alt: item.name,
-        });
-        thumb.tabIndex = 0;
-        thumb.role = "button";
-        thumb.addEventListener("click", () => openLightbox({
-          name: item.name,
-          image: item.image,
-          pin: legacySpot ? item.pin : null,
-          credit: item.credit,
-          matchedAs: item.matchedAs,
-          kind: legacySpot ? "cursus" : "commons",
-        }));
-        pair.appendChild(thumb);
-      } else {
-        if (hasSpot || hasCommons) {
-          if (hasSpot) {
-            const thumb = makeThumb(spot.image, {
-              badge: "cursus",
-              pin: spot.pin,
-              alt: item.name,
-            });
-            thumb.tabIndex = 0;
-            thumb.role = "button";
-            thumb.title = "Cursusfoto — oranje pijl markeert de structuur";
-            thumb.addEventListener("click", () => openLightbox({
-              name: item.name,
-              image: spot.image,
-              pin: spot.pin,
-              credit: spot.credit,
-              matchedAs: spot.matchedAs,
-              kind: "cursus",
-            }));
-            pair.appendChild(thumb);
-          }
-          if (hasCommons) {
-            const thumb = makeThumb(commons.image, {
-              badge: "commons",
-              pin: null,
-              alt: item.name,
-            });
-            thumb.tabIndex = 0;
-            thumb.role = "button";
-            thumb.title = commons.credit || "Wikimedia Commons";
-            thumb.addEventListener("click", () => openLightbox({
-              name: item.name,
-              image: commons.image,
-              pin: null,
-              credit: commons.credit,
-              matchedAs: commons.matchedAs,
-              kind: "commons",
-            }));
-            pair.appendChild(thumb);
-          }
-        } else {
-          const empty = makeThumb(null, { badge: "geen foto", pin: null, alt: item.name });
-          pair.appendChild(empty);
-          card.classList.add("no-img");
+      if (hasSpot || hasNet) {
+        if (hasSpot) {
+          const thumb = makeThumb(spot.image, {
+            badge: "cursus",
+            pin: spot.pin,
+            alt: item.name,
+          });
+          thumb.title = "Cursusfoto — oranje pijl markeert de structuur";
+          bindThumb(thumb, {
+            name: item.name,
+            image: spot.image,
+            pin: spot.pin,
+            credit: spot.credit,
+            matchedAs: spot.matchedAs,
+            kind: "cursus",
+            sourceUrl: null,
+          });
+          pair.appendChild(thumb);
         }
+        if (hasNet) {
+          const badge = internetBadge(net);
+          const thumb = makeThumb(net.image, {
+            badge,
+            pin: null,
+            alt: item.name,
+          });
+          thumb.title = net.credit || badge;
+          bindThumb(thumb, {
+            name: item.name,
+            image: net.image,
+            pin: null,
+            credit: net.credit,
+            matchedAs: net.matchedAs,
+            kind: badge,
+            sourceUrl: net.sourceUrl,
+          });
+          pair.appendChild(thumb);
+        }
+      } else {
+        const empty = makeThumb(null, { badge: "geen foto", pin: null, alt: item.name });
+        pair.appendChild(empty);
+        card.classList.add("no-img");
       }
 
       card.appendChild(pair);
@@ -200,7 +213,7 @@
 
       const credits = [];
       if (hasSpot) credits.push("cursus + markering");
-      if (hasCommons) credits.push(commons.credit || "commons");
+      if (hasNet) credits.push(net.credit || internetBadge(net));
       if (credits.length) {
         const cred = document.createElement("p");
         cred.className = "card-credit";
@@ -215,13 +228,13 @@
   function openLightbox(view) {
     if (!view?.image) return;
     let caption = view.name;
-    if (view.kind === "cursus") caption += " · cursus";
-    if (view.kind === "commons") caption += " · commons";
+    if (view.kind) caption += ` · ${view.kind}`;
     if (view.matchedAs && view.kind === "cursus"
         && view.matchedAs.toLowerCase() !== view.name.toLowerCase()) {
       caption += `\nlabel: ${view.matchedAs}`;
     }
     if (view.credit) caption += `\n${view.credit}`;
+    if (view.sourceUrl) caption += `\n${view.sourceUrl}`;
     els.lbCaption.textContent = caption;
     els.lbImg.src = view.image;
     els.lbImg.alt = view.name;

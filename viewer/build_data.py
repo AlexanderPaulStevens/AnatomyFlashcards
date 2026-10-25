@@ -2,9 +2,12 @@
 Build viewer/data.js from the 11 checklist rows.
 
 Image policy (strict):
-  1. Verified Wikimedia Commons cadaver photo (curated; structure named in file title)
-  2. Exact Spot match (same structure type A/N/M/V) as fallback
-  3. Otherwise: no image (better empty than wrong)
+  1. Spot course photo with pin highlight (when exact type-safe match)
+  2. Verified internet cadaver photo:
+       - Stanford Bassett (CC BY-SA; structure named in plate legend)
+       - Wikimedia Commons (curated Anatomist90 / clear title)
+  3. Michigan BlueLink regional atlas link (educational use; open in browser)
+  4. Otherwise: no image (better empty than wrong)
 
 Usage: python viewer/build_data.py
 """
@@ -25,6 +28,8 @@ ROWS_PATH = ROOT / "_ocr" / "rows.json"
 SPOT_JS = ROOT.parent / "spot" / "data.js"
 ASSETS = ROOT / "assets"
 CACHE = ROOT / "_ocr" / "commons_cache.json"
+BASSETT_MATCHES = ROOT / "_ocr" / "bassett_matches.json"
+BLUELINK = ROOT / "_ocr" / "bluelink_regions.json"
 OUT_JS = ROOT / "data.js"
 
 UA = "AnatoViewer/1.0 (KU Leuven anatomy study; educational; contact via GitHub AnatomyFlashcards)"
@@ -534,13 +539,42 @@ def main():
         stats["commons"] += 1
         print("  →", meta["title"], flush=True)
 
+    bassett_map = {}
+    if BASSETT_MATCHES.exists():
+        raw = json.loads(BASSETT_MATCHES.read_text(encoding="utf-8"))
+        for key, m in raw.items():
+            best = m.get("best") or {}
+            local = best.get("local")
+            if not local:
+                continue
+            local_path = ROOT / local
+            if not local_path.exists():
+                continue
+            bassett_map[key] = {
+                "image": local,
+                "matchedAs": best.get("title") or best.get("bn"),
+                "credit": "Stanford Bassett Collection · CC BY-SA 4.0",
+                "sourceUrl": best.get("page"),
+                "confidence": "bassett",
+                "bn": best.get("bn"),
+            }
+
+    bluelink = {}
+    if BLUELINK.exists():
+        bluelink = json.loads(BLUELINK.read_text(encoding="utf-8"))
+    bl_meta = bluelink.get("_meta") or {}
+    bl_by_row = bluelink.get("byRowHint") or {}
+
     out_rows = []
     for row in rows:
         items = []
+        bl_row = bl_by_row.get(row["id"])
         for term in row["terms"]:
             optional = "**" in term
             display = term.replace("**", "").strip()
-            cm = commons_map.get(norm(display))
+            key = norm(display)
+            cm = commons_map.get(key)
+            bm = bassett_map.get(key)
             hit = find_spot(term, by_ans)
 
             spot_block = None
@@ -548,7 +582,6 @@ def main():
                 q, score, kind = hit
                 spot_block = {
                     "image": spot_src(q),
-                    # Always mark the structure on the Spot plate (pin = highlight arrow).
                     "pin": {"x": q["x"], "y": q["y"]},
                     "matchedAs": q["answer"],
                     "credit": "Cursus dissectiefoto (gelabeld)",
@@ -556,43 +589,66 @@ def main():
                 }
                 stats[f"spot-{kind}"] += 1
 
-            commons_block = None
-            if cm:
-                commons_block = {
+            # Prefer Bassett (legend-verified) then Commons for internet photo
+            internet_block = None
+            if bm:
+                internet_block = {
+                    "image": bm["image"],
+                    "matchedAs": bm["matchedAs"],
+                    "credit": bm["credit"],
+                    "sourceUrl": bm["sourceUrl"],
+                    "confidence": "bassett",
+                    "provider": "bassett",
+                }
+                stats["used-bassett"] += 1
+            elif cm:
+                internet_block = {
                     "image": cm["image"],
                     "matchedAs": cm["matchedAs"],
                     "credit": cm["credit"],
                     "sourceUrl": cm["sourceUrl"],
                     "confidence": "commons",
+                    "provider": "commons",
                 }
                 stats["used-commons"] += 1
 
-            if not spot_block and not commons_block:
+            bluelink_block = None
+            if bl_row:
+                bluelink_block = {
+                    "label": bl_row.get("label"),
+                    "url": bl_row.get("url"),
+                    "credit": bl_meta.get("credit") or "Michigan BlueLink",
+                    "provider": "bluelink",
+                }
+
+            if not spot_block and not internet_block:
                 stats["missing"] += 1
 
             items.append({
                 "name": display,
                 "optional": optional,
                 "spot": spot_block,
-                "commons": commons_block,
-                # Back-compat fields for older UI bits
-                "image": (commons_block or spot_block or {}).get("image"),
+                "commons": internet_block,  # UI key kept; may be Bassett or Commons
+                "internet": internet_block,
+                "bluelink": bluelink_block,
+                "image": (internet_block or spot_block or {}).get("image"),
                 "pin": (spot_block or {}).get("pin"),
                 "source": (
-                    "both" if spot_block and commons_block else
-                    "commons" if commons_block else
+                    "both" if spot_block and internet_block else
+                    "internet" if internet_block else
                     "spot" if spot_block else
                     "missing"
                 ),
-                "matchedAs": (spot_block or commons_block or {}).get("matchedAs"),
-                "credit": (commons_block or spot_block or {}).get("credit"),
-                "sourceUrl": (commons_block or {}).get("sourceUrl"),
+                "matchedAs": (spot_block or internet_block or {}).get("matchedAs"),
+                "credit": (internet_block or spot_block or {}).get("credit"),
+                "sourceUrl": (internet_block or {}).get("sourceUrl"),
             })
         out_rows.append({
             "id": row["id"],
             "side": row["side"],
             "label": row["label"],
             "short": row["short"],
+            "bluelink": bl_row,
             "items": items,
         })
 
@@ -600,7 +656,15 @@ def main():
         "title": "Anato Viewer",
         "subtitle": "Checklist te disseceren structuren",
         "rows": out_rows,
-        "policy": "Toont Spot-cursusfoto (met markering) én geverifieerde Wikimedia Commons-dissectiefoto wanneer beschikbaar.",
+        "bluelinkMeta": {
+            "home": bl_meta.get("home"),
+            "credit": bl_meta.get("credit"),
+            "terms": bl_meta.get("terms"),
+        },
+        "policy": (
+            "Spot-cursusfoto met markering + geverifieerde internetdissectie "
+            "(Bassett CC BY-SA of Commons). BlueLink-atlas per regio als extra naslag."
+        ),
     }
     OUT_JS.write_text(
         "window.VIEWER_DATA = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
