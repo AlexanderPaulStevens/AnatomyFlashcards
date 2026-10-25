@@ -61,10 +61,11 @@
       const thumb = document.createElement("div");
       thumb.className = "thumb";
 
-      if (item.source === "region") {
+      if (item.source === "spot-region" || item.source === "region") {
         const badge = document.createElement("span");
         badge.className = "badge";
         badge.textContent = "regio";
+        thumb.title = "Spot-foto uit dezelfde regio (geen exacte pin)";
         thumb.appendChild(badge);
       }
       if (item.optional) {
@@ -92,6 +93,7 @@
           pin.className = "pin";
           pin.style.left = `${item.pin.x * 100}%`;
           pin.style.top = `${item.pin.y * 100}%`;
+          pin.title = "Spot-markering";
           thumb.appendChild(pin);
         }
       }

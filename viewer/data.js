@@ -22,24 +22,18 @@ window.VIEWER_DATA = {
         {
           "name": "Rr. Cutanei anteriores n. intercostalis",
           "optional": false,
-          "image": "../spot/assets/p32_i1_mask.jpg",
-          "pin": {
-            "x": 0.716,
-            "y": 0.1045
-          },
-          "source": "spot",
-          "matchedAs": "Rr. cutanei anteriores n. femoralis"
+          "image": "../spot/assets/p83_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "Rr. Cutanei laterales n. intercostalis",
           "optional": false,
           "image": "../spot/assets/p84_i1_mask.jpg",
-          "pin": {
-            "x": 0.4166,
-            "y": 0.2266
-          },
-          "source": "spot",
-          "matchedAs": "Rr. cutanei laterales"
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "Nn. Supraclaviculares",
@@ -77,20 +71,20 @@ window.VIEWER_DATA = {
         {
           "name": "V. Axillaris",
           "optional": false,
-          "image": "../spot/assets/p81_i0_mask.jpg",
+          "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": {
-            "x": 0.371,
-            "y": 0.1836
+            "x": 0.3731,
+            "y": 0.084
           },
           "source": "spot",
-          "matchedAs": "V. axillaris"
+          "matchedAs": "N. axillaris"
         },
         {
           "name": "M. Subclavius",
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -131,7 +125,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -150,7 +144,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -191,7 +185,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p01_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -293,13 +287,10 @@ window.VIEWER_DATA = {
         {
           "name": "M. Biceps brachii",
           "optional": false,
-          "image": "../spot/assets/p73_i0_mask.jpg",
-          "pin": {
-            "x": 0.2355,
-            "y": 0.9109
-          },
-          "source": "spot",
-          "matchedAs": "Pees m. biceps brachii"
+          "image": "../spot/assets/p01_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Coracobrachialis",
@@ -326,13 +317,13 @@ window.VIEWER_DATA = {
         {
           "name": "M. Brachialis",
           "optional": false,
-          "image": "../spot/assets/p74_i0_mask.jpg",
+          "image": "../spot/assets/p73_i0_mask.jpg",
           "pin": {
-            "x": 0.2915,
-            "y": 0.8048
+            "x": 0.1105,
+            "y": 0.8155
           },
           "source": "spot",
-          "matchedAs": "M. brachialis"
+          "matchedAs": "A. brachialis"
         },
         {
           "name": "M. Latissimus dorsi",
@@ -350,7 +341,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -369,7 +360,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -386,20 +377,20 @@ window.VIEWER_DATA = {
         {
           "name": "N. Radialis",
           "optional": false,
-          "image": "../spot/assets/p62_i0_mask.jpg",
+          "image": "../spot/assets/p58_i0_mask.jpg",
           "pin": {
-            "x": 0.518,
-            "y": 0.1114
+            "x": 0.592,
+            "y": 0.8799
           },
           "source": "spot",
-          "matchedAs": "N. radialis"
+          "matchedAs": "A. radialis"
         },
         {
           "name": "A. Collateralis ulnaris superior en inferior",
           "optional": false,
           "image": "../spot/assets/p01_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -429,7 +420,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -498,9 +489,9 @@ window.VIEWER_DATA = {
         {
           "name": "V. Mediana antebrachii",
           "optional": false,
-          "image": "../spot/assets/p59_i0_mask.jpg",
+          "image": "../spot/assets/p72_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -539,13 +530,13 @@ window.VIEWER_DATA = {
         {
           "name": "N. Radialis",
           "optional": false,
-          "image": "../spot/assets/p62_i0_mask.jpg",
+          "image": "../spot/assets/p58_i0_mask.jpg",
           "pin": {
-            "x": 0.518,
-            "y": 0.1114
+            "x": 0.592,
+            "y": 0.8799
           },
           "source": "spot",
-          "matchedAs": "N. radialis"
+          "matchedAs": "A. radialis"
         },
         {
           "name": "M. Flexor carpi ulnaris",
@@ -572,13 +563,10 @@ window.VIEWER_DATA = {
         {
           "name": "M. Flexor digitorum superficialis",
           "optional": false,
-          "image": "../spot/assets/p04_i0_mask.jpg",
-          "pin": {
-            "x": 0.1361,
-            "y": 0.3033
-          },
-          "source": "spot",
-          "matchedAs": "M. flexor digitorum brevis"
+          "image": "../spot/assets/p71_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Flexor carpi radialis",
@@ -594,9 +582,9 @@ window.VIEWER_DATA = {
         {
           "name": "M. Pronator teres",
           "optional": false,
-          "image": "../spot/assets/p59_i0_mask.jpg",
+          "image": "../spot/assets/p71_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -626,7 +614,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p01_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -698,31 +686,25 @@ window.VIEWER_DATA = {
         {
           "name": "M. Abductor pollicis brevis",
           "optional": false,
-          "image": "../spot/assets/p58_i0_mask.jpg",
-          "pin": {
-            "x": 0.8505,
-            "y": 0.6818
-          },
-          "source": "spot",
-          "matchedAs": "M. abductor pollicis longus"
+          "image": "../spot/assets/p59_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Flexor pollicis brevis",
           "optional": false,
-          "image": "../spot/assets/p04_i0_mask.jpg",
-          "pin": {
-            "x": 0.1361,
-            "y": 0.3033
-          },
-          "source": "spot",
-          "matchedAs": "M. flexor digitorum brevis"
+          "image": "../spot/assets/p71_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Opponens pollicis",
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -739,24 +721,18 @@ window.VIEWER_DATA = {
         {
           "name": "M. Flexor digiti minimi",
           "optional": false,
-          "image": "../spot/assets/p04_i0_mask.jpg",
-          "pin": {
-            "x": 0.8491,
-            "y": 0.2693
-          },
-          "source": "spot",
-          "matchedAs": "M. abductor digiti minimi"
+          "image": "../spot/assets/p69_i1_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Opponens digiti minimi",
           "optional": false,
-          "image": "../spot/assets/p04_i0_mask.jpg",
-          "pin": {
-            "x": 0.8491,
-            "y": 0.2693
-          },
-          "source": "spot",
-          "matchedAs": "M. abductor digiti minimi"
+          "image": "../spot/assets/p59_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Pronator quadratus",
@@ -796,26 +772,23 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "Arcus palmaris profundus",
           "optional": false,
-          "image": "../spot/assets/p67_i1_mask.jpg",
-          "pin": {
-            "x": 0.548,
-            "y": 0.8445
-          },
-          "source": "spot",
-          "matchedAs": "Arcus palmaris superficialis"
+          "image": "../spot/assets/p60_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Adductor pollicis caput transversum",
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -840,9 +813,9 @@ window.VIEWER_DATA = {
         {
           "name": "Hiatus saphenus",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p23_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -872,7 +845,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -911,9 +884,9 @@ window.VIEWER_DATA = {
         {
           "name": "M. Vastus intermedius",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p23_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1007,21 +980,18 @@ window.VIEWER_DATA = {
         {
           "name": "A. Epigastrica inferior",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p32_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "A. Circumflexa ilium",
           "optional": false,
           "image": "../spot/assets/p32_i0_mask.jpg",
-          "pin": {
-            "x": 0.7836,
-            "y": 0.1307
-          },
-          "source": "spot",
-          "matchedAs": "V. circumflexa ilium superficialis"
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "Aa. Pudendae externae",
@@ -1050,7 +1020,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1058,7 +1028,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1077,7 +1047,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -1126,7 +1096,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1134,7 +1104,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1197,15 +1167,15 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "A. Dorsalis pedis",
           "optional": false,
-          "image": "../spot/assets/p03_i0_mask.jpg",
+          "image": "../spot/assets/p22_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1255,17 +1225,17 @@ window.VIEWER_DATA = {
         {
           "name": "M. Adductor brevis",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p20_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Adductor magnus",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p20_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1295,7 +1265,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1303,7 +1273,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1320,20 +1290,17 @@ window.VIEWER_DATA = {
         {
           "name": "M. Extensor hallucis brevis",
           "optional": false,
-          "image": "../spot/assets/p21_i1_mask.jpg",
-          "pin": {
-            "x": 0.551,
-            "y": 0.1733
-          },
-          "source": "spot",
-          "matchedAs": "M. extensor hallucis longus"
+          "image": "../spot/assets/p59_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "Mm. Interossei",
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -1393,7 +1360,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1412,7 +1379,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1431,7 +1398,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1460,19 +1427,16 @@ window.VIEWER_DATA = {
           "name": "M. Semispinalis thoracis / cervicis",
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
-          "pin": {
-            "x": 0.8385,
-            "y": 0.452
-          },
-          "source": "spot",
-          "matchedAs": "M. semispinalis cervicis"
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Supraspinatus",
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1513,7 +1477,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -1529,7 +1493,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1570,7 +1534,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1578,7 +1542,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1641,7 +1605,7 @@ window.VIEWER_DATA = {
           "optional": true,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1649,7 +1613,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1657,7 +1621,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1665,26 +1629,23 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Longissimus",
           "optional": false,
           "image": "../spot/assets/p50_i0_mask.jpg",
-          "pin": {
-            "x": 0.8219,
-            "y": 0.2747
-          },
-          "source": "spot",
-          "matchedAs": "M. longissimus cervicis"
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Spinalis",
           "optional": false,
           "image": "../spot/assets/p46_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1703,7 +1664,7 @@ window.VIEWER_DATA = {
           "optional": true,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1711,7 +1672,7 @@ window.VIEWER_DATA = {
           "optional": true,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1741,7 +1702,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p02_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
@@ -1756,12 +1717,9 @@ window.VIEWER_DATA = {
           "name": "N. Cutaneus brachii lateralis inferior",
           "optional": true,
           "image": "../spot/assets/p63_i0_mask.jpg",
-          "pin": {
-            "x": 0.3175,
-            "y": 0.0909
-          },
-          "source": "spot",
-          "matchedAs": "N. cutaneus brachii lateralis superior"
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "N. Cutaneus antebrachii posterior",
@@ -1790,7 +1748,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p01_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1829,9 +1787,9 @@ window.VIEWER_DATA = {
         {
           "name": "M. Triceps",
           "optional": false,
-          "image": "../spot/assets/p01_i0_mask.jpg",
+          "image": "../spot/assets/p61_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1848,13 +1806,13 @@ window.VIEWER_DATA = {
         {
           "name": "N. Radialis",
           "optional": false,
-          "image": "../spot/assets/p62_i0_mask.jpg",
+          "image": "../spot/assets/p58_i0_mask.jpg",
           "pin": {
-            "x": 0.518,
-            "y": 0.1114
+            "x": 0.592,
+            "y": 0.8799
           },
           "source": "spot",
-          "matchedAs": "N. radialis"
+          "matchedAs": "A. radialis"
         },
         {
           "name": "N. Ulnaris",
@@ -1892,39 +1850,33 @@ window.VIEWER_DATA = {
         {
           "name": "M. Extensor carpi radialis longus en brevis",
           "optional": false,
-          "image": "../spot/assets/p01_i0_mask.jpg",
+          "image": "../spot/assets/p62_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Extensor digiti minimi",
           "optional": false,
-          "image": "../spot/assets/p04_i0_mask.jpg",
-          "pin": {
-            "x": 0.8491,
-            "y": 0.2693
-          },
-          "source": "spot",
-          "matchedAs": "M. abductor digiti minimi"
+          "image": "../spot/assets/p59_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Extensor carpi ulnaris",
           "optional": false,
-          "image": "../spot/assets/p69_i1_mask.jpg",
-          "pin": {
-            "x": 0.8695,
-            "y": 0.8248
-          },
-          "source": "spot",
-          "matchedAs": "M. flexor carpi ulnaris"
+          "image": "../spot/assets/p01_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "Rete venosum dorsale manus",
           "optional": false,
           "image": "../spot/assets/p58_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1965,7 +1917,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -1984,7 +1936,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2003,7 +1955,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p01_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2085,7 +2037,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2115,7 +2067,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2123,7 +2075,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2131,7 +2083,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2139,15 +2091,15 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Quadratus femoris",
           "optional": false,
-          "image": "../spot/assets/p39_i0_mask.jpg",
+          "image": "../spot/assets/p43_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2166,7 +2118,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2174,7 +2126,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2182,7 +2134,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2201,7 +2153,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p39_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2261,11 +2213,11 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": {
-            "x": 0.88,
-            "y": 0.402
+            "x": 0.1021,
+            "y": 0.3553
           },
           "source": "spot",
-          "matchedAs": "V. poplitea"
+          "matchedAs": "A. poplitea"
         },
         {
           "name": "N. Ischiadicus",
@@ -2316,7 +2268,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2324,15 +2276,15 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Adductor magnus",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p20_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2351,7 +2303,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2359,7 +2311,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2367,7 +2319,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2375,7 +2327,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2383,7 +2335,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p13_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2391,7 +2343,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2408,10 +2360,13 @@ window.VIEWER_DATA = {
         {
           "name": "A. Tibialis posterior",
           "optional": false,
-          "image": "../spot/assets/p19_i0_mask.jpg",
-          "pin": null,
-          "source": "region",
-          "matchedAs": null
+          "image": "../spot/assets/p21_i1_mask.jpg",
+          "pin": {
+            "x": 0.3405,
+            "y": 0.1037
+          },
+          "source": "spot",
+          "matchedAs": "M. tibialis anterior"
         }
       ]
     },
@@ -2459,7 +2414,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2467,7 +2422,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2475,7 +2430,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2483,7 +2438,7 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2500,26 +2455,32 @@ window.VIEWER_DATA = {
         {
           "name": "M. Tibialis posterior",
           "optional": false,
-          "image": "../spot/assets/p19_i0_mask.jpg",
-          "pin": null,
-          "source": "region",
-          "matchedAs": null
+          "image": "../spot/assets/p21_i1_mask.jpg",
+          "pin": {
+            "x": 0.3405,
+            "y": 0.1037
+          },
+          "source": "spot",
+          "matchedAs": "M. tibialis anterior"
         },
         {
           "name": "Aponeurosis plantaris",
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "A. Tibialis posterior",
           "optional": false,
-          "image": "../spot/assets/p19_i0_mask.jpg",
-          "pin": null,
-          "source": "region",
-          "matchedAs": null
+          "image": "../spot/assets/p21_i1_mask.jpg",
+          "pin": {
+            "x": 0.3405,
+            "y": 0.1037
+          },
+          "source": "spot",
+          "matchedAs": "M. tibialis anterior"
         },
         {
           "name": "N. Tibialis",
@@ -2536,19 +2497,16 @@ window.VIEWER_DATA = {
           "name": "Nn. Digitales plantares communes",
           "optional": false,
           "image": "../spot/assets/p67_i0_mask.jpg",
-          "pin": {
-            "x": 0.1345,
-            "y": 0.2423
-          },
-          "source": "spot",
-          "matchedAs": "Aa. digitales palmares communes"
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "N. Plantaris lateralis / medialis",
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2598,13 +2556,10 @@ window.VIEWER_DATA = {
         {
           "name": "M. Flexor digitorum longus (pees)",
           "optional": false,
-          "image": "../spot/assets/p03_i0_mask.jpg",
-          "pin": {
-            "x": 0.1866,
-            "y": 0.7587
-          },
-          "source": "spot",
-          "matchedAs": "Eindpezen m. flexor digitorum longus"
+          "image": "../spot/assets/p71_i0_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "M. Peroneus longus / brevis",
@@ -2633,7 +2588,7 @@ window.VIEWER_DATA = {
           "optional": true,
           "image": "../spot/assets/p03_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2650,20 +2605,17 @@ window.VIEWER_DATA = {
         {
           "name": "M. Flexor hallucis brevis",
           "optional": false,
-          "image": "../spot/assets/p04_i0_mask.jpg",
-          "pin": {
-            "x": 0.1361,
-            "y": 0.3033
-          },
-          "source": "spot",
-          "matchedAs": "M. flexor digitorum brevis"
+          "image": "../spot/assets/p69_i1_mask.jpg",
+          "pin": null,
+          "source": "spot-region",
+          "matchedAs": null
         },
         {
           "name": "A. Plantaris lateralis en medialis",
           "optional": false,
           "image": "../spot/assets/p19_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
@@ -2671,26 +2623,27 @@ window.VIEWER_DATA = {
           "optional": false,
           "image": "../spot/assets/p59_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Flexor digiti minimi brevis",
           "optional": false,
-          "image": "../spot/assets/p59_i0_mask.jpg",
+          "image": "../spot/assets/p69_i1_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         },
         {
           "name": "M. Adductor hallucis",
           "optional": false,
-          "image": "../spot/assets/p13_i1_mask.jpg",
+          "image": "../spot/assets/p20_i0_mask.jpg",
           "pin": null,
-          "source": "region",
+          "source": "spot-region",
           "matchedAs": null
         }
       ]
     }
-  ]
+  ],
+  "imageSource": "spot"
 };
