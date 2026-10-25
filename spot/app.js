@@ -6,6 +6,7 @@
   }
 
   let mode = "mc"; // mc | reveal
+  let groupBy = "category"; // category | photo
   let selectedRegions = new Set();
   let deck = [];
   let i = 0;
@@ -17,6 +18,7 @@
 
   const el = {
     regions: document.getElementById("regions"),
+    groupings: document.getElementById("groupings"),
     modes: document.getElementById("modes"),
     subtitle: document.getElementById("subtitle"),
     tag: document.getElementById("tag"),
@@ -77,13 +79,33 @@
     return shuffleInPlace(opts.slice(0, 4));
   }
 
-  function rebuildDeck() {
+  function filteredQuestions() {
     const all = data.questions;
-    deck =
-      selectedRegions.size === 0
-        ? [...all]
-        : all.filter((q) => selectedRegions.has(q.region));
-    shuffleInPlace(deck);
+    if (selectedRegions.size === 0) return [...all];
+    return all.filter((q) => selectedRegions.has(q.region));
+  }
+
+  function rebuildDeck() {
+    const pool = filteredQuestions();
+    if (groupBy === "photo") {
+      // Keep all labels of one photo together; shuffle photo order + within-photo
+      const byPlate = new Map();
+      for (const q of pool) {
+        const key = q.plateId || q.image;
+        if (!byPlate.has(key)) byPlate.set(key, []);
+        byPlate.get(key).push(q);
+      }
+      const plates = [...byPlate.values()];
+      shuffleInPlace(plates);
+      deck = [];
+      for (const labels of plates) {
+        shuffleInPlace(labels);
+        deck.push(...labels);
+      }
+    } else {
+      deck = pool;
+      shuffleInPlace(deck);
+    }
     i = 0;
     answered = false;
     lastOk = null;
@@ -98,10 +120,42 @@
   }
 
   function regionSubtitle() {
-    if (selectedRegions.size === 0) return "Alle regio's";
-    const labels = [...selectedRegions];
-    if (labels.length <= 2) return labels.join(" + ");
-    return `${labels.length} regio's`;
+    const modeLabel = groupBy === "photo" ? "Per foto" : "Per categorie";
+    let regions;
+    if (selectedRegions.size === 0) regions = "alle regio's";
+    else if (selectedRegions.size <= 2) regions = [...selectedRegions].join(" + ");
+    else regions = `${selectedRegions.size} regio's`;
+    return `${modeLabel} · ${regions}`;
+  }
+
+  function photoProgress(q) {
+    if (groupBy !== "photo" || !q) return null;
+    const pid = q.plateId || q.image;
+    let start = i;
+    while (start > 0) {
+      const prev = deck[start - 1];
+      if ((prev.plateId || prev.image) !== pid) break;
+      start -= 1;
+    }
+    let end = i;
+    while (end < deck.length - 1) {
+      const next = deck[end + 1];
+      if ((next.plateId || next.image) !== pid) break;
+      end += 1;
+    }
+    const local = i - start + 1;
+    const total = end - start + 1;
+    const plateIds = [];
+    const seen = new Set();
+    for (const item of deck) {
+      const key = item.plateId || item.image;
+      if (!seen.has(key)) {
+        seen.add(key);
+        plateIds.push(key);
+      }
+    }
+    const photoIdx = plateIds.indexOf(pid) + 1;
+    return { local, total, photoIdx, photoCount: plateIds.length };
   }
 
   function buildRegions() {
@@ -141,6 +195,15 @@
     lastOk = null;
     currentChoices = [];
     render();
+  }
+
+  function setGroupBy(next) {
+    if (next === groupBy) return;
+    groupBy = next;
+    [...el.groupings.querySelectorAll(".topic")].forEach((b) => {
+      b.classList.toggle("active", b.dataset.group === groupBy);
+    });
+    rebuildDeck();
   }
 
   function updateScore() {
@@ -280,8 +343,14 @@
 
     el.tag.textContent = q.region;
     el.tag.title = q.topic;
-    el.count.textContent = `${i + 1} / ${deck.length}`;
-    el.progress.style.width = `${((i + 1) / deck.length) * 100}%`;
+    const pp = photoProgress(q);
+    if (pp) {
+      el.count.textContent = `foto ${pp.photoIdx}/${pp.photoCount} · ${pp.local}/${pp.total}`;
+      el.progress.style.width = `${(pp.local / pp.total) * 100}%`;
+    } else {
+      el.count.textContent = `${i + 1} / ${deck.length}`;
+      el.progress.style.width = `${((i + 1) / deck.length) * 100}%`;
+    }
 
     const src = mode === "reveal" ? q.imageReveal : q.image;
     setPhoto(src);
@@ -350,6 +419,12 @@
     setMode(btn.dataset.mode);
   });
 
+  el.groupings.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-group]");
+    if (!btn) return;
+    setGroupBy(btn.dataset.group);
+  });
+
   el.prev.addEventListener("click", () => go(-1));
   el.next.addEventListener("click", () => go(1));
   el.shuffle.addEventListener("click", () => rebuildDeck());
@@ -359,6 +434,9 @@
     if (e.key === "ArrowLeft") go(-1);
     if (e.key === "ArrowRight") go(1);
     if (e.key === "s" || e.key === "S") rebuildDeck();
+    if (e.key === "f" || e.key === "F") {
+      setGroupBy(groupBy === "photo" ? "category" : "photo");
+    }
     if (e.key === "r" || e.key === "R") {
       setMode(mode === "reveal" ? "mc" : "reveal");
     }

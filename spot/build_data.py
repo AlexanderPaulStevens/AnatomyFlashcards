@@ -12,6 +12,8 @@ import pymupdf as fitz
 from PIL import Image, ImageDraw, ImageFilter
 from rapidocr_onnxruntime import RapidOCR
 
+from region_infer import refine_region
+
 ROOT = Path(__file__).resolve().parent
 PDF = ROOT.parent / "PDF" / "merged_version.pdf"
 ASSETS = ROOT / "assets"
@@ -229,33 +231,6 @@ def topic_slug(title: str) -> str:
     return s[:48] or "pagina"
 
 
-def region_bucket(title: str) -> str:
-    t = title.lower()
-    if any(k in t for k in ("pedis", "voet", "enkel", "plantaris", "dorsum pedis")):
-        return "Voet / enkel"
-    if any(k in t for k in ("cruris", "onderbeen", "perone", "evertor", "extensoren van het onderbeen", "kuit")):
-        return "Onderbeen"
-    if any(k in t for k in ("poplit", "femoris", "adductor", "quadriceps", "femoral", "bovenbeen", "bb ")):
-        return "Bovenbeen"
-    if any(k in t for k in ("glute", "piriform", "heup", "supra", "infra")):
-        return "Heup / gluteaal"
-    if any(k in t for k in ("rug", "occipital", "capitis", "autochtone", "spin")):
-        return "Rug / nek"
-    if any(k in t for k in ("manus", "hand", "vinger", "handpalm", "dorsum manus")):
-        return "Hand"
-    if any(k in t for k in ("voorarm", "onderarm", "cubiti", "extensor compartiment van de voorarm", "flexor compartiment van de voorarm")):
-        return "Voorarm"
-    if any(k in t for k in ("bovenarm", "brachialis", "flexor compartiment van de bovenarm", "extensor compartiment van de bovenarm")):
-        return "Bovenarm"
-    if any(k in t for k in ("plexus", "axilla", "schouder", "grenzen")):
-        return "Schouder / plexus"
-    if "cutane" in t:
-        return "Cutaan"
-    if "incisie" in t:
-        return "Incisies"
-    return "Overig"
-
-
 def main():
     ASSETS.mkdir(parents=True, exist_ok=True)
     RAW.mkdir(parents=True, exist_ok=True)
@@ -271,7 +246,6 @@ def main():
     for pi in range(len(doc)):
         page = doc[pi]
         title = page_title(page)
-        region = region_bucket(title)
         imgs = page.get_images(full=True)
         if not imgs:
             continue
@@ -359,6 +333,8 @@ def main():
                     }
                 )
 
+            answers = [L["answer"] for L in plate_labels]
+            region = refine_region(title, answers, ASSETS / asset_name)
             plates.append(
                 {
                     "id": stem,
@@ -371,7 +347,7 @@ def main():
                     "labels": plate_labels,
                 }
             )
-            print(f"p{pi+1} [{title}] img{ii}: {len(plate_labels)} labels → {[l['answer'] for l in plate_labels]}")
+            print(f"p{pi+1} [{title}] → {region} img{ii}: {len(plate_labels)} labels → {answers}")
 
     # Build flat questions
     pool = sorted(all_answers)
