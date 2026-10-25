@@ -413,11 +413,3 @@ PLATE_ANSWERS["p80_i0"] = PLATE_ANSWERS["p02_i0"]
 PLATE_ANSWERS["p82_i0"] = PLATE_ANSWERS["p02_i0"]
 PLATE_ANSWERS["p87_i0"] = PLATE_ANSWERS["p02_i0"]
 
-# When plate has more OCR fragments than corrected answers, map which OCR indices
-# to keep (and merge remaining into previous). Default: take first N coords.
-# Special merges: list of OCR-index groups → one label
-PLATE_MERGE = {
-    # p03: 5 OCR → 3 answers
-    "p03_i0": [[0, 1], [1, 2], [3, 4]],  # wait - need careful mapping
-    "p04_i0": [[0, 1], [2], [2]],  # problematic
-}

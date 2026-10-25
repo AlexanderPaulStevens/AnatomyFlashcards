@@ -385,31 +385,31 @@
       "labels": [
         {
           "answer": "M. abductor digiti minimi",
-          "x": 0.4771,
-          "y": 0.358,
-          "w": 0.938,
-          "h": 0.1773
+          "x": 0.8491,
+          "y": 0.2693,
+          "w": 0.1995,
+          "h": 0.0373
         },
         {
           "answer": "M. flexor digitorum brevis",
           "x": 0.1361,
-          "y": 0.3027,
+          "y": 0.3033,
           "w": 0.159,
-          "h": 0.0507
+          "h": 0.052
         },
         {
           "answer": "M. abductor hallucis",
-          "x": 0.4973,
-          "y": 0.356,
-          "w": 0.903,
-          "h": 0.2107
+          "x": 0.1105,
+          "y": 0.444,
+          "w": 0.2049,
+          "h": 0.0347
         },
         {
           "answer": "Aponeurose",
-          "x": 0.814,
+          "x": 0.8154,
           "y": 0.95,
-          "w": 0.2049,
-          "h": 0.02
+          "w": 0.2022,
+          "h": 0.0173
         }
       ]
     },
@@ -450,23 +450,23 @@
         {
           "answer": "V. saphena parva",
           "x": 0.772,
-          "y": 0.0772,
+          "y": 0.0786,
           "w": 0.126,
-          "h": 0.0534
+          "h": 0.0564
         },
         {
           "answer": "N. cutaneus surae medialis",
-          "x": 0.665,
-          "y": 0.5148,
-          "w": 0.222,
-          "h": 0.7211
+          "x": 0.586,
+          "y": 0.1528,
+          "w": 0.132,
+          "h": 0.0979
         },
         {
           "answer": "N. cutaneus surae lateralis",
-          "x": 0.629,
-          "y": 0.5119,
-          "w": 0.218,
-          "h": 0.816
+          "x": 0.7095,
+          "y": 0.8694,
+          "w": 0.133,
+          "h": 0.095
         }
       ]
     },
@@ -1415,37 +1415,37 @@
         {
           "answer": "M. splenius capitis",
           "x": 0.7416,
-          "y": 0.204,
+          "y": 0.2033,
           "w": 0.2339,
-          "h": 0.016
+          "h": 0.0173
         },
         {
           "answer": "M. levator scapulae",
           "x": 0.8149,
-          "y": 0.3073,
-          "w": 0.2468,
-          "h": 0.0173
+          "y": 0.3067,
+          "w": 0.2519,
+          "h": 0.0187
         },
         {
           "answer": "M. rhomboideus minor",
-          "x": 0.1285,
-          "y": 0.5947,
-          "w": 0.2108,
-          "h": 0.1493
+          "x": 0.1208,
+          "y": 0.5193,
+          "w": 0.2005,
+          "h": 0.0333
         },
         {
           "answer": "M. trapezius",
           "x": 0.6401,
-          "y": 0.5393,
+          "y": 0.5387,
           "w": 0.1594,
-          "h": 0.0173
+          "h": 0.016
         },
         {
           "answer": "M. rhomboideus major",
-          "x": 0.1208,
-          "y": 0.594,
-          "w": 0.2005,
-          "h": 0.18
+          "x": 0.1003,
+          "y": 0.6687,
+          "w": 0.1491,
+          "h": 0.0307
         }
       ]
     },
@@ -1975,9 +1975,9 @@
         {
           "answer": "Pees m. biceps brachii",
           "x": 0.2355,
-          "y": 0.9242,
-          "w": 0.093,
-          "h": 0.0303
+          "y": 0.9109,
+          "w": 0.113,
+          "h": 0.0927
         }
       ]
     },
@@ -3228,10 +3228,10 @@
       "image": "assets/p04_i0_mask.jpg",
       "imageReveal": "assets/p04_i0.jpg",
       "answer": "M. abductor digiti minimi",
-      "x": 0.4771,
-      "y": 0.358,
-      "pinW": 0.938,
-      "pinH": 0.1773,
+      "x": 0.8491,
+      "y": 0.2693,
+      "pinW": 0.1995,
+      "pinH": 0.0373,
       "siblings": [
         "M. abductor digiti minimi",
         "M. flexor digitorum brevis",
@@ -3260,9 +3260,9 @@
       "imageReveal": "assets/p04_i0.jpg",
       "answer": "M. flexor digitorum brevis",
       "x": 0.1361,
-      "y": 0.3027,
+      "y": 0.3033,
       "pinW": 0.159,
-      "pinH": 0.0507,
+      "pinH": 0.052,
       "siblings": [
         "M. abductor digiti minimi",
         "M. flexor digitorum brevis",
@@ -3290,10 +3290,10 @@
       "image": "assets/p04_i0_mask.jpg",
       "imageReveal": "assets/p04_i0.jpg",
       "answer": "M. abductor hallucis",
-      "x": 0.4973,
-      "y": 0.356,
-      "pinW": 0.903,
-      "pinH": 0.2107,
+      "x": 0.1105,
+      "y": 0.444,
+      "pinW": 0.2049,
+      "pinH": 0.0347,
       "siblings": [
         "M. abductor digiti minimi",
         "M. flexor digitorum brevis",
@@ -3321,10 +3321,10 @@
       "image": "assets/p04_i0_mask.jpg",
       "imageReveal": "assets/p04_i0.jpg",
       "answer": "Aponeurose",
-      "x": 0.814,
+      "x": 0.8154,
       "y": 0.95,
-      "pinW": 0.2049,
-      "pinH": 0.02,
+      "pinW": 0.2022,
+      "pinH": 0.0173,
       "siblings": [
         "M. abductor digiti minimi",
         "M. flexor digitorum brevis",
@@ -3411,9 +3411,9 @@
       "imageReveal": "assets/p11_i2.jpg",
       "answer": "V. saphena parva",
       "x": 0.772,
-      "y": 0.0772,
+      "y": 0.0786,
       "pinW": 0.126,
-      "pinH": 0.0534,
+      "pinH": 0.0564,
       "siblings": [
         "V. saphena parva",
         "N. cutaneus surae medialis",
@@ -3440,10 +3440,10 @@
       "image": "assets/p11_i2_mask.jpg",
       "imageReveal": "assets/p11_i2.jpg",
       "answer": "N. cutaneus surae medialis",
-      "x": 0.665,
-      "y": 0.5148,
-      "pinW": 0.222,
-      "pinH": 0.7211,
+      "x": 0.586,
+      "y": 0.1528,
+      "pinW": 0.132,
+      "pinH": 0.0979,
       "siblings": [
         "V. saphena parva",
         "N. cutaneus surae medialis",
@@ -3470,10 +3470,10 @@
       "image": "assets/p11_i2_mask.jpg",
       "imageReveal": "assets/p11_i2.jpg",
       "answer": "N. cutaneus surae lateralis",
-      "x": 0.629,
-      "y": 0.5119,
-      "pinW": 0.218,
-      "pinH": 0.816,
+      "x": 0.7095,
+      "y": 0.8694,
+      "pinW": 0.133,
+      "pinH": 0.095,
       "siblings": [
         "V. saphena parva",
         "N. cutaneus surae medialis",
@@ -6453,9 +6453,9 @@
       "imageReveal": "assets/p52_i1.jpg",
       "answer": "M. splenius capitis",
       "x": 0.7416,
-      "y": 0.204,
+      "y": 0.2033,
       "pinW": 0.2339,
-      "pinH": 0.016,
+      "pinH": 0.0173,
       "siblings": [
         "M. splenius capitis",
         "M. levator scapulae",
@@ -6485,9 +6485,9 @@
       "imageReveal": "assets/p52_i1.jpg",
       "answer": "M. levator scapulae",
       "x": 0.8149,
-      "y": 0.3073,
-      "pinW": 0.2468,
-      "pinH": 0.0173,
+      "y": 0.3067,
+      "pinW": 0.2519,
+      "pinH": 0.0187,
       "siblings": [
         "M. splenius capitis",
         "M. levator scapulae",
@@ -6516,10 +6516,10 @@
       "image": "assets/p52_i1_mask.jpg",
       "imageReveal": "assets/p52_i1.jpg",
       "answer": "M. rhomboideus minor",
-      "x": 0.1285,
-      "y": 0.5947,
-      "pinW": 0.2108,
-      "pinH": 0.1493,
+      "x": 0.1208,
+      "y": 0.5193,
+      "pinW": 0.2005,
+      "pinH": 0.0333,
       "siblings": [
         "M. splenius capitis",
         "M. levator scapulae",
@@ -6549,9 +6549,9 @@
       "imageReveal": "assets/p52_i1.jpg",
       "answer": "M. trapezius",
       "x": 0.6401,
-      "y": 0.5393,
+      "y": 0.5387,
       "pinW": 0.1594,
-      "pinH": 0.0173,
+      "pinH": 0.016,
       "siblings": [
         "M. splenius capitis",
         "M. levator scapulae",
@@ -6580,10 +6580,10 @@
       "image": "assets/p52_i1_mask.jpg",
       "imageReveal": "assets/p52_i1.jpg",
       "answer": "M. rhomboideus major",
-      "x": 0.1208,
-      "y": 0.594,
-      "pinW": 0.2005,
-      "pinH": 0.18,
+      "x": 0.1003,
+      "y": 0.6687,
+      "pinW": 0.1491,
+      "pinH": 0.0307,
       "siblings": [
         "M. splenius capitis",
         "M. levator scapulae",
@@ -8267,9 +8267,9 @@
       "imageReveal": "assets/p73_i0.jpg",
       "answer": "Pees m. biceps brachii",
       "x": 0.2355,
-      "y": 0.9242,
-      "pinW": 0.093,
-      "pinH": 0.0303,
+      "y": 0.9109,
+      "pinW": 0.113,
+      "pinH": 0.0927,
       "siblings": [
         "Vv. brachiales",
         "N. medianus",
@@ -10316,5 +10316,5 @@
     "Vv. brachiales",
     "Vv. pudendae externae"
   ],
-  "assetVersion": "202610251307"
+  "assetVersion": "202610251322"
 }

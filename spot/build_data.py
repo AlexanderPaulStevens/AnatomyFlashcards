@@ -29,6 +29,16 @@ SKIP_RE = re.compile(
     re.I,
 )
 
+# Photographer credit — keep visible on quiz masks
+WATERMARK_RE = re.compile(
+    r"roosen|j[oö]rg?\b|joro\b|jord\b|wooden|rooden",
+    re.I,
+)
+
+
+def is_watermark(text: str) -> bool:
+    return bool(WATERMARK_RE.search(text or ""))
+
 # Prefer anatomical-looking labels
 ANATO_HINT = re.compile(
     r"(?:"
@@ -226,7 +236,7 @@ def keep_label(text: str, conf: float) -> bool:
         return False
     if len(text) < 3:
         return False
-    if SKIP_RE.match(text):
+    if SKIP_RE.match(text) or is_watermark(text):
         return False
     if JUNK.search(text):
         return False
@@ -248,9 +258,10 @@ def mask_labels(img: Image.Image, labels: list) -> Image.Image:
     w, h = out.size
     for lab in labels:
         x0, y0, x1, y1 = lab["x0"], lab["y0"], lab["x1"], lab["y1"]
-        # Generous cover: OCR boxes hug glyphs tightly and JPEG softens edges
-        pad_x = max(12, int((x1 - x0) * 0.06) + 10)
-        pad_y = max(10, int((y1 - y0) * 0.25) + 8)
+        # Generous cover: OCR boxes hug glyphs tightly; stacked label lines
+        # often sit just outside a single-line box, so pad taller than wide.
+        pad_x = max(14, int((x1 - x0) * 0.08) + 12)
+        pad_y = max(16, int((y1 - y0) * 0.55) + 14)
         box = [
             max(0, x0 - pad_x),
             max(0, y0 - pad_y),
@@ -284,7 +295,7 @@ def ocr_mask_boxes(img: Image.Image, ocr: RapidOCR) -> list[dict]:
         text = str(text).strip()
         if conf_f < 0.35 or len(text) < 2 or not re.search(r"[A-Za-z]", text):
             continue
-        if SKIP_RE.match(text):
+        if SKIP_RE.match(text) or is_watermark(text):
             continue
         aabb = box_aabb(box, pad=2)
         boxes.append(
@@ -300,11 +311,48 @@ def ocr_mask_boxes(img: Image.Image, ocr: RapidOCR) -> list[dict]:
     return boxes
 
 
+def _merge_stacked_mask_boxes(boxes: list[dict], y_gap: float = 22, x_overlap: float = 0.3) -> list[dict]:
+    """Union vertically stacked OCR lines (e.g. 'Pees insertio' + 'bicepsbrachii')."""
+    if not boxes:
+        return []
+    items = sorted(boxes, key=lambda b: (b["y0"], b["x0"]))
+    used = [False] * len(items)
+    out: list[dict] = []
+    for i, a in enumerate(items):
+        if used[i]:
+            continue
+        x0, y0, x1, y1 = a["x0"], a["y0"], a["x1"], a["y1"]
+        used[i] = True
+        changed = True
+        while changed:
+            changed = False
+            for j, b in enumerate(items):
+                if used[j]:
+                    continue
+                aw = max(1.0, x1 - x0)
+                bw = max(1.0, b["x1"] - b["x0"])
+                overlap = min(x1, b["x1"]) - max(x0, b["x0"])
+                if overlap < min(aw, bw) * x_overlap:
+                    continue
+                if -6 <= (b["y0"] - y1) <= y_gap or -6 <= (y0 - b["y1"]) <= y_gap:
+                    x0 = min(x0, b["x0"])
+                    y0 = min(y0, b["y0"])
+                    x1 = max(x1, b["x1"])
+                    y1 = max(y1, b["y1"])
+                    used[j] = True
+                    changed = True
+        out.append({"x0": x0, "y0": y0, "x1": x1, "y1": y1})
+    return out
+
+
 def remask_plate(plate: dict, ocr: RapidOCR | None = None) -> None:
     """
     Rebuild quiz mask from the reveal image.
-    Covers *all* OCR text (landmarks, leftovers, stacked lines) plus stored
-    quiz label boxes so answers never stay readable.
+
+    Prefer fresh OCR text boxes so we cover every label without painting
+    huge stored bboxes (bad merges) that would hide anatomy / leader lines.
+    Stored quiz boxes are only used as a fallback when they look like
+    real text-sized rectangles.
     """
     reveal = ROOT / plate["imageReveal"]
     if not reveal.exists():
@@ -315,9 +363,12 @@ def remask_plate(plate: dict, ocr: RapidOCR | None = None) -> None:
     boxes: list[dict] = []
     if ocr is not None:
         boxes.extend(ocr_mask_boxes(img, ocr))
+        boxes = _merge_stacked_mask_boxes(boxes)
 
-    # Always paint stored quiz boxes too (belt + suspenders)
+    # Fallback: stored quiz boxes, but skip absurd unions from bad merges
     for lab in plate.get("labels") or []:
+        if lab.get("h", 0) > 0.12 or lab.get("w", 0) > 0.45:
+            continue
         x0 = (lab["x"] - lab["w"] / 2) * w
         y0 = (lab["y"] - lab["h"] / 2) * h
         x1 = (lab["x"] + lab["w"] / 2) * w
@@ -410,6 +461,7 @@ def main():
                 and len(L["text"]) >= 2
                 and re.search(r"[A-Za-z]", L["text"])
                 and not SKIP_RE.match(L["text"])
+                and not is_watermark(L["text"])
             ]
 
             labels = [L for L in labels if keep_label(L["text"], L["conf"])]

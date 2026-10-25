@@ -20,7 +20,9 @@ ASSETS = ROOT / "assets"
 # Each inner list = OCR label indices to merge into one answer (same order as PLATE_ANSWERS).
 PLATE_GROUPS: dict[str, list[list[int]]] = {
     "p03_i0": [[0], [1, 2], [3, 4]],  # quadratus(+plantaris missing), FHL pees, FDL pezen
-    "p04_i0": [[0, 1], [2]],  # abductor digiti minimi; flexor digitorum brevis
+    # OCR often splits each muscle over 2–3 lines; indices must stay local
+    # (do not union left+right abductors into one huge box).
+    "p04_i0": [[0, 2], [1, 3, 4], [5, 6], [7]],
     "p07_i1": [[0, 1], [0, 2]],  # digitalis + proprius V / I
     "p16_i0": [[0], [1], [2]],  # add communis onto peroneus via answers only
     "p19_i0": [[0], [1], [2]],

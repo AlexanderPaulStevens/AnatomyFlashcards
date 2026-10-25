@@ -98,24 +98,41 @@ def main():
                         candidates.append((i, it))
                 if not candidates:
                     continue
-                # Prefer exact norm match; otherwise lowest on the page (real label)
-                candidates.sort(
-                    key=lambda pair: (
-                        0 if pair[1]["n"] == nf else 1,
-                        -pair[1]["aabb"][1],
-                    )
-                )
+                # Prefer exact match, then spatially near already-matched fragments
+                # (avoids unioning top+bottom "N. cutaneus surae" into one huge box).
+                def score(pair, matched=matched, nf=nf):
+                    it = pair[1]
+                    exact = 0 if it["n"] == nf else 1
+                    if matched:
+                        cx = (it["aabb"][0] + it["aabb"][2]) / 2
+                        cy = (it["aabb"][1] + it["aabb"][3]) / 2
+                        dist = min(
+                            abs(cx - (m["aabb"][0] + m["aabb"][2]) / 2)
+                            + abs(cy - (m["aabb"][1] + m["aabb"][3]) / 2)
+                            for m in matched
+                        )
+                    else:
+                        dist = 0
+                    return (exact, dist)
+
+                candidates.sort(key=score)
                 i, it = candidates[0]
                 matched.append(it)
                 used.add(i)
             if not matched:
                 print(f"  {pid}: could not match {answer} ← {frags}")
                 continue
-            # For duplicate M.rhomboideus: prefer unused nearest to minor/major
             x0 = min(m["aabb"][0] for m in matched)
             y0 = min(m["aabb"][1] for m in matched)
             x1 = max(m["aabb"][2] for m in matched)
             y1 = max(m["aabb"][3] for m in matched)
+            # Guard: refuse absurd vertical/horizontal unions
+            if (y1 - y0) / h > 0.15 or (x1 - x0) / w > 0.5:
+                print(
+                    f"  {pid}: skip huge box for {answer} "
+                    f"({(x1-x0)/w:.2f}x{(y1-y0)/h:.2f}) ← {[m['text'] for m in matched]}"
+                )
+                continue
             new_labels.append(
                 {
                     "answer": answer,
