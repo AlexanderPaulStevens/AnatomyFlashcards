@@ -13,6 +13,25 @@ DATA_JS = ROOT / "data.js"
 
 # plate_id → list of (answer, list of OCR text fragments to merge for bbox)
 REPAIRS = {
+    # Parenthetical "fasciculusmedialis)" under lateralis was wrongly kept;
+    # real Fasciculus medialis is bottom-right. Also restore N. ulnaris (OCR: uinanis).
+    "p01_i1": [
+        # Include parenthetical sublines so the mask covers the whole label block
+        ("Fasciculus lateralis", ["Fasciculus lateralis", "+abberantezijtaknaar", "fasciculusmedialis)"]),
+        ("N. musculocutaneus", ["N.musculooutaneus"]),
+        ("N. medianus", ["N.medianus"]),
+        ("N. ulnaris", ["uinanis"]),
+        ("N. cutaneus brachii medialis", ["N.cutaneusbrachimedialis"]),
+        ("Fasciculus medialis", ["Fasciculusmedialis"]),
+    ],
+    "p79_i1": [
+        ("Fasciculus lateralis", ["Fasciculus lateralis", "+abberantezijtaknaar", "fasciculusmedialis)"]),
+        ("N. musculocutaneus", ["N.musculooutaneus"]),
+        ("N. medianus", ["N.medianus"]),
+        ("N. ulnaris", ["uinanis"]),
+        ("N. cutaneus brachii medialis", ["N.cutaneusbrachimedialis"]),
+        ("Fasciculus medialis", ["Fasciculusmedialis"]),
+    ],
     "p04_i0": [
         ("M. abductor digiti minimi", ["M.abductor", "digiti minimi"]),
         ("M. flexor digitorum brevis", ["M.flexor", "digitorum", "brevis"]),
@@ -68,13 +87,27 @@ def main():
             matched = []
             for frag in frags:
                 nf = norm(frag)
+                candidates = []
                 for i, it in enumerate(items):
                     if i in used:
                         continue
+                    # Parenthetical OCR tails ("…)") only match frags that include ")"
+                    if (")" in str(it["text"])) != (")" in frag):
+                        continue
                     if it["n"] == nf or nf in it["n"] or it["n"] in nf:
-                        matched.append(it)
-                        used.add(i)
-                        break
+                        candidates.append((i, it))
+                if not candidates:
+                    continue
+                # Prefer exact norm match; otherwise lowest on the page (real label)
+                candidates.sort(
+                    key=lambda pair: (
+                        0 if pair[1]["n"] == nf else 1,
+                        -pair[1]["aabb"][1],
+                    )
+                )
+                i, it = candidates[0]
+                matched.append(it)
+                used.add(i)
             if not matched:
                 print(f"  {pid}: could not match {answer} ← {frags}")
                 continue

@@ -1,0 +1,95 @@
+{
+  "issueCount": 7,
+  "bySeverity": {
+    "auto_rebuild": 3,
+    "flag": 4
+  },
+  "issues": [
+    {
+      "plateId": "p01_i0",
+      "severity": "auto_rebuild",
+      "msg": "rebuilt 5/5 from OCR",
+      "missing": [],
+      "was": [
+        "M. coracobrachialis",
+        "M. bicepsbrachicaput brevis Mbicepsbrachili caputlongum",
+        "N. medianus",
+        "N. ulnaris"
+      ],
+      "now": [
+        "M. coracobrachialis",
+        "M. biceps brachii caput breve",
+        "M. biceps brachii caput longum",
+        "N. medianus",
+        "N. ulnaris"
+      ]
+    },
+    {
+      "plateId": "p11_i2",
+      "severity": "flag",
+      "msg": "antonym pair almost overlapping: 'N. cutaneus surae lateralis' & 'N. cutaneus surae medialis'"
+    },
+    {
+      "plateId": "p44_i0",
+      "severity": "flag",
+      "msg": "empty crop OCR for 'Nn. clunium medii'",
+      "x": 0.4675,
+      "y": 0.0642
+    },
+    {
+      "plateId": "p46_i0",
+      "severity": "flag",
+      "msg": "crop suggests 'M. semispinalis capitis' but sibling already has it; kept 'M. semispinalis cervicis' (crop='M.semispinalis capitis')",
+      "x": 0.8385,
+      "y": 0.452
+    },
+    {
+      "plateId": "p61_i0",
+      "severity": "flag",
+      "msg": "empty crop OCR for 'M. infraspinatus'",
+      "x": 0.511,
+      "y": 0.2389
+    },
+    {
+      "plateId": "p74_i0",
+      "severity": "auto_rebuild",
+      "msg": "rebuilt 6/6 from OCR",
+      "missing": [],
+      "was": [
+        "M. coracobrachialis",
+        "M. bicepsbrachicaput brevis Mbicepsbrachili caputlongum",
+        "N. medianus",
+        "N. ulnaris",
+        "M. brachialis"
+      ],
+      "now": [
+        "M. coracobrachialis",
+        "M. biceps brachii caput breve",
+        "M. biceps brachii caput longum",
+        "N. medianus",
+        "N. ulnaris",
+        "M. brachialis"
+      ]
+    },
+    {
+      "plateId": "p79_i0",
+      "severity": "auto_rebuild",
+      "msg": "rebuilt 5/5 from OCR",
+      "missing": [],
+      "was": [
+        "M. coracobrachialis",
+        "M. bicepsbrachicaput brevis Mbicepsbrachili caputlongum",
+        "N. medianus",
+        "N. ulnaris"
+      ],
+      "now": [
+        "M. coracobrachialis",
+        "M. biceps brachii caput breve",
+        "M. biceps brachii caput longum",
+        "N. medianus",
+        "N. ulnaris"
+      ]
+    }
+  ],
+  "plateCount": 62
+}

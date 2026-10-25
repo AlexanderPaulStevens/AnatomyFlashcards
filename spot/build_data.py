@@ -78,7 +78,7 @@ def box_aabb(box, pad=4):
     ]
 
 
-def merge_nearby(items, y_tol=16, x_gap=32, stack_y=22):
+def merge_nearby(items, y_tol=16, x_gap=32, stack_y=28):
     """Merge horizontally adjacent OR vertically stacked OCR fragments into one label."""
     if not items:
         return []
@@ -105,11 +105,13 @@ def merge_nearby(items, y_tol=16, x_gap=32, stack_y=22):
                         changed = True
                         continue
                 # vertical stack: overlapping x-range, just below
+                # allow slight y-overlap (OCR pads often make stacked lines touch)
                 gx0 = min(g["x0"] for g in group)
                 gx1 = max(g["x1"] for g in group)
                 gy1 = max(g["y1"] for g in group)
                 x_overlap = min(gx1, b["x1"]) - max(gx0, b["x0"])
-                if x_overlap > 8 and 0 <= (b["y0"] - gy1) <= stack_y:
+                y_gap = b["y0"] - gy1
+                if x_overlap > 8 and -14 <= y_gap <= stack_y:
                     group.append(b)
                     used[j] = True
                     changed = True
@@ -143,7 +145,8 @@ JUNK = re.compile(
     r"^insertiom\.?$|^insertio$|^pees insertio$|"
     r"^medialis$|^lateralis$|^communis$|^minor$|^major$|"
     r"^plantaris$|^digitorum$|^hallucis$|^aponeurose$|"
-    r"^fasciculusmedialis\)?$|^\+|"
+    # Parenthetical note under Fasciculus lateralis — not a separate structure
+    r"fasciculus\s*medialis\)|^\+|"
     r"ineanuchae|postenormajor|posterniorminor"
     r")",
     re.I,
@@ -167,6 +170,8 @@ GLUED_PREFIX = re.compile(
 
 FIXES = [
     (re.compile(r"uinaris", re.I), "ulnaris"),
+    (re.compile(r"uinanis", re.I), "ulnaris"),
+    (re.compile(r"^ulnaris$", re.I), "N. ulnaris"),
     (re.compile(r"outaneus", re.I), "cutaneus"),
     (re.compile(r"musculooutaneus", re.I), "musculocutaneus"),
     (re.compile(r"femonis", re.I), "femoris"),
@@ -176,8 +181,31 @@ FIXES = [
     (re.compile(r"saphenaparva", re.I), "saphena parva"),
     (re.compile(r"saphenamagna", re.I), "saphena magna"),
     (re.compile(r"latissimusdorsi", re.I), "latissimus dorsi"),
-    (re.compile(r"(?<=[a-z])(?=(?:longus|brevis|magnus|parva|major|minor|medialis|lateralis|anterior|posterior|communis|superficialis|profundus|capitis|brachii|femoris|pedis)\b)", re.I), " "),
+    # Insert spaces before common Latin endings — but NOT inside known compounds
+    # (antebrachii, thoracodorsalis, musculocutaneus, …).
+    (re.compile(
+        r"(?<=[a-z])(?=(?:"
+        r"longus|brevis|magnus|parva|major|minor|medialis|lateralis|"
+        r"anterior|posterior|communis|superficialis|profundus|"
+        r"capitis|femoris|pedis|venosus|"
+        r"intermedius|plantaris|palmaris"
+        r")\b)",
+        re.I,
+    ), " "),
+    # brachii / dorsalis / cutaneus only when not part of a compound stem
+    (re.compile(r"(?<!ante)(?<=[a-z])(?=brachii\b)", re.I), " "),
+    (re.compile(r"(?<!thoraco)(?<=[a-z])(?=dorsalis\b)", re.I), " "),
+    (re.compile(r"(?<!musculo)(?<=[a-z])(?=cutaneus\b)", re.I), " "),
     (re.compile(r"(?<=[a-z])(?=[A-Z])"), " "),
+]
+
+# Rejoin accidental splits of canonical compounds
+COMPOUND_REPAIR = [
+    (re.compile(r"\bthoraco\s+dorsalis\b", re.I), "thoracodorsalis"),
+    (re.compile(r"\bthoraco\s+acromialis\b", re.I), "thoracoacromialis"),
+    (re.compile(r"\bmusculo\s+cutaneus\b", re.I), "musculocutaneus"),
+    (re.compile(r"\bante\s+brachii\b", re.I), "antebrachii"),
+    (re.compile(r"\bvasto\s*adductoria\b", re.I), "vastoadductoria"),
 ]
 
 
@@ -185,6 +213,8 @@ def polish_label(text: str) -> str:
     t = normalize_label(text)
     t = GLUED_PREFIX.sub(r"\1. ", t)
     for rx, rep in FIXES:
+        t = rx.sub(rep, t)
+    for rx, rep in COMPOUND_REPAIR:
         t = rx.sub(rep, t)
     t = re.sub(r"\s+", " ", t).strip(" .,;:")
     t = re.sub(r"\.\s*\.", ".", t)
@@ -215,12 +245,18 @@ def keep_label(text: str, conf: float) -> bool:
 def mask_labels(img: Image.Image, labels: list) -> Image.Image:
     out = img.copy().convert("RGB")
     draw = ImageDraw.Draw(out)
+    w, h = out.size
     for lab in labels:
         x0, y0, x1, y1 = lab["x0"], lab["y0"], lab["x1"], lab["y1"]
-        # slightly larger cover so glyphs don't leak
-        pad = 3
-        box = [x0 - pad, y0 - pad, x1 + pad, y1 + pad]
-        # soft dark cover matching photo background
+        # Generous cover: OCR boxes hug glyphs tightly and JPEG softens edges
+        pad_x = max(10, int((x1 - x0) * 0.04) + 8)
+        pad_y = max(8, int((y1 - y0) * 0.12) + 6)
+        box = [
+            max(0, x0 - pad_x),
+            max(0, y0 - pad_y),
+            min(w - 1, x1 + pad_x),
+            min(h - 1, y1 + pad_y),
+        ]
         draw.rectangle(box, fill=(8, 8, 8))
     return out
 
@@ -293,25 +329,46 @@ def main():
             labels = merge_nearby(raw_items)
             for L in labels:
                 L["text"] = polish_label(L["text"])
+
+            img = Image.open(raw_path).convert("RGB")
+            w, h = img.size
+
+            # Cover every OCR blob (incl. junk fragments) so leftover
+            # suffixes like "medialis" never stay readable on the quiz image.
+            mask_boxes = [
+                L
+                for L in labels
+                if L["conf"] >= 0.4
+                and len(L["text"]) >= 2
+                and re.search(r"[A-Za-z]", L["text"])
+                and not SKIP_RE.match(L["text"])
+            ]
+
             labels = [L for L in labels if keep_label(L["text"], L["conf"])]
 
-            # Deduplicate nearly identical text on same plate
+            # Deduplicate nearly identical text on same plate, but keep
+            # duplicates that sit far apart (same name, two real structures).
             uniq = []
-            seen = set()
             for L in labels:
                 key = re.sub(r"[^a-z0-9]", "", L["text"].lower())
-                if key in seen or len(key) < 3:
+                if len(key) < 3:
                     continue
-                seen.add(key)
-                uniq.append(L)
+                dup = False
+                for prev in uniq:
+                    pkey = re.sub(r"[^a-z0-9]", "", prev["text"].lower())
+                    if pkey != key:
+                        continue
+                    # same name nearby → drop; far apart → keep both
+                    if abs(prev["cy"] - L["cy"]) < h * 0.12 and abs(prev["cx"] - L["cx"]) < w * 0.2:
+                        dup = True
+                        break
+                if not dup:
+                    uniq.append(L)
             labels = uniq
 
             if len(labels) < 1:
                 continue
-
-            img = Image.open(raw_path).convert("RGB")
-            w, h = img.size
-            masked = mask_labels(img, labels)
+            masked = mask_labels(img, mask_boxes)
             # light compress for web
             asset_name = f"{stem}.jpg"
             masked_name = f"{stem}_mask.jpg"

@@ -30,7 +30,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          # Same layout as Netlify (root + /spot/)
+          # Root + /spot/ layout for GitHub Pages
           path: .
 
       - name: Deploy

@@ -28,7 +28,17 @@ TEXT_FIX = {
     "n. femoralis": "N. femoralis",
     "N. femoris": "N. femoralis",
     "medianus": "N. medianus",
-    "fasciculus medialis)": "Fasciculus medialis",
+    "uinanis": "N. ulnaris",
+    "ulnaris": "N. ulnaris",
+    "M. rectus capitis postenor major": "M. rectus capitis posterior major",
+    "M. rectus capitis posternior minor": "M. rectus capitis posterior minor",
+    "M. obliquus capitisinferior": "M. obliquus capitis inferior",
+    "semispinalis capitis": "M. semispinalis capitis",
+    "M, longissimus cervicis": "M. longissimus cervicis",
+    "M: splenius capitis": "M. splenius capitis",
+    "M,extensorpollicis longus": "M. extensor pollicis longus",
+    "N. digitalis plantaris propriusvan V": "N. digitalis plantaris proprius van V",
+    "N. digitalis plantaris propriusvan I": "N. digitalis plantaris proprius van I",
     # muscles often glued
     "M. bicepsbrachicaput brevis": "M. biceps brachii caput breve",
     "M. bicepsbrachili caputlongum": "M. biceps brachii caput longum",
@@ -85,6 +95,14 @@ DROP = {
     "femoris medialis",
     "femoris posterior",
     "N. cutaneus",  # incomplete halves
+    # Parenthetical under Fasciculus lateralis (OCR fragment)
+    "fasciculus medialis)",
+    # Watermark / logo OCR
+    "JORO ROOSEN",
+    "JORG ROOSEN",
+    "JOR G ROOSEN",
+    "ROOSEN",
+    "JOR G",
 }
 
 # Per-plate full corrected label lists (order matches current OCR labels left→right / as stored).
@@ -100,9 +118,10 @@ PLATE_ANSWERS = {
     "p01_i1": [
         "Fasciculus lateralis",
         "N. musculocutaneus",
-        "Fasciculus medialis",
         "N. medianus",
+        "N. ulnaris",
         "N. cutaneus brachii medialis",
+        "Fasciculus medialis",
     ],
     "p02_i0": [
         "A. en V. thoracica lateralis",
@@ -121,7 +140,8 @@ PLATE_ANSWERS = {
     "p04_i0": [
         "M. abductor digiti minimi",
         "M. flexor digitorum brevis",
-        # M. abductor hallucis + Aponeurose: OCR miste deze labels
+        "M. abductor hallucis",
+        "Aponeurose",
     ],
     "p07_i1": [
         "N. digitalis plantaris proprius van V",
@@ -257,12 +277,13 @@ PLATE_ANSWERS = {
         "M. rectus capitis posterior major",
         "M. rectus capitis posterior minor",
         "M. obliquus capitis inferior",
+        "M. semispinalis cervicis",
         "M. semispinalis capitis",
         "M. splenius capitis",
     ],
     "p50_i0": [
-        "M. semispinalis",
-        "M. longissimus",
+        "M. semispinalis capitis",
+        "M. longissimus cervicis",
     ],
     "p51_i0": [
         "M. splenius capitis",
@@ -275,8 +296,9 @@ PLATE_ANSWERS = {
     "p52_i1": [
         "M. splenius capitis",
         "M. levator scapulae",
-        "M. rhomboideus",  # OCR miste minor/major als aparte labels
+        "M. rhomboideus minor",
         "M. trapezius",
+        "M. rhomboideus major",
     ],
     "p53_i0": [
         "M. semispinalis capitis",
