@@ -211,8 +211,9 @@ body {
 }
 
 .frame {
+  position: relative;
   width: 100%;
-  background: #000;
+  background: #12262c;
   border: 1px solid rgba(232, 244, 241, 0.14);
   overflow: hidden;
   min-height: 220px;
@@ -220,6 +221,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.frame.loading::after {
+  content: "";
+  position: absolute;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 2px solid rgba(232, 244, 241, 0.2);
+  border-top-color: var(--acid);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.frame.error::before {
+  content: "Foto laden mislukt — tik → of herlaad";
+  position: absolute;
+  z-index: 3;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  color: var(--mist);
+  text-align: center;
+  padding: 0.75rem;
+  pointer-events: none;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .img-wrap {
@@ -238,6 +268,12 @@ body {
   height: auto;
   user-select: none;
   -webkit-user-drag: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.img-wrap img.ready {
+  opacity: 1;
 }
 
 .pin {
@@ -342,27 +378,6 @@ body {
 }
 
 .choice.dim { opacity: 0.45; }
-
-.type-form {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.45rem;
-}
-
-.type-form input {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--foam);
-  background: var(--card);
-  border: 1px solid rgba(232, 244, 241, 0.22);
-  padding: 0.75rem 0.85rem;
-  outline: none;
-}
-
-.type-form input:focus {
-  border-color: var(--acid);
-}
 
 .feedback {
   font-family: "IBM Plex Mono", monospace;

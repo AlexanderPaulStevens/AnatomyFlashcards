@@ -22,8 +22,7 @@ DATA_JS = ROOT / "data.js"
 SKIP_RE = re.compile(
     r"^(?:"
     r"\d+|"
-    r"[il|]|"
-    r"medialis|lateralis|anterior|posterior|superior|inferior|"  # orphaned halves — merged later
+    r"[il|]"
     r")$",
     re.I,
 )
@@ -77,8 +76,8 @@ def box_aabb(box, pad=4):
     ]
 
 
-def merge_nearby(items, y_tol=14, x_gap=28):
-    """Merge horizontally adjacent OCR fragments into one label."""
+def merge_nearby(items, y_tol=16, x_gap=32, stack_y=22):
+    """Merge horizontally adjacent OR vertically stacked OCR fragments into one label."""
     if not items:
         return []
     items = sorted(items, key=lambda it: (it["cy"], it["cx"]))
@@ -95,16 +94,24 @@ def merge_nearby(items, y_tol=14, x_gap=28):
             for j, b in enumerate(items):
                 if used[j]:
                     continue
-                # same line-ish
-                if abs(b["cy"] - group[-1]["cy"]) > y_tol:
-                    continue
-                # to the right of last
-                gap = b["x0"] - group[-1]["x1"]
-                if -8 <= gap <= x_gap:
+                # horizontal: same line, to the right
+                if abs(b["cy"] - group[-1]["cy"]) <= y_tol:
+                    gap = b["x0"] - group[-1]["x1"]
+                    if -8 <= gap <= x_gap:
+                        group.append(b)
+                        used[j] = True
+                        changed = True
+                        continue
+                # vertical stack: overlapping x-range, just below
+                gx0 = min(g["x0"] for g in group)
+                gx1 = max(g["x1"] for g in group)
+                gy1 = max(g["y1"] for g in group)
+                x_overlap = min(gx1, b["x1"]) - max(gx0, b["x0"])
+                if x_overlap > 8 and 0 <= (b["y0"] - gy1) <= stack_y:
                     group.append(b)
                     used[j] = True
                     changed = True
-        group.sort(key=lambda g: g["cx"])
+        group.sort(key=lambda g: (g["cy"], g["cx"]))
         text = " ".join(g["text"] for g in group)
         text = normalize_label(text)
         x0 = min(g["x0"] for g in group)

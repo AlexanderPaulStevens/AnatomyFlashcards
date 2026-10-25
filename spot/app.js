@@ -5,8 +5,8 @@
     return;
   }
 
-  let mode = "mc"; // mc | type | reveal
-  let selectedRegions = new Set(); // empty = all
+  let mode = "mc"; // mc | reveal
+  let selectedRegions = new Set();
   let deck = [];
   let i = 0;
   let answered = false;
@@ -27,8 +27,6 @@
     pin: document.getElementById("pin"),
     prompt: document.getElementById("prompt"),
     choices: document.getElementById("choices"),
-    typeForm: document.getElementById("type-form"),
-    typeInput: document.getElementById("type-input"),
     feedback: document.getElementById("feedback"),
     prev: document.getElementById("prev"),
     next: document.getElementById("next"),
@@ -44,17 +42,8 @@
       .trim();
   }
 
-  function fuzzyMatch(a, b) {
-    const na = norm(a);
-    const nb = norm(b);
-    if (!na || !nb) return false;
-    if (na === nb) return true;
-    if (na.length >= 5 && (nb.includes(na) || na.includes(nb))) return true;
-    // tolerate small typos: same start + length close
-    if (na.slice(0, 6) === nb.slice(0, 6) && Math.abs(na.length - nb.length) <= 3) {
-      return true;
-    }
-    return false;
+  function sameAnswer(a, b) {
+    return norm(a) === norm(b);
   }
 
   function shuffleInPlace(arr) {
@@ -67,9 +56,9 @@
 
   function pickChoices(q) {
     const correct = q.answer;
-    const pool = [...(q.siblings || []), ...(q.distractors || [])]
-      .filter((a) => norm(a) !== norm(correct));
-    // unique by normalized form
+    const pool = [...(q.siblings || []), ...(q.distractors || [])].filter(
+      (a) => !sameAnswer(a, correct)
+    );
     const seen = new Set();
     const uniq = [];
     for (const a of pool) {
@@ -80,9 +69,9 @@
     }
     shuffleInPlace(uniq);
     const opts = [correct, ...uniq.slice(0, 3)];
-    while (opts.length < 4 && data.answerPool) {
+    while (opts.length < 4 && data.answerPool?.length) {
       const extra = data.answerPool[Math.floor(Math.random() * data.answerPool.length)];
-      if (extra && !opts.some((o) => norm(o) === norm(extra))) opts.push(extra);
+      if (extra && !opts.some((o) => sameAnswer(o, extra))) opts.push(extra);
       else break;
     }
     return shuffleInPlace(opts.slice(0, 4));
@@ -149,6 +138,8 @@
       b.classList.toggle("active", b.dataset.mode === mode);
     });
     answered = false;
+    lastOk = null;
+    currentChoices = [];
     render();
   }
 
@@ -181,6 +172,98 @@
     el.pin.style.top = `${q.y * 100}%`;
   }
 
+  const preloaded = new Set();
+  let loadToken = 0;
+
+  function preload(src) {
+    if (!src || preloaded.has(src)) return;
+    preloaded.add(src);
+    const img = new Image();
+    img.decoding = "async";
+    img.src = src;
+  }
+
+  function prefetchAround() {
+    if (!deck.length) return;
+    for (const offset of [0, 1, 2, -1]) {
+      const q = deck[(i + offset + deck.length) % deck.length];
+      if (!q) continue;
+      preload(q.image);
+      preload(q.imageReveal);
+    }
+  }
+
+  function applyPhoto(src, frame) {
+    el.photo.src = src;
+    el.photo.classList.add("ready");
+    frame?.classList.remove("loading", "error");
+    preloaded.add(src);
+  }
+
+  function setPhoto(src) {
+    const frame = document.getElementById("frame");
+    const token = ++loadToken;
+
+    // Same image already shown — keep it
+    if (el.photo.getAttribute("src") === src && el.photo.complete && el.photo.naturalWidth > 0) {
+      frame?.classList.remove("loading", "error");
+      el.photo.classList.add("ready");
+      return;
+    }
+
+    // Keep previous photo visible; only show spinner if nothing is on screen yet
+    const hasVisible = el.photo.classList.contains("ready") && el.photo.naturalWidth > 0;
+    if (!hasVisible) frame?.classList.add("loading");
+    frame?.classList.remove("error");
+
+    const img = new Image();
+    img.decoding = "async";
+    img.onload = () => {
+      if (token !== loadToken) return;
+      applyPhoto(src, frame);
+    };
+    img.onerror = () => {
+      if (token !== loadToken) return;
+      // one retry (Google Drive / flaky local sync)
+      setTimeout(() => {
+        if (token !== loadToken) return;
+        const retry = new Image();
+        retry.onload = () => {
+          if (token !== loadToken) return;
+          applyPhoto(src, frame);
+        };
+        retry.onerror = () => {
+          if (token !== loadToken) return;
+          frame?.classList.remove("loading");
+          frame?.classList.add("error");
+        };
+        retry.src = src + (src.includes("?") ? "&" : "?") + "r=" + Date.now();
+      }, 400);
+    };
+    img.src = src;
+  }
+
+  function renderChoices(q) {
+    if (!answered || !currentChoices.length) {
+      currentChoices = pickChoices(q);
+    }
+    el.choices.innerHTML = "";
+    currentChoices.forEach((opt, idx) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "choice";
+      btn.textContent = `${idx + 1}. ${opt}`;
+      btn.disabled = answered;
+      if (answered) {
+        if (sameAnswer(opt, q.answer)) btn.classList.add("correct");
+        else if (sameAnswer(opt, el.choices.dataset.picked || "")) btn.classList.add("wrong");
+        else btn.classList.add("dim");
+      }
+      btn.addEventListener("click", () => submitAnswer(opt));
+      el.choices.appendChild(btn);
+    });
+  }
+
   function render() {
     const q = current();
     el.subtitle.textContent = regionSubtitle();
@@ -189,7 +272,6 @@
       el.photo.removeAttribute("src");
       el.prompt.textContent = "Geen vragen in deze selectie.";
       el.choices.innerHTML = "";
-      el.typeForm.hidden = true;
       el.pin.classList.add("hidden");
       el.count.textContent = "0 / 0";
       el.progress.style.width = "0%";
@@ -202,16 +284,14 @@
     el.progress.style.width = `${((i + 1) / deck.length) * 100}%`;
 
     const src = mode === "reveal" ? q.imageReveal : q.image;
-    if (el.photo.getAttribute("src") !== src) {
-      el.photo.src = src;
-    }
+    setPhoto(src);
+    prefetchAround();
 
     placePin(q, answered ? (lastOk ? "ok" : "bad") : null);
 
     if (mode === "reveal") {
       el.prompt.textContent = q.topic;
       el.choices.innerHTML = "";
-      el.typeForm.hidden = true;
       showFeedback(
         "info",
         `Labels zichtbaar · op deze foto: ${(q.siblings || []).join(" · ") || q.answer}`
@@ -220,39 +300,11 @@
     }
 
     el.prompt.textContent = "Welke structuur wijst dit pijltje aan?";
-
     if (!answered) {
       hideFeedback();
       el.pin.classList.remove("ok", "bad");
     }
-
-    if (mode === "mc") {
-      el.typeForm.hidden = true;
-      if (!answered || !currentChoices.length) {
-        currentChoices = pickChoices(q);
-      }
-      el.choices.innerHTML = "";
-      currentChoices.forEach((opt, idx) => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "choice";
-        btn.textContent = `${idx + 1}. ${opt}`;
-        btn.disabled = answered;
-        if (answered) {
-          if (fuzzyMatch(opt, q.answer)) btn.classList.add("correct");
-          else if (norm(opt) === norm(el.choices.dataset.picked || "")) btn.classList.add("wrong");
-          else btn.classList.add("dim");
-        }
-        btn.addEventListener("click", () => submitAnswer(opt));
-        el.choices.appendChild(btn);
-      });
-    } else {
-      el.choices.innerHTML = "";
-      el.typeForm.hidden = false;
-      el.typeInput.value = "";
-      el.typeInput.disabled = answered;
-      if (!answered) el.typeInput.focus();
-    }
+    renderChoices(q);
   }
 
   function submitAnswer(raw) {
@@ -260,22 +312,20 @@
     if (!q || answered || mode === "reveal") return;
     answered = true;
     attempted += 1;
-    const ok = fuzzyMatch(raw, q.answer);
+    const ok = sameAnswer(raw, q.answer);
     lastOk = ok;
     if (ok) correctCount += 1;
     updateScore();
     placePin(q, ok ? "ok" : "bad");
 
-    if (mode === "mc") {
-      el.choices.dataset.picked = raw;
-      [...el.choices.querySelectorAll(".choice")].forEach((btn) => {
-        btn.disabled = true;
-        const text = btn.textContent.replace(/^\d+\.\s*/, "");
-        if (fuzzyMatch(text, q.answer)) btn.classList.add("correct");
-        else if (fuzzyMatch(text, raw) && !ok) btn.classList.add("wrong");
-        else btn.classList.add("dim");
-      });
-    }
+    el.choices.dataset.picked = raw;
+    [...el.choices.querySelectorAll(".choice")].forEach((btn) => {
+      btn.disabled = true;
+      const text = btn.textContent.replace(/^\d+\.\s*/, "");
+      if (sameAnswer(text, q.answer)) btn.classList.add("correct");
+      else if (sameAnswer(text, raw) && !ok) btn.classList.add("wrong");
+      else btn.classList.add("dim");
+    });
 
     showFeedback(
       ok ? "ok" : "bad",
@@ -300,20 +350,12 @@
     setMode(btn.dataset.mode);
   });
 
-  el.typeForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    submitAnswer(el.typeInput.value);
-  });
-
   el.prev.addEventListener("click", () => go(-1));
   el.next.addEventListener("click", () => go(1));
   el.shuffle.addEventListener("click", () => rebuildDeck());
 
   document.addEventListener("keydown", (e) => {
-    if (e.target.matches("input, textarea")) {
-      if (e.key === "Escape") e.target.blur();
-      return;
-    }
+    if (e.target.matches("input, textarea")) return;
     if (e.key === "ArrowLeft") go(-1);
     if (e.key === "ArrowRight") go(1);
     if (e.key === "s" || e.key === "S") rebuildDeck();

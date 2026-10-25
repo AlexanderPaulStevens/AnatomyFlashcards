@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ink:#0b1f24; --foam:#e8f4f1; --mist:#a8c9c2; --acid:#c8f542; --ember:#ff6b3d; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: "Bricolage Grotesque", sans-serif;
+      color: var(--foam);
+      background:
+        radial-gradient(ellipse at 80% 0%, #1f6b5c55, transparent 50%),
+        radial-gradient(ellipse at 10% 100%, #3a1f0b66, transparent 45%),
+        var(--ink);
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+    }
+    main { width: min(100%, 420px); text-align: center; }
+    h1 {
+      font-size: clamp(2.4rem, 10vw, 3.4rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      background: linear-gradient(120deg, var(--foam) 40%, var(--acid));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p { margin: 0.75rem 0 1.5rem; color: var(--mist); }
+    .links { display: grid; gap: 0.75rem; }
+    a {
+      display: block;
+      text-decoration: none;
+      color: var(--ink);
+      background: var(--foam);
+      font-weight: 800;
+      font-size: 1.15rem;
+      padding: 1rem 1.1rem;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    a:hover { transform: translateY(-2px); background: var(--acid); }
+    a.alt {
+      background: transparent;
+      color: var(--foam);
+      border: 1px solid rgba(232,244,241,0.3);
+    }
+    a.alt:hover { background: rgba(255,107,61,0.2); border-color: var(--ember); color: var(--ember); }
+    small { display: block; margin-top: 0.25rem; font-weight: 400; font-size: 0.75rem; opacity: 0.75; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Anato</h1>
+    <p>Kies hoe je wil oefenen</p>
+    <div class="links">
+      <a href="spot/">Anato Spot<small>foto’s met pijltjes · meerkeuze</small></a>
+      <a class="alt" href="flashcards/">Anato Flash<small>spieren · O / I / F / N</small></a>
+    </div>
+  </main>
+</body>
+</html>

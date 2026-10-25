@@ -21,9 +21,8 @@
     </header>
 
     <div class="topics" id="regions" aria-label="Regio's"></div>
-    <div class="topics modes" id="modes" aria-label="Antwoordmodus">
-      <button type="button" class="topic active" data-mode="mc">meerkeuze</button>
-      <button type="button" class="topic" data-mode="type">zelf invullen</button>
+    <div class="topics modes" id="modes" aria-label="Weergave">
+      <button type="button" class="topic active" data-mode="mc">quiz</button>
       <button type="button" class="topic" data-mode="reveal">toon namen</button>
     </div>
 
@@ -51,10 +50,6 @@
 
     <div class="answer-area" id="answer-area">
       <div class="choices" id="choices"></div>
-      <form class="type-form" id="type-form" hidden>
-        <input type="text" id="type-input" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Typ de naam…" />
-        <button type="submit" class="btn">check</button>
-      </form>
       <div class="feedback" id="feedback" hidden></div>
     </div>
 
