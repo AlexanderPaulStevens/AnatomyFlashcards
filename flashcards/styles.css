@@ -193,8 +193,66 @@ body {
   color: #1a0a04;
 }
 
+.meta-right {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
 .count {
   color: var(--mist);
+}
+
+.save-btn {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--mist);
+  background: transparent;
+  border: 1px solid rgba(232, 244, 241, 0.22);
+  width: 1.85rem;
+  height: 1.85rem;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s var(--ease);
+}
+
+.save-btn:hover {
+  color: var(--ember);
+  border-color: var(--ember);
+  transform: translateY(-1px);
+}
+
+.save-btn.on {
+  color: #1a0a04;
+  background: var(--ember);
+  border-color: var(--ember);
+}
+
+.save-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+  transform: none;
+}
+
+.saved-row {
+  display: flex;
+  margin-top: -0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(232, 244, 241, 0.1);
+}
+
+.saved-row .topic.saved-chip {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.72rem;
+}
+
+.saved-row .topic.saved-chip.active {
+  background: var(--ember);
+  border-color: var(--ember);
+  color: #1a0a04;
 }
 
 .progress {

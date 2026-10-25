@@ -1,7 +1,10 @@
 (() => {
+  const STORAGE_KEY = "anato-flash-saved";
+
   /** Empty set = alle regio's / alle aspecten */
   let selected = new Set();
   let selectedKinds = new Set();
+  let savedMode = false;
   let cards = window.getDeck("all");
   let i = 0;
   let flipped = false;
@@ -22,12 +25,60 @@
     prev: document.getElementById("prev"),
     next: document.getElementById("next"),
     shuffle: document.getElementById("shuffle"),
+    save: document.getElementById("save"),
     topics: document.getElementById("topics"),
     kinds: document.getElementById("kinds"),
+    savedRow: document.getElementById("saved-row"),
     subtitle: document.getElementById("subtitle"),
   };
 
   const accentKinds = new Set(["diep", "zenuw→spier", "O→spier", "I→spier"]);
+
+  function cardId(c) {
+    return `${c.kind || ""}::${c.q}`;
+  }
+
+  function loadSaved() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const list = raw ? JSON.parse(raw) : [];
+      return Array.isArray(list) ? list : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function persistSaved(list) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+  }
+
+  let savedList = loadSaved();
+  const savedIds = () => new Set(savedList.map(cardId));
+
+  function isSaved(c) {
+    if (!c) return false;
+    return savedIds().has(cardId(c));
+  }
+
+  function toggleSaveCurrent() {
+    if (!cards.length) return;
+    const c = cards[i];
+    const id = cardId(c);
+    const idx = savedList.findIndex((s) => cardId(s) === id);
+    if (idx >= 0) {
+      savedList.splice(idx, 1);
+    } else {
+      savedList.push({ q: c.q, a: c.a, tag: c.tag, kind: c.kind, topic: c.topic });
+    }
+    persistSaved(savedList);
+
+    if (savedMode) {
+      rebuildDeck();
+      return;
+    }
+    updateSaveBtn();
+    buildSavedRow();
+  }
 
   function isAllRegions() {
     return selected.size === 0;
@@ -56,6 +107,10 @@
   }
 
   function subtitleText() {
+    if (savedMode) {
+      const n = savedList.length;
+      return n ? `Bewaard (${n})` : "Bewaard (leeg)";
+    }
     const kindPart = kindSubtitle();
     return kindPart ? `${regionSubtitle()} · ${kindPart}` : regionSubtitle();
   }
@@ -69,18 +124,27 @@
   }
 
   function rebuildDeck() {
-    cards = window.getDeck(deckTopicsArg(), deckKindsArg());
-    i = 0;
+    if (savedMode) {
+      cards = savedList.slice();
+    } else {
+      cards = window.getDeck(deckTopicsArg(), deckKindsArg());
+    }
+    i = Math.min(i, Math.max(0, cards.length - 1));
+    if (!savedMode) i = 0;
     el.subtitle.textContent = subtitleText();
     buildTopicBar();
     buildKindBar();
+    buildSavedRow();
     render(true);
   }
 
   function makeChip(opts) {
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.className = "topic" + (opts.active ? " active" : "");
+    btn.className =
+      "topic" +
+      (opts.active ? " active" : "") +
+      (opts.extraClass ? ` ${opts.extraClass}` : "");
     btn.textContent = opts.label;
     btn.title = opts.title;
     btn.setAttribute("aria-pressed", opts.active ? "true" : "false");
@@ -95,8 +159,9 @@
       makeChip({
         label: "Alles",
         title: "Alle regio's",
-        active: isAllRegions(),
+        active: !savedMode && isAllRegions(),
         onClick: () => {
+          savedMode = false;
           selected = new Set();
           rebuildDeck();
         },
@@ -104,21 +169,47 @@
     );
 
     for (const t of regionTopics()) {
-      const on = selected.has(t.id);
+      const on = !savedMode && selected.has(t.id);
       el.topics.appendChild(
         makeChip({
           label: t.short,
           title: `${t.label} (meerdere selecteerbaar)`,
           active: on,
-          onClick: () => toggleTopic(t.id),
+          onClick: () => {
+            savedMode = false;
+            toggleTopic(t.id);
+          },
         })
       );
     }
   }
 
+  function buildSavedRow() {
+    if (!el.savedRow) return;
+    el.savedRow.innerHTML = "";
+    const n = savedList.length;
+    el.savedRow.appendChild(
+      makeChip({
+        label: n ? `★ Bewaard (${n})` : "☆ Bewaard",
+        title: n
+          ? "Alleen bewaarde kaarten herhalen"
+          : "Nog geen kaarten bewaard — druk ☆ of B",
+        active: savedMode,
+        extraClass: "saved-chip",
+        onClick: () => {
+          savedMode = !savedMode;
+          if (savedMode) i = 0;
+          rebuildDeck();
+        },
+      })
+    );
+  }
+
   function buildKindBar() {
     if (!el.kinds) return;
     el.kinds.innerHTML = "";
+    el.kinds.hidden = savedMode;
+    if (savedMode) return;
 
     el.kinds.appendChild(
       makeChip({
@@ -167,12 +258,35 @@
     rebuildDeck();
   }
 
+  function updateSaveBtn() {
+    if (!el.save) return;
+    const has = cards.length > 0;
+    el.save.disabled = !has;
+    const on = has && isSaved(cards[i]);
+    el.save.classList.toggle("on", on);
+    el.save.setAttribute("aria-pressed", on ? "true" : "false");
+    el.save.textContent = on ? "★" : "☆";
+    el.save.title = on
+      ? "Verwijder uit bewaard (B)"
+      : "Bewaar om later te herhalen (B)";
+    el.save.setAttribute(
+      "aria-label",
+      on ? "Verwijder uit bewaard" : "Bewaar kaart"
+    );
+  }
+
   function render(animate = false) {
     if (!cards.length) {
-      el.front.textContent = "Geen kaarten";
-      el.back.textContent = "—";
+      el.front.textContent = savedMode
+        ? "Nog geen bewaarde kaarten"
+        : "Geen kaarten";
+      el.back.textContent = savedMode
+        ? "Markeer een kaart met ☆ of B terwijl je studeert"
+        : "—";
       el.count.textContent = "0 / 0";
       el.progress.style.width = "0%";
+      el.tag.textContent = "—";
+      updateSaveBtn();
       return;
     }
 
@@ -187,6 +301,7 @@
       el.tag.textContent = c.tag;
       el.tag.classList.toggle("diep", accentKinds.has(c.tag) || c.tag === "diep");
       el.progress.style.width = `${((i + 1) / cards.length) * 100}%`;
+      updateSaveBtn();
     };
 
     if (!animate) {
@@ -235,6 +350,12 @@
     e.stopPropagation();
     shuffle();
   });
+  if (el.save) {
+    el.save.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggleSaveCurrent();
+    });
+  }
 
   window.addEventListener("keydown", (e) => {
     if (e.code === "Space") {
@@ -246,6 +367,8 @@
       go(-1);
     } else if (e.key === "s" || e.key === "S") {
       shuffle();
+    } else if (e.key === "b" || e.key === "B") {
+      toggleSaveCurrent();
     }
   });
 
@@ -255,6 +378,7 @@
   }
   buildTopicBar();
   buildKindBar();
+  buildSavedRow();
   el.subtitle.textContent = subtitleText();
   render();
 })();
