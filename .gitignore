@@ -1,6 +1,7 @@
 PDF/
 spot/raw/
 spot/preview/
+viewer/_ocr/
 **/__pycache__/
 *.pyc
 .DS_Store

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anato Viewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+
+  <main class="app">
+    <header class="brand">
+      <p class="brand-mark">Anato Viewer</p>
+      <h1 class="brand-sub" id="subtitle">Checklist te disseceren</h1>
+      <p class="nav-links">
+        <a href="../spot/">Spot</a>
+        <a href="../flashcards/">Flash</a>
+      </p>
+    </header>
+
+    <div class="side-tabs" id="sides" aria-label="Zijde">
+      <button type="button" class="side active" data-side="Anterior">Anterior</button>
+      <button type="button" class="side" data-side="Posterior">Posterior</button>
+    </div>
+
+    <div class="topics" id="tabs" aria-label="Lidmaat-rijen"></div>
+
+    <div class="meta">
+      <span class="pill" id="pill">—</span>
+      <span class="count" id="count">0 structuren</span>
+    </div>
+
+    <section class="gallery" id="gallery" aria-live="polite"></section>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Vergrote foto">
+    <form method="dialog">
+      <button type="submit" class="lb-close" aria-label="Sluiten">×</button>
+    </form>
+    <div class="lb-frame">
+      <div class="lb-wrap" id="lb-wrap">
+        <img id="lb-img" alt="" />
+        <span class="pin lb-pin hidden" id="lb-pin" aria-hidden="true"></span>
+      </div>
+    </div>
+    <p class="lb-caption" id="lb-caption"></p>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
